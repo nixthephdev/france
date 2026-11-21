@@ -1,0 +1,414 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-21T13:06:14.279Z",
+  "title": "Design System: France",
+  "extensions": {
+    "colorMeta": {
+      "chalk": {
+        "role": "neutral",
+        "displayName": "Chalk",
+        "canonical": "#f5f8f7",
+        "tonalRamp": [
+          "oklch(15% 0.0036 175)",
+          "oklch(27% 0.0072 175)",
+          "oklch(39% 0.0102 175)",
+          "oklch(51% 0.0120 175)",
+          "oklch(63% 0.0120 175)",
+          "oklch(75% 0.0102 175)",
+          "oklch(87% 0.0060 175)",
+          "oklch(95% 0.0024 175)"
+        ]
+      },
+      "ink": {
+        "role": "primary",
+        "displayName": "Blue-green ink",
+        "canonical": "#173e46",
+        "tonalRamp": [
+          "oklch(15% 0.0135 212)",
+          "oklch(27% 0.0270 212)",
+          "oklch(39% 0.0382 212)",
+          "oklch(51% 0.0450 212)",
+          "oklch(63% 0.0450 212)",
+          "oklch(75% 0.0382 212)",
+          "oklch(87% 0.0225 212)",
+          "oklch(95% 0.0090 212)"
+        ]
+      },
+      "secondary-text": {
+        "role": "neutral",
+        "displayName": "Secondary text",
+        "canonical": "#436168",
+        "tonalRamp": [
+          "oklch(15% 0.0105 211)",
+          "oklch(27% 0.0210 211)",
+          "oklch(39% 0.0298 211)",
+          "oklch(51% 0.0350 211)",
+          "oklch(63% 0.0350 211)",
+          "oklch(75% 0.0298 211)",
+          "oklch(87% 0.0175 211)",
+          "oklch(95% 0.0070 211)"
+        ]
+      },
+      "author-surface": {
+        "role": "neutral",
+        "displayName": "Cool author surface",
+        "canonical": "#e0ece9",
+        "tonalRamp": [
+          "oklch(15% 0.0075 175)",
+          "oklch(27% 0.0150 175)",
+          "oklch(39% 0.0213 175)",
+          "oklch(51% 0.0250 175)",
+          "oklch(63% 0.0250 175)",
+          "oklch(75% 0.0213 175)",
+          "oklch(87% 0.0125 175)",
+          "oklch(95% 0.0050 175)"
+        ]
+      },
+      "reading-gold": {
+        "role": "primary",
+        "displayName": "Reading gold",
+        "canonical": "#dfc47e",
+        "tonalRamp": [
+          "oklch(15% 0.0270 88)",
+          "oklch(27% 0.0540 88)",
+          "oklch(39% 0.0765 88)",
+          "oklch(51% 0.0900 88)",
+          "oklch(63% 0.0900 88)",
+          "oklch(75% 0.0765 88)",
+          "oklch(87% 0.0450 88)",
+          "oklch(95% 0.0180 88)"
+        ]
+      },
+      "reading-gold-hover": {
+        "role": "primary",
+        "displayName": "Reading gold hover",
+        "canonical": "#d3b368",
+        "tonalRamp": [
+          "oklch(15% 0.0300 85)",
+          "oklch(27% 0.0600 85)",
+          "oklch(39% 0.0850 85)",
+          "oklch(51% 0.1000 85)",
+          "oklch(63% 0.1000 85)",
+          "oklch(75% 0.0850 85)",
+          "oklch(87% 0.0500 85)",
+          "oklch(95% 0.0200 85)"
+        ]
+      },
+      "preview-ink": {
+        "role": "secondary",
+        "displayName": "Preview ink",
+        "canonical": "#66501e",
+        "tonalRamp": [
+          "oklch(15% 0.0210 85)",
+          "oklch(27% 0.0420 85)",
+          "oklch(39% 0.0595 85)",
+          "oklch(51% 0.0700 85)",
+          "oklch(63% 0.0700 85)",
+          "oklch(75% 0.0595 85)",
+          "oklch(87% 0.0350 85)",
+          "oklch(95% 0.0140 85)"
+        ]
+      },
+      "gold-link": {
+        "role": "secondary",
+        "displayName": "Gold link",
+        "canonical": "#735c27",
+        "tonalRamp": [
+          "oklch(15% 0.0210 85)",
+          "oklch(27% 0.0420 85)",
+          "oklch(39% 0.0595 85)",
+          "oklch(51% 0.0700 85)",
+          "oklch(63% 0.0700 85)",
+          "oklch(75% 0.0595 85)",
+          "oklch(87% 0.0350 85)",
+          "oklch(95% 0.0140 85)"
+        ]
+      },
+      "gold-rule": {
+        "role": "secondary",
+        "displayName": "Gold rule",
+        "canonical": "#b99a50",
+        "tonalRamp": [
+          "oklch(15% 0.0270 85)",
+          "oklch(27% 0.0540 85)",
+          "oklch(39% 0.0765 85)",
+          "oklch(51% 0.0900 85)",
+          "oklch(63% 0.0900 85)",
+          "oklch(75% 0.0765 85)",
+          "oklch(87% 0.0450 85)",
+          "oklch(95% 0.0180 85)"
+        ]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Line",
+        "canonical": "#b9cdcb",
+        "tonalRamp": [
+          "oklch(15% 0.0075 188)",
+          "oklch(27% 0.0150 188)",
+          "oklch(39% 0.0213 188)",
+          "oklch(51% 0.0250 188)",
+          "oklch(63% 0.0250 188)",
+          "oklch(75% 0.0213 188)",
+          "oklch(87% 0.0125 188)",
+          "oklch(95% 0.0050 188)"
+        ]
+      },
+      "inverse-copy": {
+        "role": "neutral",
+        "displayName": "Inverse copy",
+        "canonical": "#d5e2df",
+        "tonalRamp": [
+          "oklch(15% 0.0060 175)",
+          "oklch(27% 0.0120 175)",
+          "oklch(39% 0.0170 175)",
+          "oklch(51% 0.0200 175)",
+          "oklch(63% 0.0200 175)",
+          "oklch(75% 0.0170 175)",
+          "oklch(87% 0.0100 175)",
+          "oklch(95% 0.0040 175)"
+        ]
+      },
+      "inverse-caption": {
+        "role": "neutral",
+        "displayName": "Inverse caption",
+        "canonical": "#c2d4d3",
+        "tonalRamp": [
+          "oklch(15% 0.0075 185)",
+          "oklch(27% 0.0150 185)",
+          "oklch(39% 0.0213 185)",
+          "oklch(51% 0.0250 185)",
+          "oklch(63% 0.0250 185)",
+          "oklch(75% 0.0213 185)",
+          "oklch(87% 0.0125 185)",
+          "oklch(95% 0.0050 185)"
+        ]
+      },
+      "inverse-rule": {
+        "role": "neutral",
+        "displayName": "Inverse rule",
+        "canonical": "#557779",
+        "tonalRamp": [
+          "oklch(15% 0.0105 191)",
+          "oklch(27% 0.0210 191)",
+          "oklch(39% 0.0298 191)",
+          "oklch(51% 0.0350 191)",
+          "oklch(63% 0.0350 191)",
+          "oklch(75% 0.0298 191)",
+          "oklch(87% 0.0175 191)",
+          "oklch(95% 0.0070 191)"
+        ]
+      },
+      "inverse-link": {
+        "role": "secondary",
+        "displayName": "Inverse link",
+        "canonical": "#e5cc8c",
+        "tonalRamp": [
+          "oklch(15% 0.0240 88)",
+          "oklch(27% 0.0480 88)",
+          "oklch(39% 0.0680 88)",
+          "oklch(51% 0.0800 88)",
+          "oklch(63% 0.0800 88)",
+          "oklch(75% 0.0680 88)",
+          "oklch(87% 0.0400 88)",
+          "oklch(95% 0.0160 88)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Essay display",
+        "purpose": "Large upright cover title; responsive sizes belong to the snippet and DESIGN.md."
+      },
+      "headline": {
+        "displayName": "Section headline",
+        "purpose": "Medium-weight section headings."
+      },
+      "title": {
+        "displayName": "Insight title",
+        "purpose": "Linked editorial record headings."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Default interface and page copy."
+      },
+      "article": {
+        "displayName": "Article prose",
+        "purpose": "Long reading at 68ch maximum."
+      },
+      "label": {
+        "displayName": "Metadata",
+        "purpose": "Natural-case article metadata."
+      },
+      "reading-action": {
+        "displayName": "Reading action",
+        "purpose": "Primary reading link text."
+      }
+    },
+    "shadows": [
+      {
+        "name": "sheet-large",
+        "value": "0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1)",
+        "purpose": "Mobile dialog only; page content remains flat."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease-out",
+        "value": "cubic-bezier(0.2, 0.7, 0.2, 1)",
+        "purpose": "Site state changes."
+      },
+      {
+        "name": "navigation-topic",
+        "value": "160ms",
+        "purpose": "Navigation border and topic color transitions."
+      },
+      {
+        "name": "reading-action",
+        "value": "180ms",
+        "purpose": "Gold background and translateY(-2px) hover state."
+      },
+      {
+        "name": "sheet-enter",
+        "value": "500ms ease-in-out",
+        "purpose": "Right-side entrance."
+      },
+      {
+        "name": "sheet-exit",
+        "value": "300ms ease-in-out",
+        "purpose": "Right-side exit."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "@media (prefers-reduced-motion: reduce)",
+        "purpose": "No animations or transitions; automatic scrolling. Hover transform remains immediate."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "compact-desktop",
+        "value": "1100px",
+        "purpose": "Inclusive max-width; shell and navigation tighten."
+      },
+      {
+        "name": "tablet-menu",
+        "value": "850px",
+        "purpose": "Inclusive max-width; mobile menu, two-column topic index and smaller author portrait."
+      },
+      {
+        "name": "mobile",
+        "value": "640px",
+        "purpose": "Inclusive max-width; 20px shell gutters, stacked sections and mobile type."
+      },
+      {
+        "name": "sheet-width-cap",
+        "value": "640px",
+        "purpose": "Inclusive min-width from Tailwind sm; sheet max-width 384px."
+      }
+    ],
+    "colorRampProvenance": "Tonal ramps are synthesized OKLCH preview metadata, not shipping CSS tokens. Canonical values come from globals.css.",
+    "implementationSources": [
+      "src/app/globals.css",
+      "src/app/layout.tsx",
+      "src/components/site-chrome.tsx",
+      "src/components/site-interactions.tsx",
+      "src/components/ui/sheet.tsx",
+      "src/app/page.tsx",
+      "src/app/insights/page.tsx",
+      "src/app/insights/[slug]/page.tsx"
+    ],
+    "snippetScope": "Framework-free visual specimens with inherited CSS tokens and literal CSS. Mobile sheet specimen has no dialog runtime; production behavior remains in Radix."
+  },
+  "components": [
+    {
+      "name": "Reading action",
+      "kind": "button",
+      "refersTo": "reading-action",
+      "description": "Primary reading link followed by visible preview disclosure, grouped after the cover summary.",
+      "html": "<div class=\"ds-cover-actions\"><a class=\"ds-reading\" href=\"/insights/meaningful-growth\">Preview essay <svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M5 12h14m-7-7 7 7-7 7\"/></svg></a><p class=\"ds-preview-status\">Editorial preview</p></div>",
+      "css": ".ds-cover-actions{display:flex;align-items:center;flex-wrap:wrap;gap:16px 24px;margin-top:30px}.ds-cover-actions .ds-reading{margin-top:0}.ds-preview-status{font-family:var(--font-body,'Hanken Grotesk',sans-serif);display:inline-block;margin:0;color:var(--accent-ink,#66501e);font-size:17px;font-weight:500}.ds-reading{font-family:var(--font-body, 'Hanken Grotesk', sans-serif);display:inline-flex;align-items:center;justify-content:space-between;gap:32px;min-height:60px;padding:13px 28px;border-radius:15px;background:var(--accent,#dfc47e);color:var(--foreground,#173e46);font-size:23px;font-weight:600;line-height:1.4;text-decoration:none;transition:background-color 180ms var(--ease-out,cubic-bezier(.2,.7,.2,1)),transform 180ms var(--ease-out,cubic-bezier(.2,.7,.2,1))}.ds-reading:hover{background:#d3b368;transform:translateY(-2px)}.ds-reading:focus-visible{outline:2px solid var(--foreground,#173e46);outline-offset:5px;border-radius:2px}@media(max-width:640px){.ds-reading{min-height:52px;font-size:18px;gap:25px;padding:12px 23px;border-radius:12px}}@media(prefers-reduced-motion:reduce){.ds-reading{transition:none}}@media(max-width:640px){.ds-cover-actions{gap:12px 18px;margin-top:24px}.ds-preview-status{font-size:15px}}"
+    },
+    {
+      "name": "Publication masthead",
+      "kind": "nav",
+      "description": "Publication name, byline and quiet desktop navigation; the separate sheet handles mobile.",
+      "html": "<header class=\"ds-masthead\"><a class=\"ds-brand\" href=\"/\" aria-label=\"France ? home\"><span class=\"ds-brand-name\">France</span><span class=\"ds-byline\">Olga France Blas-Obias</span></a><nav class=\"ds-desktop\" aria-label=\"Main navigation\"><a class=\"ds-nav-link\" href=\"/insights\">Insights</a><a class=\"ds-nav-link\" href=\"/#about\">About</a><a class=\"ds-nav-link\" href=\"/#speaking\">Speaking</a><a class=\"ds-nav-link\" href=\"/#projects\">Projects</a><a class=\"ds-nav-link\" href=\"/#connect\">Contact</a></nav></header>",
+      "css": ".ds-masthead{font-family:var(--font-body, 'Hanken Grotesk', sans-serif);color:var(--foreground,#173e46);display:flex;align-items:center;justify-content:space-between;gap:32px;min-height:108px}.ds-brand{display:grid;color:inherit;text-decoration:none;flex-shrink:0}.ds-brand-name{font-size:48px;font-weight:600;line-height:1;letter-spacing:-.035em}.ds-byline{font-size:16px;line-height:1.7;letter-spacing:-.015em}.ds-desktop{display:flex;gap:34px;align-items:center}.ds-nav-link{display:inline-flex;align-items:center;min-height:44px;font-size:18px;color:inherit;text-decoration:none;border-bottom:1px solid transparent;transition:border-color 160ms var(--ease-out,cubic-bezier(.2,.7,.2,1))}.ds-nav-link:hover{border-color:var(--foreground,#173e46)}.ds-nav-link:focus-visible{outline:2px solid var(--foreground,#173e46);outline-offset:5px;border-radius:2px}.ds-brand:focus-visible{outline:2px solid var(--foreground,#173e46);outline-offset:5px;border-radius:2px}@media(max-width:1100px){.ds-desktop{gap:24px}.ds-nav-link{font-size:16px}.ds-brand-name{font-size:40px}.ds-byline{font-size:14px}}@media(max-width:850px){.ds-desktop{display:none}.ds-masthead{min-height:96px}}@media(max-width:640px){.ds-masthead{min-height:86px;gap:15px}.ds-brand-name{font-size:33px}.ds-byline{font-size:12px}}@media(prefers-reduced-motion:reduce){.ds-nav-link{transition:none}}"
+    },
+    {
+      "name": "Topic index",
+      "kind": "nav",
+      "description": "Ruled homepage index with four columns, reducing to two at 850px.",
+      "html": "<nav class=\"ds-index\" aria-label=\"Explore insights by topic\"><a class=\"ds-topic\" href=\"/insights?topic=entrepreneurship\">Entrepreneurship<svg width=\"19\" height=\"19\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M7 17 17 7M7 7h10v10\"/></svg></a><a class=\"ds-topic\" href=\"/insights?topic=business-strategy\">Business strategy<svg width=\"19\" height=\"19\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M7 17 17 7M7 7h10v10\"/></svg></a><a class=\"ds-topic\" href=\"/insights?topic=sustainability\">Sustainability<svg width=\"19\" height=\"19\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M7 17 17 7M7 7h10v10\"/></svg></a><a class=\"ds-topic\" href=\"/insights?topic=mentorship\">Mentorship<svg width=\"19\" height=\"19\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M7 17 17 7M7 7h10v10\"/></svg></a></nav>",
+      "css": ".ds-index{font-family:var(--font-body, 'Hanken Grotesk', sans-serif);display:grid;grid-template-columns:repeat(4,minmax(0,1fr));border-block:1px solid #b99a50;color:var(--foreground,#173e46)}.ds-topic{display:flex;align-items:center;justify-content:space-between;gap:15px;padding:15px 20px 15px 0;min-height:74px;font-size:23px;font-weight:500;letter-spacing:-.025em;color:inherit;text-decoration:none;transition:color 160ms var(--ease-out,cubic-bezier(.2,.7,.2,1))}.ds-topic:hover{color:#735c27}.ds-topic svg{flex-shrink:0}.ds-topic:focus-visible{outline:2px solid var(--foreground,#173e46);outline-offset:5px;border-radius:2px}@media(max-width:1100px){.ds-topic{font-size:20px;padding-right:16px}}@media(max-width:850px){.ds-index{grid-template-columns:repeat(2,minmax(0,1fr))}.ds-topic{min-height:64px;font-size:22px}.ds-topic:nth-child(-n+2){border-bottom:1px solid var(--line,#b9cdcb)}}@media(max-width:640px){.ds-topic{min-height:63px;font-size:18px;padding-right:15px;gap:8px}.ds-topic svg{width:15px;height:15px}}@media(prefers-reduced-motion:reduce){.ds-topic{transition:none}}"
+    },
+    {
+      "name": "Topic filter links",
+      "kind": "chip",
+      "refersTo": "filter-link",
+      "description": "Query-string navigation with aria-current selected state; no toggle or input behavior.",
+      "html": "<nav class=\"ds-filters\" aria-label=\"Filter insights by topic\"><a class=\"ds-filter\" href=\"/insights\" aria-current=\"page\">All topics</a><a class=\"ds-filter\" href=\"/insights?topic=sustainability\">Sustainability</a><a class=\"ds-filter\" href=\"/insights?topic=mentorship\">Mentorship</a></nav>",
+      "css": ".ds-filters{font-family:var(--font-body, 'Hanken Grotesk', sans-serif);display:flex;flex-wrap:wrap;gap:10px;margin:30px 0 10px}.ds-filter{display:inline-flex;align-items:center;min-height:44px;padding:8px 17px;border:1px solid var(--line,#b9cdcb);border-radius:24px;font-size:16px;color:var(--foreground,#173e46);text-decoration:none}.ds-filter:hover{background:var(--surface,#e0ece9)}.ds-filter[aria-current=page]{background:var(--foreground,#173e46);color:var(--background,#f5f8f7);border-color:var(--foreground,#173e46)}.ds-filter:focus-visible{outline:2px solid var(--foreground,#173e46);outline-offset:5px;border-radius:2px}@media(max-width:640px){.ds-filters{gap:8px;margin-top:24px}.ds-filter{padding:8px 13px;font-size:14px}}"
+    },
+    {
+      "name": "Insight row",
+      "kind": "custom",
+      "description": "Content comes first in the DOM; desktop grid places metadata alongside it, while mobile shows metadata below the reading action.",
+      "html": "<article class=\"ds-row\"><div class=\"ds-row-copy\"><h3 class=\"ds-title\"><a class=\"ds-title-link\" href=\"/insights/meaningful-growth\">What does meaningful growth look like?</a></h3><p class=\"ds-summary\">Looking beyond the next milestone to the kind of business we want to build.</p><a class=\"ds-text-link\" href=\"/insights/meaningful-growth\">Read preview <svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M5 12h14m-7-7 7 7-7 7\"/></svg></a></div><p class=\"ds-meta\">Business strategy<span class=\"ds-preview\">Editorial preview</span></p></article>",
+      "css": ".ds-row{font-family:var(--font-body, 'Hanken Grotesk', sans-serif);display:grid;grid-template-columns:minmax(150px,.75fr) minmax(0,3fr);gap:50px;padding-block:33px;border-block:1px solid var(--line,#b9cdcb);color:var(--foreground,#173e46)}.ds-meta{margin:0;color:var(--text-secondary,#436168);font-size:15px;line-height:1.65}.ds-preview{display:block;font-size:13px;margin-top:5px}.ds-title{margin:0;max-width:27ch;font-size:clamp(28px,3vw,39px);font-weight:500;line-height:1.12;letter-spacing:-.035em;text-wrap:balance}.ds-title-link{color:inherit;text-decoration:none;text-underline-offset:.25em}.ds-title-link:hover{text-decoration:underline;text-decoration-thickness:1px}.ds-summary{margin:14px 0 0;max-width:65ch;color:var(--text-secondary,#436168);font-size:18px;line-height:1.65}.ds-text-link{display:inline-flex;align-items:center;gap:18px;min-height:44px;margin-top:16px;color:inherit;font-size:17px;font-weight:500;text-decoration:none;text-underline-offset:.25em}.ds-text-link:hover{text-decoration:underline}.ds-title-link:focus-visible{outline:2px solid var(--foreground,#173e46);outline-offset:5px;border-radius:2px}.ds-text-link:focus-visible{outline:2px solid var(--foreground,#173e46);outline-offset:5px;border-radius:2px}@media(max-width:1100px){.ds-row{gap:32px}}@media(max-width:640px){.ds-row{grid-template-columns:1fr;gap:15px;padding-block:26px}.ds-meta{font-size:14px;display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap}.ds-preview{margin-top:0}.ds-title{font-size:29px;line-height:1.17}.ds-summary{font-size:17px}.ds-text-link{font-size:16px;margin-top:13px}}.ds-row>.ds-row-copy{grid-column:2;grid-row:1}.ds-row>.ds-meta{grid-column:1;grid-row:1}@media(max-width:640px){.ds-row>.ds-row-copy,.ds-row>.ds-meta{grid-column:auto;grid-row:auto}}"
+    },
+    {
+      "name": "Editorial notice",
+      "kind": "custom",
+      "refersTo": "editorial-notice",
+      "description": "Visible disclosure for illustrative content; a tonal block without an invented control.",
+      "html": "<p class=\"ds-notice\">Editorial preview ? sample content for design review, not a published article by France.</p>",
+      "css": ".ds-notice{font-family:var(--font-body, 'Hanken Grotesk', sans-serif);max-width:75ch;font-size:15px;line-height:1.65;padding:16px 20px;margin:25px 0 0;background:var(--surface,#e0ece9);color:var(--foreground,#173e46);border-radius:4px}@media(max-width:640px){.ds-notice{font-size:14px;padding:15px 17px}}"
+    },
+    {
+      "name": "Mobile navigation sheet",
+      "kind": "nav",
+      "description": "Static open-panel specimen. Production uses a Radix modal with overlay, focus management and dismissal; this snippet does not implement dialog runtime.",
+      "html": "<section class=\"ds-sheet\" role=\"dialog\" aria-labelledby=\"ds-sheet-title\" aria-describedby=\"ds-sheet-description\"><header class=\"ds-sheet-header\"><h2 class=\"ds-sheet-title\" id=\"ds-sheet-title\">France</h2><p class=\"ds-sheet-description\" id=\"ds-sheet-description\">Perspectives on business, people and purpose.</p></header><nav class=\"ds-sheet-nav\" aria-label=\"Mobile navigation\"><a class=\"ds-sheet-link\" href=\"/insights\">Insights <svg width=\"19\" height=\"19\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M7 17 17 7M7 7h10v10\"/></svg></a><a class=\"ds-sheet-link\" href=\"/#about\">About <svg width=\"19\" height=\"19\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M7 17 17 7M7 7h10v10\"/></svg></a><a class=\"ds-sheet-link\" href=\"/#speaking\">Speaking <svg width=\"19\" height=\"19\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M7 17 17 7M7 7h10v10\"/></svg></a><a class=\"ds-sheet-link\" href=\"/#projects\">Projects <svg width=\"19\" height=\"19\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M7 17 17 7M7 7h10v10\"/></svg></a><a class=\"ds-sheet-link\" href=\"/#connect\">Contact <svg width=\"19\" height=\"19\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M7 17 17 7M7 7h10v10\"/></svg></a></nav><button class=\"ds-sheet-close\" type=\"button\" aria-label=\"Close\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" aria-hidden=\"true\"><path d=\"m18 6-12 12M6 6l12 12\"/></svg></button></section>",
+      "css": ".ds-sheet{font-family:var(--font-body, 'Hanken Grotesk', sans-serif);position:relative;margin-left:auto;display:flex;flex-direction:column;gap:16px;width:75%;padding:32px 25px;background:var(--background,#f5f8f7);color:var(--foreground,#173e46);border-left:1px solid var(--line,#b9cdcb);box-shadow:0 10px 15px -3px rgb(0 0 0 / .1),0 4px 6px -4px rgb(0 0 0 / .1);overflow-y:auto;overscroll-behavior:contain}.ds-sheet-header{padding:20px 0;display:flex;flex-direction:column;gap:6px}.ds-sheet-title{margin:0;font-size:35px;font-weight:600;line-height:1.2;letter-spacing:-.03em}.ds-sheet-description{margin:0;font-size:14px;color:var(--text-secondary,#436168)}.ds-sheet-nav{display:grid;margin-top:15px}.ds-sheet-link{display:flex;justify-content:space-between;align-items:center;min-height:65px;border-bottom:1px solid var(--line,#b9cdcb);font-size:23px;color:inherit;text-decoration:none}.ds-sheet-link:hover{color:#735c27}.ds-sheet-close{position:absolute;top:6px;right:6px;width:44px;height:44px;display:flex;align-items:center;justify-content:center;border:0;border-radius:2px;background:transparent;color:inherit;opacity:.7;cursor:pointer;transition:opacity 150ms cubic-bezier(.4,0,.2,1)}.ds-sheet-close:hover{opacity:1}.ds-sheet-link:focus-visible{outline:2px solid var(--foreground,#173e46);outline-offset:5px;border-radius:2px}.ds-sheet-close:focus-visible{outline:2px solid var(--foreground,#173e46);outline-offset:5px;border-radius:2px}@media(min-width:640px){.ds-sheet{max-width:384px}}@media(prefers-reduced-motion:reduce){.ds-sheet-close{transition:none}}"
+    },
+    {
+      "name": "Article reading measure",
+      "kind": "custom",
+      "description": "Article heading precedes category metadata, followed by summary and 68ch prose; mobile uses the real article typography.",
+      "html": "<article class=\"ds-article\"><header class=\"ds-article-header\"><h1 class=\"ds-article-title\">What does meaningful growth look like?</h1><p class=\"ds-article-meta\">Business strategy</p><p class=\"ds-article-summary\">Looking beyond the next milestone to the kind of business we want to build.</p></header><div class=\"ds-prose\"><p>Growth can open new possibilities.</p><p>It also creates a reason to pause and ask what success should mean: for a business, for the people within it, and for the communities around it.</p></div></article>",
+      "css": ".ds-article{font-family:var(--font-body, 'Hanken Grotesk', sans-serif);max-width:1050px;color:var(--foreground,#173e46)}.ds-article-meta{margin:0;font-size:15px;line-height:1.65;color:var(--text-secondary,#436168)}.ds-article-title{max-width:22ch;margin:16px 0 23px;font-size:clamp(42px,5.4vw,72px);font-weight:500;line-height:1.12;letter-spacing:-.035em;text-wrap:balance}.ds-article-summary{max-width:65ch;margin:14px 0 0;font-size:23px;line-height:1.5;color:var(--text-secondary,#436168)}.ds-prose{max-width:68ch;font-size:21px;line-height:1.7;margin:40px 0 48px}.ds-prose p{margin:0;text-wrap:pretty}.ds-prose p+p{margin-top:1.2em}@media(max-width:640px){.ds-article-meta{font-size:14px}.ds-article-title{font-size:42px;letter-spacing:-.03em}.ds-article-summary{font-size:20px}.ds-prose{font-size:19px;margin:30px 0 38px}}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Perspective Catalogue",
+    "overview": "An author-led, upright publication identity: clear humanist typography, pale chalk ground, blue-green ink, a cool author surface and a restrained gold reading action. The tone is sophisticated, warm and professional without corporate decoration. Large type, open space and explicit dividers carry the hierarchy.\n\nThe system uses real photographs in rectangular crops and keeps editorial content easy to scan and read. This document describes the implemented website. The generated decision mockup is a composition critique reference; it is not an approved comp or a claim of pixel fidelity.",
+    "keyCharacteristics": [
+      "Upright Hanken Grotesk across display, navigation and reading text.",
+      "Chalk and blue-green surfaces with gold used for reading and selected supporting details.",
+      "Flat, rule-separated content with rectangular photography.",
+      "Responsive reading measures and visible keyboard focus."
+    ],
+    "rules": [
+      {
+        "name": "The Accent Mapping Rule",
+        "body": "The CSS property `--accent` is reading gold. Tailwind's `--color-accent` maps to the cool surface for shadcn ghost and outline treatments. Do not treat these as interchangeable.",
+        "section": "colors"
+      }
+    ],
+    "dos": [
+      "**Do** use upright Hanken Grotesk and the established reading measures.",
+      "**Do** distinguish the gold reading action from the cool shadcn accent surface.",
+      "**Do** use rules and tonal surfaces to organize content.",
+      "**Do** preserve responsive crops, visible focus, reduced-motion behavior and semantic navigation.",
+      "**Do** keep editorial previews visibly disclosed until approved writing replaces them."
+    ],
+    "donts": [
+      "**Don't** add stock geometric decoration or repeated italic slogans.",
+      "**Don't** return to the rejected cream, olive and terracotta treatment.",
+      "**Don't** turn every content section into an identical rounded card.",
+      "**Don't** invent input fields, publishing controls or biography claims to fill visual space.",
+      "**Don't** describe the decision mockup as an approved comp or claim pixel fidelity."
+    ]
+  }
+}

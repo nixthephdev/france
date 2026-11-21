@@ -14,13 +14,15 @@ The client's messages identify five central themes:
 
 The website will showcase her professional background and provide a space for insights, advocacy, speaking engagements, projects, and collaborations.
 
-## Visual starting point
+## Visual direction
 
-- Warm ivory background, deep olive text, and restrained terracotta accents.
-- Editorial serif headings with a clear sans-serif body face.
+- The current Perspective Catalogue uses chalk, blue-green ink, a cool author surface, and a restrained warm reading action.
+- Self-hosted Hanken Grotesk carries upright publication typography.
 - Generous spacing and layouts that work comfortably on small screens.
 - Authentic, approved photography when it is available.
 - Gentle motion that respects reduced-motion preferences.
+
+The initial ivory/olive/terracotta treatment was rejected. Reading insights is the user-confirmed primary action. See PRODUCT.md, DESIGN.md, and docs/homepage-direction.md for the current implementation and decision context.
 
 The supplied profile's line, "Growing businesses, people and purpose", anchors the first design. Draft content must be reviewed before launch. Do not invent clients, affiliations, testimonials, events, or impact metrics.
 

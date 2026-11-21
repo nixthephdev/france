@@ -4,18 +4,20 @@ The personal website of **Olga France Blas-Obias**: a warm, thoughtful digital h
 
 Repository: https://github.com/nixthephdev/france
 
-## Current foundation
+## Current website
 
 - Next.js App Router, React, and TypeScript.
-- Tailwind CSS and a responsive editorial starting design.
-- Customised shadcn/ui buttons, dialogs, and mobile navigation.
-- About, Focus, Insights, Speaking, Projects, and Contact sections.
-- Supplied portrait and event photographs, with labelled project placeholders and sample editorial previews.
+- A publication layout built around reading, with self-hosted Hanken Grotesk typography.
+- Tailwind CSS and customised shadcn/ui mobile navigation.
+- A featured editorial preview, author introduction, topic index, and supporting About, Speaking, Projects, and Contact sections.
+- A dedicated `/insights` index with shareable topic filters and three preview reading routes.
+- Supplied portrait and event photographs; unfinished biography and project content are clearly identified.
+- Direct LinkedIn contact links and a recovery page for unknown routes.
 - Keyboard navigation, focus styles, and reduced-motion support.
 - ESLint, TypeScript checks, and a production build command.
 - A committed npm lockfile for repeatable installs.
 
-This is the initial project foundation. Homepage copy and design are drafts for review. Sanity publishing, enquiry emails, and production hosting are not connected yet.
+The writing is illustrative editorial preview content for design review, not published articles by France. Sanity publishing, enquiry emails, and production hosting are not connected yet.
 
 ## Local development
 
@@ -42,6 +44,9 @@ Run all three with npm run check. To serve a production build locally, run npm r
 - public/: public assets.
 - docs/project-brief.md: design direction and implementation scope.
 - docs/design-direction.md: audience hypotheses, design rationale, and content handoff.
+- PRODUCT.md: confirmed product facts, goals, and open content decisions.
+- DESIGN.md: implemented visual tokens and component guidance.
+- docs/homepage-direction.md: the current homepage direction and review scope.
 - docs/media.md: supplied photo placements and image handling.
 - .env.example: reserved configuration keys, without credentials.
 

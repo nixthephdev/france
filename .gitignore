@@ -45,6 +45,12 @@ yarn-error.log*
 .vscode/
 /.artifacts/
 
+# design working material (the durable design system remains tracked)
+/.impeccable/build/
+/.impeccable/mocks/
+/.impeccable/questions/
+/.impeccable/review/
+
 # typescript
 *.tsbuildinfo
 next-env.d.ts
