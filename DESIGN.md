@@ -357,7 +357,7 @@ The desktop opening is an inset photograph with copy left, France right, navigat
 
 At 850px the desktop navigation becomes a menu and the story grid becomes a horizontal rail with proximity snapping. At 720px, the opening has an 8px inset, an upper portrait area, copy below the face and 220px-wide story windows. At 370px the composition tightens again. Hero height becomes automatic with explicit minimums.
 
-About, speaking and project sections move from two columns to one at 720px. The repeated about portrait hides on mobile. Insight rows pair metadata with reading content on desktop and follow source order on mobile, with metadata after the preview. Reading filters wrap; article content retains its comfortable measure.
+About, Speaking, Projects and Contact have dedicated routes. Their two-column content moves to one column at 720px. The About page retains its portrait on mobile. Inner pages use paper navigation, a clear page heading and the existing reading measures; current navigation links have aria-current and visible emphasis, including on nested insight articles. Homepage story windows open these routes. Insight rows pair metadata with reading content on desktop and follow source order on mobile, with metadata after the preview. Reading filters wrap; article content retains its comfortable measure.
 
 ## Elevation & Depth
 
@@ -389,7 +389,7 @@ The story window is a fixed-height clipped frame with a bottom caption. Journal 
 
 ### Navigation
 
-Home navigation is white over photography; reading-route navigation is forest on paper. Desktop links gain a fine current-color underline. Below 850px a labelled Menu opens the paper right-side sheet: full-height scrolling, 75% width, and a 384px maximum from the library's 640px breakpoint. Links have large vertical targets and separators; the close control is 44px square. Production Radix supplies modal keyboard and focus behavior; sidecar snippets document appearance only.
+Home navigation is white over photography; inner-page navigation is forest on paper. Desktop links gain a fine current-color underline. Current-page links use aria-current and visible emphasis. The current Contact action has a 1px outline at 3px offset; keyboard focus increases it to 2px at 5px offset. Below 850px a labelled Menu opens the paper right-side sheet: full-height scrolling, 75% width, and a 384px maximum from the library's 640px breakpoint. Links have large vertical targets and separators; the close control is 44px square. Production Radix supplies modal keyboard and focus behavior; sidecar snippets document appearance only.
 
 ### Reading Surfaces
 

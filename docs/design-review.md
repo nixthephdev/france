@@ -35,6 +35,10 @@ After refreshing DESIGN.md and its sidecar and repairing draft frontmatter seria
 
 Impeccable's capture browser failed in the restricted environment in the prior pass, so evidence is captured through installed Edge/Playwright against the current production build at http://127.0.0.1:3003. Fonts and image decoding settle before captures; mobile story scroll is reset after loading thumbnails. Each capture was opened to confirm correct content. Hidden outgoing Next.js content is excluded from interaction selectors.
 
+## Dedicated-page extension
+
+The user subsequently requested a multi-page website. About, Speaking, Projects and Contact now live on their own routes, with active navigation states on desktop and mobile. The homepage retains the portrait introduction, story links, topic index and editorial previews. The route contract, complete interaction matrix and independent extension review are recorded in docs/site-pages.md. This preserves the existing visual world; the original review is not presented as approval of new pages.
+
 ## Content and launch limits
 
 The articles are explicitly labelled illustrative editorial previews. France's real writing, full biography, project evidence, and final contact workflow still need to be supplied/configured. Sanity, email delivery, analytics, and production hosting are not connected.

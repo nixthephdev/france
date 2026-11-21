@@ -14,10 +14,10 @@ export const profileRoles = [
 
 export const navigation = [
   { label: "Insights", href: "/insights" },
-  { label: "About", href: "/#about" },
-  { label: "Speaking", href: "/#speaking" },
-  { label: "Projects", href: "/#projects" },
-  { label: "Contact", href: "/#connect" },
+  { label: "About", href: "/about" },
+  { label: "Speaking", href: "/speaking" },
+  { label: "Projects", href: "/projects" },
+  { label: "Contact", href: "/contact" },
 ];
 
 export const topics = [

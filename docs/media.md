@@ -4,8 +4,8 @@ The user supplied these two downloaded photographs for the website. The original
 
 | File | Dimensions | Placement |
 | --- | --- | --- |
-| public/images/france-portrait.jpg | 2048 × 2048 | Hero, personal story thumbnail, desktop About portrait |
-| public/images/france-asean-event.jpg | 1920 × 2048 | Story thumbnail and Speaking & Mentorship section |
+| public/images/france-portrait.jpg | 2048 × 2048 | Homepage hero and personal story thumbnail; About page portrait on desktop and mobile |
+| public/images/france-asean-event.jpg | 1920 × 2048 | Homepage story thumbnail and Speaking & Mentorship page |
 
 Next.js Image generates responsive sources and blur placeholders. The hero photograph is preloaded; supporting positions use native lazy loading. Containers reserve dimensions to avoid layout shifts. CSS overlays provide legibility and responsive crops; the original photographic pixels remain unchanged.
 

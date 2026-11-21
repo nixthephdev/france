@@ -27,6 +27,7 @@ export function SiteFooter() {
         <p>Growing businesses, people and purpose.</p>
       </div>
       <div className="footer-links">
+        <Link href="/contact">Contact</Link>
         <Link href="/insights">Explore the insights</Link>
         <a href={`mailto:${contactEmail}`}>Email France</a>
         <a href={linkedInUrl} target="_blank" rel="noopener noreferrer">

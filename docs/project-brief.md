@@ -26,14 +26,16 @@ The initial ivory/olive/terracotta treatment and the subsequent text-led catalog
 
 The supplied profile's line, "Growing businesses, people and purpose", anchors the first design. Draft content must be reviewed before launch. Do not invent clients, affiliations, testimonials, events, or impact metrics.
 
-## Planned information architecture
+## Current information architecture
 
-- **Home:** introduction, focus areas, selected work and insights, and a clear invitation to connect.
-- **About:** approved biography, background, and values.
-- **Insights:** articles grouped by relevant themes.
-- **Speaking & Mentorship:** topics, previous engagements, approved media, and enquiries.
-- **Projects & Advocacy:** selected initiatives and collaborations.
-- **Contact:** speaking and collaboration enquiries, plus a LinkedIn link.
+- **Home (/):** portrait introduction, story links, topic index, editorial previews and a contact invitation.
+- **About (/about):** supplied portrait and five professional descriptions from France's LinkedIn About section.
+- **Insights (/insights):** topic filters and dedicated editorial-preview reading routes.
+- **Speaking & Mentorship (/speaking):** discussion topics, supplied speaker description, neutrally captioned event photo and invitation links.
+- **Projects & Advocacy (/projects):** disclosed project/photo placeholder and collaboration path until real project evidence is supplied.
+- **Contact (/contact):** visible email, mailto action and LinkedIn link. No enquiry submission form is simulated.
+
+The user explicitly requested a multi-page site. Navbar and homepage story links open actual routes. Desktop and mobile navigation identify the current page; the brand returns home.
 
 ## Technical direction
 

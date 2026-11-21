@@ -4,6 +4,8 @@
 
 The user rejected the previous text-led catalogue and supplied four screenshots, explicitly preferring the final Oviron reference: “i like the last part bro.” That screenshot pins the composition: immersive portrait, overlaid navigation, compact left-aligned copy, a bright reading action, and a visual story strip inside the opening. This supersedes the previous decision mockup. The user has delegated implementation and asked to apply all four installed design skills directly.
 
+The subsequent request for a multi-page site moves full About, Speaking, Projects and Contact content to their own routes. Homepage story windows and the contact invitation open those pages. The portrait opening and primary reading action remain; see docs/site-pages.md for the route contract and extension review.
+
 ## Direction contract
 
 THESIS: introduce France through her presence, then invite visitors into her ideas. Replace the rejected essay-cover opening with an immersive photographic composition.

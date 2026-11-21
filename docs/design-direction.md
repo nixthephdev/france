@@ -4,7 +4,7 @@
 
 The user confirmed that reading France's insights is the primary visitor action. Potential collaborators, event organisers, and people interested in mentorship are secondary audience hypotheses to validate with France.
 
-The homepage opens with France's portrait, overlaid navigation, concise copy, a reading action, and a visual story strip. The user supplied this composition through their preferred Oviron reference after rejecting the earlier text-led catalogue. The journal, topic index, and dedicated reading pages keep writing directly reachable. This is a design hypothesis, not a measured conversion result.
+The homepage opens with France's portrait, overlaid navigation, concise copy, a reading action, and a visual story strip. The user supplied this composition through their preferred Oviron reference after rejecting the earlier text-led catalogue. At the user's request, About, Speaking, Projects and Contact each have a dedicated page; navigation and story links use their actual routes. The homepage retains the journal preview and topic index. This is a design hypothesis, not a measured conversion result.
 
 ## Decisions
 

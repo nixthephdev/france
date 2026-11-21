@@ -10,6 +10,8 @@ web
 
 A personal website for Olga France Blas-Obias. The user confirmed that the primary visitor action is to read her insights. The site also introduces her background, interests, speaking, projects, advocacy, and opportunities to collaborate.
 
+The user explicitly requested a multi-page site: /about, /speaking, /projects and /contact are dedicated navbar destinations alongside /insights and its article routes. The homepage introduces the site with the portrait opening, visual story links and journal previews. Main navigation must use these real page URLs rather than homepage section anchors.
+
 ## Users
 
 Readers interested in France's perspectives on entrepreneurship, business strategy, sustainability, mentorship, and thought leadership. More specific audience demographics and reader research remain open decisions.

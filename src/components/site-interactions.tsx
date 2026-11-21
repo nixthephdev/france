@@ -16,7 +16,8 @@ import {
 import { navigation } from "@/lib/site-content";
 
 export function HeaderNavigation() {
-  const isHome = usePathname() === "/";
+  const pathname = usePathname();
+  const isHome = pathname === "/";
   return (
     <header className={`site-header shell${isHome ? " header-over-photo" : ""}`}>
       <Link href="/" className="publication-brand" aria-label="France — home">
@@ -25,16 +26,26 @@ export function HeaderNavigation() {
       </Link>
       <nav className="desktop-navigation" aria-label="Main navigation">
         {navigation.filter(item => item.label !== "Contact").map(item => (
-          <Link href={item.href} key={item.label}>{item.label}</Link>
+          <Link
+            href={item.href}
+            key={item.label}
+            aria-current={isCurrentPath(pathname, item.href) ? "page" : undefined}
+          >
+            {item.label}
+          </Link>
         ))}
       </nav>
-      <Link className="header-contact" href="/#connect">Let’s connect <ArrowUpRight size={17} aria-hidden="true" /></Link>
-      <MobileNavigation />
+      <Link className="header-contact" href="/contact" aria-current={pathname === "/contact" ? "page" : undefined}>Contact <ArrowUpRight size={17} aria-hidden="true" /></Link>
+      <MobileNavigation pathname={pathname} />
     </header>
   );
 }
 
-export function MobileNavigation() {
+function isCurrentPath(pathname: string, href: string) {
+  return pathname === href || pathname.startsWith(`${href}/`);
+}
+
+function MobileNavigation({ pathname }: { pathname: string }) {
   return (
     <Sheet>
       <SheetTrigger asChild>
@@ -57,7 +68,7 @@ export function MobileNavigation() {
         <nav aria-label="Mobile navigation">
           {navigation.map((item) => (
             <SheetClose asChild key={item.label}>
-              <Link href={item.href}>
+              <Link href={item.href} aria-current={isCurrentPath(pathname, item.href) ? "page" : undefined}>
                 {item.label}
                 <ArrowUpRight size={18} aria-hidden="true" />
               </Link>
