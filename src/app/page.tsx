@@ -1,22 +1,11 @@
-const focusAreas = [
-  {
-    number: "01",
-    title: "Entrepreneurship & strategy",
-    description: "Ideas, enterprise, and the work of growing with intention.",
-  },
-  {
-    number: "02",
-    title: "Sustainability & purpose",
-    description:
-      "A longer view of progress, grounded in people and the planet.",
-  },
-  {
-    number: "03",
-    title: "Mentorship & leadership",
-    description:
-      "Sharing perspectives, opening conversations, and growing together.",
-  },
-];
+import { ArrowDown, ArrowUpRight, Leaf } from "lucide-react";
+import {
+  EnquiryDialog,
+  InsightPreviews,
+  MobileNavigation,
+} from "@/components/site-interactions";
+import { MediaPlaceholder } from "@/components/media-placeholder";
+import { focusAreas, linkedInUrl, navigation } from "@/lib/site-content";
 
 export default function Home() {
   return (
@@ -28,12 +17,17 @@ export default function Home() {
         <a className="wordmark" href="#top" aria-label="France — home">
           france<span aria-hidden="true">.</span>
         </a>
-        <nav aria-label="Main navigation">
-          <a href="#perspective">Perspective</a>
-          <a href="#connect">
-            Let’s connect <span aria-hidden="true">↗</span>
-          </a>
+        <nav className="desktop-navigation" aria-label="Main navigation">
+          {navigation.map((item) => (
+            <a key={item.href} href={item.href}>
+              {item.label}
+            </a>
+          ))}
         </nav>
+        <a className="header-connect" href="#connect">
+          Let’s connect <ArrowUpRight size={15} aria-hidden="true" />
+        </a>
+        <MobileNavigation />
       </header>
 
       <main id="main-content">
@@ -48,60 +42,226 @@ export default function Home() {
               and <em>purpose.</em>
             </h1>
             <p className="hero-description">
-              Exploring the connections between entrepreneurship, strategy,
-              sustainability, and the people who move ideas forward.
+              At the intersection of entrepreneurship, strategy, and
+              sustainability. A space for ideas, shared learning, and work that
+              matters.
             </p>
-            <a className="text-link" href="#perspective">
-              A little perspective <span aria-hidden="true">↓</span>
-            </a>
+            <div className="hero-actions">
+              <EnquiryDialog className="brand-button">
+                Explore a collaboration
+                <ArrowUpRight aria-hidden="true" />
+              </EnquiryDialog>
+              <a className="quiet-link" href="#about">
+                Meet France
+                <ArrowDown size={15} aria-hidden="true" />
+              </a>
+            </div>
           </div>
-
-          <div className="hero-art" aria-hidden="true">
-            <div className="art-orbit orbit-one" />
-            <div className="art-orbit orbit-two" />
-            <div className="art-sun" />
-            <div className="art-stem" />
-            <div className="art-leaf leaf-one" />
-            <div className="art-leaf leaf-two" />
-            <div className="art-leaf leaf-three" />
-            <span className="art-caption">
-              Rooted in purpose.
-              <br />
-              Open to possibility.
-            </span>
-          </div>
-
+          <figure className="hero-portrait">
+            <MediaPlaceholder
+              className="portrait-placeholder"
+              title="A moment with France"
+              note="A warm, natural-light portrait"
+            />
+            <figcaption>
+              <span>Thoughtful work. Human connections.</span>
+              <Leaf size={17} strokeWidth={1.3} aria-hidden="true" />
+            </figcaption>
+          </figure>
           <div className="hero-footer">
-            <span>Business with intention. Leadership with heart.</span>
-            <span className="hero-location">
-              Philippines · Connected by ideas
+            <span>
+              Entrepreneurship · Strategy · Sustainability · Mentorship
             </span>
+            <span className="hero-location">Based in the Philippines</span>
           </div>
         </section>
 
         <section
-          className="perspective shell"
-          id="perspective"
-          aria-labelledby="perspective-title"
+          className="about-section shell section-space"
+          id="about"
+          aria-labelledby="about-title"
         >
-          <div className="section-heading">
-            <p className="eyebrow">A shared thread</p>
-            <h2 id="perspective-title">
-              Good work starts
+          <div>
+            <p className="eyebrow">A little about France</p>
+            <h2 id="about-title">
+              Purpose is personal.
               <br />
-              with <em>what matters.</em>
+              <em>So is the journey.</em>
             </h2>
           </div>
-          <div className="focus-grid">
-            {focusAreas.map((area) => (
-              <article className="focus-item" key={area.number}>
-                <span className="focus-number" aria-hidden="true">
-                  {area.number}
-                </span>
-                <h3>{area.title}</h3>
-                <p>{area.description}</p>
-              </article>
-            ))}
+          <div className="about-copy">
+            <p className="intro-paragraph">
+              Business, people, and purpose are connected. This is a space to
+              explore what can happen when we grow them together.
+            </p>
+            <p>
+              France’s interests bring together entrepreneurship, business
+              strategy, sustainability, mentorship, and thought leadership.
+              Here, those threads become conversations, perspectives, and
+              possibilities for collaboration.
+            </p>
+            <p className="draft-note">
+              Biography preview — her personal story and career highlights will
+              be added here.
+            </p>
+            <a
+              className="text-link"
+              href={linkedInUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Connect on LinkedIn
+              <ArrowUpRight size={15} aria-hidden="true" />
+              <span className="sr-only"> (opens in a new tab)</span>
+            </a>
+          </div>
+        </section>
+
+        <section
+          className="focus-section"
+          id="focus"
+          aria-labelledby="focus-title"
+        >
+          <div className="shell section-space">
+            <div className="section-heading split-heading">
+              <div>
+                <p className="eyebrow">Where ideas meet intention</p>
+                <h2 id="focus-title">
+                  Different perspectives.
+                  <br />
+                  <em>A shared purpose.</em>
+                </h2>
+              </div>
+              <p>
+                Three connected ways to think about growth, impact, and the
+                people behind both.
+              </p>
+            </div>
+            <div className="focus-grid">
+              {focusAreas.map((area) => (
+                <article className="focus-item" key={area.number}>
+                  <span className="focus-number">{area.number}</span>
+                  <h3>{area.title}</h3>
+                  <p>{area.description}</p>
+                </article>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        <section
+          className="shell section-space"
+          id="insights"
+          aria-labelledby="insights-title"
+        >
+          <div className="section-heading split-heading">
+            <div>
+              <p className="eyebrow">Notes & perspectives</p>
+              <h2 id="insights-title">
+                Ideas worth
+                <br />
+                <em>making space for.</em>
+              </h2>
+            </div>
+            <p>
+              Preview topics for this evolving journal. Published insights from
+              France will take their place.
+            </p>
+          </div>
+          <InsightPreviews />
+        </section>
+
+        <section
+          className="speaking-section"
+          id="speaking"
+          aria-labelledby="speaking-title"
+        >
+          <div className="shell speaking-grid section-space">
+            <div className="speaking-media">
+              <MediaPlaceholder
+                kind="video"
+                title="France, in conversation"
+                note="A speaking clip or event photograph"
+              />
+              <p className="media-footnote">
+                Space for a future speaking highlight
+              </p>
+            </div>
+            <div className="speaking-copy">
+              <p className="eyebrow">Speaking & mentorship</p>
+              <h2 id="speaking-title">
+                Conversations
+                <br />
+                that <em>move us forward.</em>
+              </h2>
+              <p>
+                Bring a thoughtful perspective to your next gathering, or start
+                a conversation about learning and growing together.
+              </p>
+              <p className="small-label">Suggested conversation themes</p>
+              <ul className="topic-list">
+                <li>
+                  Building a business with purpose<span>01</span>
+                </li>
+                <li>
+                  Bringing sustainability into strategy<span>02</span>
+                </li>
+                <li>
+                  Growing through mentorship<span>03</span>
+                </li>
+              </ul>
+              <EnquiryDialog
+                intent="a speaking invitation"
+                className="text-link"
+              >
+                Discuss a speaking invitation
+                <ArrowUpRight size={16} aria-hidden="true" />
+              </EnquiryDialog>
+            </div>
+          </div>
+        </section>
+
+        <section
+          className="shell section-space projects-section"
+          id="projects"
+          aria-labelledby="projects-title"
+        >
+          <div className="section-heading split-heading">
+            <div>
+              <p className="eyebrow">Projects & advocacy</p>
+              <h2 id="projects-title">
+                Purpose,
+                <br />
+                <em>put into practice.</em>
+              </h2>
+            </div>
+            <p>
+              Every initiative has a human story. This is where France’s
+              projects, partnerships, and lessons will live.
+            </p>
+          </div>
+          <div className="project-preview">
+            <MediaPlaceholder
+              title="The work, and the people behind it"
+              note="A real project or community photograph"
+            />
+            <div className="project-story">
+              <span className="sample-label">Project story placeholder</span>
+              <h3>
+                A space for
+                <br />
+                meaningful impact.
+              </h3>
+              <p>
+                The first story will share the challenge, France’s role, the
+                collaboration, and what changed. Details and outcomes will come
+                from her.
+              </p>
+              <a className="text-link" href="#connect">
+                Explore a future collaboration
+                <ArrowUpRight size={15} aria-hidden="true" />
+              </a>
+            </div>
           </div>
         </section>
 
@@ -111,31 +271,36 @@ export default function Home() {
           aria-labelledby="connect-title"
         >
           <div className="shell connect-inner">
-            <p className="eyebrow">Conversations create possibility</p>
-            <h2 id="connect-title">
-              Let’s grow
-              <br />
-              <em>something meaningful.</em>
-            </h2>
-            <a
-              className="text-link"
-              href="https://www.linkedin.com/in/olga-france-blas-obias-23912996/"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="Connect with France on LinkedIn (opens in a new tab)"
-            >
-              Connect on LinkedIn <span aria-hidden="true">↗</span>
-            </a>
+            <div>
+              <p className="eyebrow">Good things begin with a conversation</p>
+              <h2 id="connect-title">
+                What could we
+                <br />
+                <em>grow together?</em>
+              </h2>
+            </div>
+            <div className="connect-copy">
+              <p>
+                A speaking invitation, a shared idea, or a possibility worth
+                exploring. Start with a hello.
+              </p>
+              <EnquiryDialog className="brand-button light-button">
+                Let’s start a conversation
+                <ArrowUpRight aria-hidden="true" />
+              </EnquiryDialog>
+              <span className="contact-channel">
+                Connect directly with France on LinkedIn
+              </span>
+            </div>
           </div>
         </section>
       </main>
-
       <footer className="site-footer shell">
-        <span className="footer-name">Olga France Blas-Obias</span>
-        <p>Growing businesses, people and purpose.</p>
-        <a href="#top">
-          Back to top <span aria-hidden="true">↑</span>
+        <a className="wordmark" href="#top" aria-label="France — back to top">
+          france<span>.</span>
         </a>
+        <p>Growing businesses, people and purpose.</p>
+        <a href="#top">Back to top ↑</a>
       </footer>
     </>
   );

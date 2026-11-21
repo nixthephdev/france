@@ -1,0 +1,56 @@
+export const linkedInUrl =
+  "https://www.linkedin.com/in/olga-france-blas-obias-23912996/";
+
+export const navigation = [
+  { label: "About", href: "#about" },
+  { label: "Focus", href: "#focus" },
+  { label: "Insights", href: "#insights" },
+  { label: "Speaking", href: "#speaking" },
+  { label: "Projects", href: "#projects" },
+];
+
+export const focusAreas = [
+  {
+    number: "01",
+    title: "Entrepreneurship & strategy",
+    description:
+      "Turning ideas into purposeful directions for business and growth.",
+  },
+  {
+    number: "02",
+    title: "Sustainability & advocacy",
+    description:
+      "Exploring how progress can serve people, communities, and the planet.",
+  },
+  {
+    number: "03",
+    title: "Mentorship & leadership",
+    description:
+      "Making space for shared learning, thoughtful leadership, and new possibilities.",
+  },
+];
+
+// Editorial concepts, not published articles or statements attributed to France.
+export const insightConcepts = [
+  {
+    category: "Business strategy",
+    title: "What does meaningful growth look like?",
+    summary:
+      "Looking beyond the next milestone to the kind of business we want to build.",
+    body: "Growth can open new possibilities. It also creates a reason to pause and ask what success should mean: for a business, for the people within it, and for the communities around it. This proposed article would explore how purpose can guide strategic choices, with examples and reflections supplied by France.",
+  },
+  {
+    category: "Sustainability",
+    title: "Small decisions. A longer perspective.",
+    summary:
+      "Finding practical ways to bring sustainability into everyday business choices.",
+    body: "Sustainability becomes easier to discuss when it is connected to real decisions. This proposed article would examine an everyday business choice, the people it affects, and the tradeoffs involved. France's own experience and examples would form the final story.",
+  },
+  {
+    category: "Mentorship",
+    title: "The conversations that help us grow.",
+    summary:
+      "A reflection on listening, shared experience, and making room for others.",
+    body: "A useful conversation can begin with a thoughtful question. This proposed reflection would explore what mentorship looks like in practice, drawing on a story chosen by France. The final piece would include her perspective, lessons, and an invitation to keep learning together.",
+  },
+];

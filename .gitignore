@@ -43,6 +43,7 @@ yarn-error.log*
 .aws/
 .idea/
 .vscode/
+/.artifacts/
 
 # typescript
 *.tsbuildinfo
