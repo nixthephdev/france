@@ -18,7 +18,7 @@ Readers interested in France's perspectives on entrepreneurship, business strate
 
 Existing implementation: Next.js App Router, React, TypeScript, Tailwind CSS, and customised shadcn/ui components. Sanity publishing, enquiry email, and production hosting remain unconfigured.
 
-The only supplied photographs are a close-up portrait and an ASEAN event photograph. The event photograph does not establish a speaking role. No approved biography, articles, testimonials, client logos, project outcomes, or speaking video have been supplied. Illustrative editorial content must be labelled as such.
+The only supplied photographs are a close-up portrait and an ASEAN event photograph. The event photograph does not establish a speaking role at that event. The user supplied France's LinkedIn About text: United Nations SDG & TEDx Speaker; Health & Sustainability Advisor; Certified Digital Marketer; Growth Strategist; Purpose-Driven Organizations and Community Builder. Preserve these as her supplied profile descriptions without adding affiliations, named appearances, certification issuers, or dates. A longer biography, articles, testimonials, client logos, project outcomes, and speaking video remain unsupplied. Illustrative editorial content must be labelled as such.
 
 Contact offers a direct mailto link to olgafranceb@gmail.com, supplied by the user from France's LinkedIn contact information, alongside her LinkedIn profile. Preserve keyboard navigation, responsive layouts, reduced-motion support, and meaningful image descriptions.
 

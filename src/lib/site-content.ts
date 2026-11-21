@@ -3,6 +3,15 @@ export const linkedInUrl =
 
 export const contactEmail = "olgafranceb@gmail.com";
 
+// Transcribed from the LinkedIn About screenshot supplied by the user.
+export const profileRoles = [
+  "United Nations SDG & TEDx Speaker",
+  "Health & Sustainability Advisor",
+  "Certified Digital Marketer",
+  "Growth Strategist",
+  "Purpose-Driven Organizations and Community Builder",
+];
+
 export const navigation = [
   { label: "Insights", href: "/insights" },
   { label: "About", href: "/#about" },

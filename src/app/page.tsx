@@ -3,7 +3,7 @@ import Link from "next/link";
 import { ArrowRight, ArrowUpRight, ImageIcon, Mail } from "lucide-react";
 import francePortrait from "../../public/images/france-portrait.jpg";
 import franceEvent from "../../public/images/france-asean-event.jpg";
-import { articles, topics, linkedInUrl, contactEmail } from "@/lib/site-content";
+import { articles, topics, linkedInUrl, contactEmail, profileRoles } from "@/lib/site-content";
 
 export default function Home() {
   return (
@@ -112,17 +112,12 @@ export default function Home() {
         </div>
         <div>
           <p className="about-name" translate="no">Olga France Blas-Obias</p>
-          <p className="about-lead">
-            Entrepreneurship, business strategy, sustainability and mentorship.
-            Connected interests, with people at the centre.
-          </p>
-          <p>
-            France is building a space to share insights, advocacy, speaking
-            engagements, projects and collaborations. Her professional
-            background and personal story will sit alongside the ideas she
-            shares here.
-          </p>
-          <p className="content-note">Her full biography is coming soon.</p>
+          <p className="about-lead">{profileRoles[0]}</p>
+          <ul className="about-roles" aria-label="Professional background">
+            {profileRoles.slice(1).map((role) => (
+              <li key={role}>{role}</li>
+            ))}
+          </ul>
           <a
             className="text-link"
             href={linkedInUrl}
