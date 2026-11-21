@@ -11,7 +11,8 @@ Repository: https://github.com/nixthephdev/france
 - Tailwind CSS and customised shadcn/ui mobile navigation.
 - Overlay navigation, a prominent reading action, and a visual story strip on the homepage; dedicated About, Speaking, Projects and Contact pages.
 - A dedicated `/insights` index with shareable topic filters and three preview reading routes.
-- Supplied portrait and event photographs, her supplied LinkedIn About roles, and clearly identified unfinished project content.
+- Supplied portrait and event photographs, her LinkedIn About roles, and an organisation-grouped professional experience section with dates and expandable responsibilities.
+- Clearly identified unfinished project content and editorial previews.
 - Direct email and LinkedIn contact links and a recovery page for unknown routes.
 - Keyboard navigation, focus styles, and reduced-motion support.
 - ESLint, TypeScript checks, and a production build command.

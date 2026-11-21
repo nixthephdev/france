@@ -28,7 +28,7 @@ The homepage opens with France's portrait, overlaid navigation, concise copy, a 
 7. Approved testimonials and client or organisation logos only if she wants them and has permission.
 8. Confirm the reading-first priority with France and supply any further reader/audience research.
 
-The portrait and ASEAN photograph are supplied assets. The About section now uses the five professional descriptions from the LinkedIn screenshot supplied by the user, replacing generic biography placeholder copy. A longer biography remains to be supplied. The story strip includes a labelled project-photo placeholder; the Projects section explains that stories are coming soon. A speaking video has not been supplied. Proposed article topics remain drafts. CMS, email delivery, and analytics require separate implementation and configuration.
+The portrait and ASEAN photograph are supplied assets. The About page uses the five professional descriptions and the subsequent Experience screenshots supplied by the user. Experience is grouped by organisation, with month/year dates and native expandable responsibility summaries; screenshot tenure totals are omitted because they become stale. A longer biography remains to be supplied. The story strip includes a labelled project-photo placeholder; the Projects page explains that stories are coming soon. A speaking video has not been supplied. Proposed article topics remain drafts. CMS, email delivery, and analytics require separate implementation and configuration.
 
 ## Validation
 

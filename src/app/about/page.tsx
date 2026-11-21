@@ -4,6 +4,7 @@ import Link from "next/link";
 import { ArrowRight, ArrowUpRight } from "lucide-react";
 import francePortrait from "../../../public/images/france-portrait.jpg";
 import { linkedInUrl, profileRoles } from "@/lib/site-content";
+import { ProfessionalExperience } from "@/components/professional-experience";
 
 export const metadata: Metadata = {
   title: "About",
@@ -42,6 +43,8 @@ export default function AboutPage() {
           </a>
         </div>
       </section>
+
+      <ProfessionalExperience />
 
       <section className="page-next shell" aria-labelledby="about-next-title">
         <div>
