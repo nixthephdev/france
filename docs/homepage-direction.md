@@ -2,22 +2,22 @@
 
 ## Decision
 
-The user delegated design choices and asked that all four installed design skills be applied directly to the current website, without further restrictions or repeated approval requests. The chosen direction is The Perspective Catalogue. The decision mockup is a visual reference for composition and hierarchy; the implementation remains a semantic, responsive website with the original supplied photographs.
+The user rejected the previous text-led catalogue and supplied four screenshots, explicitly preferring the final Oviron reference: “i like the last part bro.” That screenshot pins the composition: immersive portrait, overlaid navigation, compact left-aligned copy, a bright reading action, and a visual story strip inside the opening. This supersedes the previous decision mockup. The user has delegated implementation and asked to apply all four installed design skills directly.
 
 ## Direction contract
 
-THESIS: France's writing is the opening experience. A featured essay replaces the brochure introduction; authorship supports it.
+THESIS: introduce France through her presence, then invite visitors into her ideas. Replace the rejected essay-cover opening with an immersive photographic composition.
 
-OWN-WORLD: pale chalk, blue-green ink, cool author surfaces, and a restrained warm gold action. Hanken Grotesk carries an upright, humanist publication identity. Photography stays rectangular and undistorted.
+OWN-WORLD: natural portrait colours, deep forest shade (#182c25), paper (#f6f6f0), white (#ffffff), sage (#dce5d8), and citron (#d9ee9c). Upright, self-hosted Hanken Grotesk; compact controls and selectively rounded hero and story windows. No fabricated social proof.
 
-STORY: identify the author, understand the subject, read an editorial preview, then explore further topics and the person behind them. Contact stays directly reachable.
+STORY: recognize France, understand her interests, read the journal, then explore the person, conversations and projects behind it. Editorial samples and missing photographs remain honestly labelled.
 
-FIRST VIEWPORT: a compact masthead and navigation; a full-width essay title, summary, and reading action; then a concise portrait/author strip and the start of the topic index. The primary reading action must be visible on mobile without passing a large portrait.
+FIRST VIEWPORT: inset full-width portrait with France on the right; white brand and navigation above; a three-line headline and short summary on the left; citron Read the insights action; four compact story windows across the bottom. Mobile gives the portrait its own upper space, copy below the face, and a horizontally scrollable, keyboard-reachable story strip.
 
-FORM: contemporary author catalogue; grounded candidate 6; seed:79029560f4f6bd14. Supporting manuscript: .impeccable/mocks/decision/catalogue.png. All editorial samples are disclosed as previews, not published articles by France.
+FORM: seed: none (pinned). “i like the last part bro” refers to the user's final Oviron screenshot. Code-led adaptation of that supplied reference; no invented comp approval or pixel-fidelity claim. The signature interaction is direct exploration through the story strip, with subtle image movement on hover/focus and no autoplay.
 
 FINISH: unreviewed and undocumented is unfinished; this build ends with the finish review, the verdict, DESIGN.md, and every shipping raster carrying its provenance.
 
-## Review scope
+## Plan check
 
-Use the mockup as a critique reference, not a rasterised page. Maintain the client's original brief and factual content, compose the mobile experience independently, and replace modal reading with real routes. No automated fidelity gate or fabricated human review receipt will be claimed. The user's delegation covers design and asset decisions; a fresh independent reviewer assesses the rendered implementation.
+The first UI/UX Pro Max query returned Liquid Glass and luxury typography, a poor match; the narrower consultant/author query returned minimal sans-serif hierarchy and accessible hero actions. Apply the useful hierarchy, responsive and interaction guidance, while the user's photographic reference governs composition. Preserve the actual two supplied photographs, factual content, working insight routes and topic filters. The remaining story thumbnail is a visible placeholder rather than invented event imagery. Secondary reading surfaces remain restrained.

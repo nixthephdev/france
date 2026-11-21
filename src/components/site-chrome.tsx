@@ -1,7 +1,8 @@
 import Link from "next/link";
 import { ArrowUpRight } from "lucide-react";
-import { MobileNavigation } from "@/components/site-interactions";
-import { linkedInUrl, navigation } from "@/lib/site-content";
+import { Suspense } from "react";
+import { HeaderNavigation } from "@/components/site-interactions";
+import { linkedInUrl } from "@/lib/site-content";
 
 export function SiteHeader() {
   return (
@@ -9,24 +10,9 @@ export function SiteHeader() {
       <a className="skip-link" href="#main-content">
         Skip to content
       </a>
-      <header className="site-header shell">
-        <Link href="/" className="publication-brand" aria-label="France — home">
-          <span className="brand-name" translate="no">
-            France
-          </span>
-          <span className="brand-byline" translate="no">
-            Olga France Blas-Obias
-          </span>
-        </Link>
-        <nav className="desktop-navigation" aria-label="Main navigation">
-          {navigation.map((item) => (
-            <Link href={item.href} key={item.label}>
-              {item.label}
-            </Link>
-          ))}
-        </nav>
-        <MobileNavigation />
-      </header>
+      <Suspense fallback={<div className="header-placeholder" />}>
+        <HeaderNavigation />
+      </Suspense>
     </>
   );
 }

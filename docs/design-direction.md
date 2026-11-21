@@ -4,12 +4,12 @@
 
 The user confirmed that reading France's insights is the primary visitor action. Potential collaborators, event organisers, and people interested in mentorship are secondary audience hypotheses to validate with France.
 
-The homepage opens with an editorial preview and reading action, followed by concise author context, a topic index, further previews, and supporting information about France and her work. The article index and dedicated reading pages make writing directly reachable. This hierarchy follows the confirmed reading goal; it is not a measured conversion result.
+The homepage opens with France's portrait, overlaid navigation, concise copy, a reading action, and a visual story strip. The user supplied this composition through their preferred Oviron reference after rejecting the earlier text-led catalogue. The journal, topic index, and dedicated reading pages keep writing directly reachable. This is a design hypothesis, not a measured conversion result.
 
 ## Decisions
 
-- Use the implemented Perspective Catalogue design: chalk ground, blue-green ink, cool author surface, restrained warm reading action, and upright Hanken Grotesk typography. The earlier ivory/olive/terracotta implementation was rejected.
-- Use the supplied portrait as supporting author context, keeping her face clear across responsive crops. The supplied ASEAN event photo adds context beside Speaking & Mentorship, with a neutral attendance caption.
+- Use the current photographic composition: forest shade over the portrait, white copy, citron reading actions, paper reading surfaces, sage supporting sections, and upright Hanken Grotesk. Both earlier design directions were rejected and no longer govern implementation.
+- Use the supplied portrait as the main opening image, keeping her face clear across responsive crops. The supplied ASEAN photo appears in the story strip and beside Speaking & Mentorship, with a neutral attendance caption.
 - Use plain navigation labels and a consistent contact action.
 - Place real evidence alongside claims once available. Never fill credibility gaps with invented logos, metrics, testimonials, or affiliations.
 - Show sample articles as editorial previews, with conspicuous disclosures on their dedicated reading pages. Do not use modals for reading.
@@ -28,7 +28,7 @@ The homepage opens with an editorial preview and reading action, followed by con
 7. Approved testimonials and client or organisation logos only if she wants them and has permission.
 8. Confirm the reading-first priority with France and supply any further reader/audience research.
 
-The portrait and ASEAN event photograph are supplied assets. A concise project placeholder replaces the previous large decorative image panel; a speaking video has not been supplied. Biography and proposed topics are drafts. CMS, email delivery, and analytics require separate implementation and configuration.
+The portrait and ASEAN photograph are supplied assets. The story strip includes a labelled project-photo placeholder; the Projects section explains that stories are coming soon. A speaking video has not been supplied. Biography and proposed topics are drafts. CMS, email delivery, and analytics require separate implementation and configuration.
 
 ## Validation
 

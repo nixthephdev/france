@@ -16,13 +16,13 @@ The website will showcase her professional background and provide a space for in
 
 ## Visual direction
 
-- The current Perspective Catalogue uses chalk, blue-green ink, a cool author surface, and a restrained warm reading action.
-- Self-hosted Hanken Grotesk carries upright publication typography.
+- The current user-selected reference is the final Oviron screenshot: a portrait-led opening, overlay navigation and white copy, a citron reading action, and a visual story strip.
+- Forest shade, paper reading surfaces and sage supporting sections accompany the actual photograph. Self-hosted Hanken Grotesk carries upright typography.
 - Generous spacing and layouts that work comfortably on small screens.
 - Authentic, approved photography when it is available.
 - Gentle motion that respects reduced-motion preferences.
 
-The initial ivory/olive/terracotta treatment was rejected. Reading insights is the user-confirmed primary action. See PRODUCT.md, DESIGN.md, and docs/homepage-direction.md for the current implementation and decision context.
+The initial ivory/olive/terracotta treatment and the subsequent text-led catalogue were rejected. Reading insights remains the user-confirmed primary action. See PRODUCT.md, DESIGN.md, and docs/homepage-direction.md for the current implementation and decision context.
 
 The supplied profile's line, "Growing businesses, people and purpose", anchors the first design. Draft content must be reviewed before launch. Do not invent clients, affiliations, testimonials, events, or impact metrics.
 

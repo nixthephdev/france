@@ -7,9 +7,9 @@ Repository: https://github.com/nixthephdev/france
 ## Current website
 
 - Next.js App Router, React, and TypeScript.
-- A publication layout built around reading, with self-hosted Hanken Grotesk typography.
+- A portrait-led homepage based on the user's supplied Oviron reference, with self-hosted Hanken Grotesk typography.
 - Tailwind CSS and customised shadcn/ui mobile navigation.
-- A featured editorial preview, author introduction, topic index, and supporting About, Speaking, Projects, and Contact sections.
+- Overlay navigation, a prominent reading action, and a visual story strip; a journal, topic index, and supporting About, Speaking, Projects, and Contact sections.
 - A dedicated `/insights` index with shareable topic filters and three preview reading routes.
 - Supplied portrait and event photographs; unfinished biography and project content are clearly identified.
 - Direct LinkedIn contact links and a recovery page for unknown routes.

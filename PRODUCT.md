@@ -28,6 +28,8 @@ The client's stated direction: minimalist, sophisticated, warm, and purpose-driv
 
 The user rejected the first design as ugly and generic despite the installed skills. Its cream, olive, terracotta, repeated italic headings, identical section treatment, and decorative shapes are rejected implementation choices, not a required visual identity. A redesign is authorised.
 
+The user also rejected the subsequent text-led catalogue and supplied visual references, explicitly preferring the final Oviron consulting screenshot. The current direction uses an immersive portrait, overlaid navigation and concise copy, a citron reading action, and a visual story strip. This supersedes the catalogue's essay-first composition while keeping reading insights the primary action. Temporary media placeholders are authorised.
+
 ## Open Decisions
 
 Preferred public display name, final biography and article copy, publication cadence, project evidence, and the production domain remain unconfirmed.

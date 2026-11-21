@@ -4,11 +4,11 @@ The user supplied these two downloaded photographs for the website. The original
 
 | File | Dimensions | Placement |
 | --- | --- | --- |
-| public/images/france-portrait.jpg | 2048 × 2048 | Homepage author strip |
-| public/images/france-asean-event.jpg | 1920 × 2048 | Speaking & Mentorship section |
+| public/images/france-portrait.jpg | 2048 × 2048 | Hero, personal story thumbnail, desktop About portrait |
+| public/images/france-asean-event.jpg | 1920 × 2048 | Story thumbnail and Speaking & Mentorship section |
 
-Next.js Image generates responsive image sources and provides blur placeholders. Both photographs use native lazy loading in their supporting positions. Containers reserve their dimensions to avoid layout shifts.
+Next.js Image generates responsive sources and blur placeholders. The hero photograph is preloaded; supporting positions use native lazy loading. Containers reserve dimensions to avoid layout shifts. CSS overlays provide legibility and responsive crops; the original photographic pixels remain unchanged.
 
 The event caption describes only what the supplied image establishes. It does not claim France spoke at, represented, or organised the event. Event title, date, photographer credit, and any additional context can be added when supplied.
 
-No project photograph or speaking video has been supplied. The Projects section uses a concise text placeholder rather than decorative imagery.
+No project photograph or speaking video has been supplied. A sage story window explicitly says the project photograph is coming soon and links to the Projects section. It is a temporary placeholder, not a fabricated project image.

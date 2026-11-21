@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   description:
     "Explore perspectives on entrepreneurship, business strategy, sustainability, and mentorship from Olga France Blas-Obias.",
 };
-export const viewport: Viewport = { themeColor: "#f5f8f7" };
+export const viewport: Viewport = { themeColor: "#f6f6f0" };
 
 export default function RootLayout({
   children,

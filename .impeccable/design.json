@@ -1,414 +1,1264 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-11-21T13:06:14.279Z",
+  "generatedAt": "2026-11-21T13:42:23.190Z",
   "title": "Design System: France",
   "extensions": {
     "colorMeta": {
-      "chalk": {
-        "role": "neutral",
-        "displayName": "Chalk",
-        "canonical": "#f5f8f7",
+      "forest": {
+        "role": "primary",
+        "displayName": "forest",
+        "canonical": "#182c25",
         "tonalRamp": [
-          "oklch(15% 0.0036 175)",
-          "oklch(27% 0.0072 175)",
-          "oklch(39% 0.0102 175)",
-          "oklch(51% 0.0120 175)",
-          "oklch(63% 0.0120 175)",
-          "oklch(75% 0.0102 175)",
-          "oklch(87% 0.0060 175)",
-          "oklch(95% 0.0024 175)"
+          "oklch(15% 0.0064 169.90)",
+          "oklch(27% 0.0174 169.90)",
+          "oklch(38% 0.0274 169.90)",
+          "oklch(50% 0.0293 169.90)",
+          "oklch(61% 0.0293 169.90)",
+          "oklch(73% 0.0293 169.90)",
+          "oklch(84% 0.0239 169.90)",
+          "oklch(95% 0.0093 169.90)"
         ]
       },
-      "ink": {
-        "role": "primary",
-        "displayName": "Blue-green ink",
-        "canonical": "#173e46",
+      "paper": {
+        "role": "neutral",
+        "displayName": "paper",
+        "canonical": "#f6f6f0",
         "tonalRamp": [
-          "oklch(15% 0.0135 212)",
-          "oklch(27% 0.0270 212)",
-          "oklch(39% 0.0382 212)",
-          "oklch(51% 0.0450 212)",
-          "oklch(63% 0.0450 212)",
-          "oklch(75% 0.0382 212)",
-          "oklch(87% 0.0225 212)",
-          "oklch(95% 0.0090 212)"
+          "oklch(15% 0.0017 106.55)",
+          "oklch(27% 0.0047 106.55)",
+          "oklch(38% 0.0074 106.55)",
+          "oklch(50% 0.0079 106.55)",
+          "oklch(61% 0.0079 106.55)",
+          "oklch(73% 0.0079 106.55)",
+          "oklch(84% 0.0065 106.55)",
+          "oklch(95% 0.0025 106.55)"
+        ]
+      },
+      "citron": {
+        "role": "primary",
+        "displayName": "citron",
+        "canonical": "#d9ee9c",
+        "tonalRamp": [
+          "oklch(15% 0.0235 120.25)",
+          "oklch(27% 0.0637 120.25)",
+          "oklch(38% 0.1006 120.25)",
+          "oklch(50% 0.1073 120.25)",
+          "oklch(61% 0.1073 120.25)",
+          "oklch(73% 0.1073 120.25)",
+          "oklch(84% 0.0878 120.25)",
+          "oklch(95% 0.0342 120.25)"
+        ]
+      },
+      "citron-hover": {
+        "role": "primary",
+        "displayName": "citron hover",
+        "canonical": "#e6f7b8",
+        "tonalRamp": [
+          "oklch(15% 0.0182 120.27)",
+          "oklch(27% 0.0495 120.27)",
+          "oklch(38% 0.0782 120.27)",
+          "oklch(50% 0.0834 120.27)",
+          "oklch(61% 0.0834 120.27)",
+          "oklch(73% 0.0834 120.27)",
+          "oklch(84% 0.0682 120.27)",
+          "oklch(95% 0.0265 120.27)"
+        ]
+      },
+      "sage": {
+        "role": "secondary",
+        "displayName": "sage",
+        "canonical": "#dce5d8",
+        "tonalRamp": [
+          "oklch(15% 0.0044 135.84)",
+          "oklch(27% 0.0118 135.84)",
+          "oklch(38% 0.0186 135.84)",
+          "oklch(50% 0.0199 135.84)",
+          "oklch(61% 0.0199 135.84)",
+          "oklch(73% 0.0199 135.84)",
+          "oklch(84% 0.0163 135.84)",
+          "oklch(95% 0.0063 135.84)"
+        ]
+      },
+      "surface": {
+        "role": "secondary",
+        "displayName": "surface",
+        "canonical": "#e6eade",
+        "tonalRamp": [
+          "oklch(15% 0.0036 121.78)",
+          "oklch(27% 0.0098 121.78)",
+          "oklch(38% 0.0155 121.78)",
+          "oklch(50% 0.0165 121.78)",
+          "oklch(61% 0.0165 121.78)",
+          "oklch(73% 0.0165 121.78)",
+          "oklch(84% 0.0135 121.78)",
+          "oklch(95% 0.0053 121.78)"
         ]
       },
       "secondary-text": {
         "role": "neutral",
-        "displayName": "Secondary text",
-        "canonical": "#436168",
+        "displayName": "secondary text",
+        "canonical": "#526057",
         "tonalRamp": [
-          "oklch(15% 0.0105 211)",
-          "oklch(27% 0.0210 211)",
-          "oklch(39% 0.0298 211)",
-          "oklch(51% 0.0350 211)",
-          "oklch(63% 0.0350 211)",
-          "oklch(75% 0.0298 211)",
-          "oklch(87% 0.0175 211)",
-          "oklch(95% 0.0070 211)"
+          "oklch(15% 0.0049 157.25)",
+          "oklch(27% 0.0133 157.25)",
+          "oklch(38% 0.0210 157.25)",
+          "oklch(50% 0.0224 157.25)",
+          "oklch(61% 0.0224 157.25)",
+          "oklch(73% 0.0224 157.25)",
+          "oklch(84% 0.0184 157.25)",
+          "oklch(95% 0.0071 157.25)"
         ]
       },
-      "author-surface": {
+      "accent-ink": {
         "role": "neutral",
-        "displayName": "Cool author surface",
-        "canonical": "#e0ece9",
+        "displayName": "accent ink",
+        "canonical": "#3d5122",
         "tonalRamp": [
-          "oklch(15% 0.0075 175)",
-          "oklch(27% 0.0150 175)",
-          "oklch(39% 0.0213 175)",
-          "oklch(51% 0.0250 175)",
-          "oklch(63% 0.0250 175)",
-          "oklch(75% 0.0213 175)",
-          "oklch(87% 0.0125 175)",
-          "oklch(95% 0.0050 175)"
-        ]
-      },
-      "reading-gold": {
-        "role": "primary",
-        "displayName": "Reading gold",
-        "canonical": "#dfc47e",
-        "tonalRamp": [
-          "oklch(15% 0.0270 88)",
-          "oklch(27% 0.0540 88)",
-          "oklch(39% 0.0765 88)",
-          "oklch(51% 0.0900 88)",
-          "oklch(63% 0.0900 88)",
-          "oklch(75% 0.0765 88)",
-          "oklch(87% 0.0450 88)",
-          "oklch(95% 0.0180 88)"
-        ]
-      },
-      "reading-gold-hover": {
-        "role": "primary",
-        "displayName": "Reading gold hover",
-        "canonical": "#d3b368",
-        "tonalRamp": [
-          "oklch(15% 0.0300 85)",
-          "oklch(27% 0.0600 85)",
-          "oklch(39% 0.0850 85)",
-          "oklch(51% 0.1000 85)",
-          "oklch(63% 0.1000 85)",
-          "oklch(75% 0.0850 85)",
-          "oklch(87% 0.0500 85)",
-          "oklch(95% 0.0200 85)"
-        ]
-      },
-      "preview-ink": {
-        "role": "secondary",
-        "displayName": "Preview ink",
-        "canonical": "#66501e",
-        "tonalRamp": [
-          "oklch(15% 0.0210 85)",
-          "oklch(27% 0.0420 85)",
-          "oklch(39% 0.0595 85)",
-          "oklch(51% 0.0700 85)",
-          "oklch(63% 0.0700 85)",
-          "oklch(75% 0.0595 85)",
-          "oklch(87% 0.0350 85)",
-          "oklch(95% 0.0140 85)"
-        ]
-      },
-      "gold-link": {
-        "role": "secondary",
-        "displayName": "Gold link",
-        "canonical": "#735c27",
-        "tonalRamp": [
-          "oklch(15% 0.0210 85)",
-          "oklch(27% 0.0420 85)",
-          "oklch(39% 0.0595 85)",
-          "oklch(51% 0.0700 85)",
-          "oklch(63% 0.0700 85)",
-          "oklch(75% 0.0595 85)",
-          "oklch(87% 0.0350 85)",
-          "oklch(95% 0.0140 85)"
-        ]
-      },
-      "gold-rule": {
-        "role": "secondary",
-        "displayName": "Gold rule",
-        "canonical": "#b99a50",
-        "tonalRamp": [
-          "oklch(15% 0.0270 85)",
-          "oklch(27% 0.0540 85)",
-          "oklch(39% 0.0765 85)",
-          "oklch(51% 0.0900 85)",
-          "oklch(63% 0.0900 85)",
-          "oklch(75% 0.0765 85)",
-          "oklch(87% 0.0450 85)",
-          "oklch(95% 0.0180 85)"
+          "oklch(15% 0.0164 128.45)",
+          "oklch(27% 0.0446 128.45)",
+          "oklch(38% 0.0705 128.45)",
+          "oklch(50% 0.0752 128.45)",
+          "oklch(61% 0.0752 128.45)",
+          "oklch(73% 0.0752 128.45)",
+          "oklch(84% 0.0615 128.45)",
+          "oklch(95% 0.0239 128.45)"
         ]
       },
       "line": {
         "role": "neutral",
-        "displayName": "Line",
-        "canonical": "#b9cdcb",
+        "displayName": "line",
+        "canonical": "#cdd3c6",
         "tonalRamp": [
-          "oklch(15% 0.0075 188)",
-          "oklch(27% 0.0150 188)",
-          "oklch(39% 0.0213 188)",
-          "oklch(51% 0.0250 188)",
-          "oklch(63% 0.0250 188)",
-          "oklch(75% 0.0213 188)",
-          "oklch(87% 0.0125 188)",
-          "oklch(95% 0.0050 188)"
+          "oklch(15% 0.0041 127.18)",
+          "oklch(27% 0.0112 127.18)",
+          "oklch(38% 0.0176 127.18)",
+          "oklch(50% 0.0188 127.18)",
+          "oklch(61% 0.0188 127.18)",
+          "oklch(73% 0.0188 127.18)",
+          "oklch(84% 0.0154 127.18)",
+          "oklch(95% 0.0060 127.18)"
+        ]
+      },
+      "white": {
+        "role": "neutral",
+        "displayName": "white",
+        "canonical": "#ffffff",
+        "tonalRamp": [
+          "oklch(15% 0.0000 89.88)",
+          "oklch(27% 0.0000 89.88)",
+          "oklch(38% 0.0000 89.88)",
+          "oklch(50% 0.0000 89.88)",
+          "oklch(61% 0.0000 89.88)",
+          "oklch(73% 0.0000 89.88)",
+          "oklch(84% 0.0000 89.88)",
+          "oklch(95% 0.0000 89.88)"
+        ]
+      },
+      "soft-white": {
+        "role": "neutral",
+        "displayName": "soft white",
+        "canonical": "#edf2e9",
+        "tonalRamp": [
+          "oklch(15% 0.0029 130.78)",
+          "oklch(27% 0.0077 130.78)",
+          "oklch(38% 0.0122 130.78)",
+          "oklch(50% 0.0130 130.78)",
+          "oklch(61% 0.0130 130.78)",
+          "oklch(73% 0.0130 130.78)",
+          "oklch(84% 0.0107 130.78)",
+          "oklch(95% 0.0041 130.78)"
+        ]
+      },
+      "placeholder-ink": {
+        "role": "neutral",
+        "displayName": "placeholder ink",
+        "canonical": "#435343",
+        "tonalRamp": [
+          "oklch(15% 0.0072 144.97)",
+          "oklch(27% 0.0196 144.97)",
+          "oklch(38% 0.0309 144.97)",
+          "oklch(50% 0.0329 144.97)",
+          "oklch(61% 0.0329 144.97)",
+          "oklch(73% 0.0329 144.97)",
+          "oklch(84% 0.0269 144.97)",
+          "oklch(95% 0.0105 144.97)"
+        ]
+      },
+      "sage-rule": {
+        "role": "neutral",
+        "displayName": "sage rule",
+        "canonical": "#bdc8b6",
+        "tonalRamp": [
+          "oklch(15% 0.0060 133.02)",
+          "oklch(27% 0.0163 133.02)",
+          "oklch(38% 0.0258 133.02)",
+          "oklch(50% 0.0275 133.02)",
+          "oklch(61% 0.0275 133.02)",
+          "oklch(73% 0.0275 133.02)",
+          "oklch(84% 0.0225 133.02)",
+          "oklch(95% 0.0088 133.02)"
         ]
       },
       "inverse-copy": {
         "role": "neutral",
-        "displayName": "Inverse copy",
-        "canonical": "#d5e2df",
+        "displayName": "inverse copy",
+        "canonical": "#dae3d7",
         "tonalRamp": [
-          "oklch(15% 0.0060 175)",
-          "oklch(27% 0.0120 175)",
-          "oklch(39% 0.0170 175)",
-          "oklch(51% 0.0200 175)",
-          "oklch(63% 0.0200 175)",
-          "oklch(75% 0.0170 175)",
-          "oklch(87% 0.0100 175)",
-          "oklch(95% 0.0040 175)"
+          "oklch(15% 0.0041 137.80)",
+          "oklch(27% 0.0111 137.80)",
+          "oklch(38% 0.0176 137.80)",
+          "oklch(50% 0.0188 137.80)",
+          "oklch(61% 0.0188 137.80)",
+          "oklch(73% 0.0188 137.80)",
+          "oklch(84% 0.0154 137.80)",
+          "oklch(95% 0.0060 137.80)"
         ]
       },
-      "inverse-caption": {
+      "brand-period": {
         "role": "neutral",
-        "displayName": "Inverse caption",
-        "canonical": "#c2d4d3",
+        "displayName": "brand period",
+        "canonical": "#789044",
         "tonalRamp": [
-          "oklch(15% 0.0075 185)",
-          "oklch(27% 0.0150 185)",
-          "oklch(39% 0.0213 185)",
-          "oklch(51% 0.0250 185)",
-          "oklch(63% 0.0250 185)",
-          "oklch(75% 0.0213 185)",
-          "oklch(87% 0.0125 185)",
-          "oklch(95% 0.0050 185)"
+          "oklch(15% 0.0233 123.98)",
+          "oklch(27% 0.0632 123.98)",
+          "oklch(38% 0.0997 123.98)",
+          "oklch(50% 0.1064 123.98)",
+          "oklch(61% 0.1064 123.98)",
+          "oklch(73% 0.1064 123.98)",
+          "oklch(84% 0.0870 123.98)",
+          "oklch(95% 0.0338 123.98)"
         ]
       },
-      "inverse-rule": {
+      "scrollbar": {
         "role": "neutral",
-        "displayName": "Inverse rule",
-        "canonical": "#557779",
+        "displayName": "scrollbar",
+        "canonical": "#87937d",
         "tonalRamp": [
-          "oklch(15% 0.0105 191)",
-          "oklch(27% 0.0210 191)",
-          "oklch(39% 0.0298 191)",
-          "oklch(51% 0.0350 191)",
-          "oklch(63% 0.0350 191)",
-          "oklch(75% 0.0298 191)",
-          "oklch(87% 0.0175 191)",
-          "oklch(95% 0.0070 191)"
+          "oklch(15% 0.0076 130.79)",
+          "oklch(27% 0.0207 130.79)",
+          "oklch(38% 0.0327 130.79)",
+          "oklch(50% 0.0348 130.79)",
+          "oklch(61% 0.0348 130.79)",
+          "oklch(73% 0.0348 130.79)",
+          "oklch(84% 0.0285 130.79)",
+          "oklch(95% 0.0111 130.79)"
         ]
       },
-      "inverse-link": {
-        "role": "secondary",
-        "displayName": "Inverse link",
-        "canonical": "#e5cc8c",
+      "rail-scrollbar": {
+        "role": "neutral",
+        "displayName": "rail scrollbar",
+        "canonical": "#b9ce9f",
         "tonalRamp": [
-          "oklch(15% 0.0240 88)",
-          "oklch(27% 0.0480 88)",
-          "oklch(39% 0.0680 88)",
-          "oklch(51% 0.0800 88)",
-          "oklch(63% 0.0800 88)",
-          "oklch(75% 0.0680 88)",
-          "oklch(87% 0.0400 88)",
-          "oklch(95% 0.0160 88)"
+          "oklch(15% 0.0148 127.40)",
+          "oklch(27% 0.0401 127.40)",
+          "oklch(38% 0.0634 127.40)",
+          "oklch(50% 0.0676 127.40)",
+          "oklch(61% 0.0676 127.40)",
+          "oklch(73% 0.0676 127.40)",
+          "oklch(84% 0.0553 127.40)",
+          "oklch(95% 0.0215 127.40)"
+        ]
+      },
+      "tap-highlight": {
+        "role": "neutral",
+        "displayName": "tap highlight",
+        "canonical": "#d9ee9c66",
+        "tonalRamp": [
+          "oklch(15% 0.0235 120.25)",
+          "oklch(27% 0.0637 120.25)",
+          "oklch(38% 0.1006 120.25)",
+          "oklch(50% 0.1073 120.25)",
+          "oklch(61% 0.1073 120.25)",
+          "oklch(73% 0.1073 120.25)",
+          "oklch(84% 0.0878 120.25)",
+          "oklch(95% 0.0342 120.25)"
+        ]
+      },
+      "menu-hover": {
+        "role": "neutral",
+        "displayName": "menu hover",
+        "canonical": "#52605722",
+        "tonalRamp": [
+          "oklch(15% 0.0049 157.25)",
+          "oklch(27% 0.0133 157.25)",
+          "oklch(38% 0.0210 157.25)",
+          "oklch(50% 0.0224 157.25)",
+          "oklch(61% 0.0224 157.25)",
+          "oklch(73% 0.0224 157.25)",
+          "oklch(84% 0.0184 157.25)",
+          "oklch(95% 0.0071 157.25)"
+        ]
+      },
+      "inverse-menu-hover": {
+        "role": "neutral",
+        "displayName": "inverse menu hover",
+        "canonical": "#ffffff22",
+        "tonalRamp": [
+          "oklch(15% 0.0000 89.88)",
+          "oklch(27% 0.0000 89.88)",
+          "oklch(38% 0.0000 89.88)",
+          "oklch(50% 0.0000 89.88)",
+          "oklch(61% 0.0000 89.88)",
+          "oklch(73% 0.0000 89.88)",
+          "oklch(84% 0.0000 89.88)",
+          "oklch(95% 0.0000 89.88)"
+        ]
+      },
+      "rail-track": {
+        "role": "neutral",
+        "displayName": "rail track",
+        "canonical": "#ffffff20",
+        "tonalRamp": [
+          "oklch(15% 0.0000 89.88)",
+          "oklch(27% 0.0000 89.88)",
+          "oklch(38% 0.0000 89.88)",
+          "oklch(50% 0.0000 89.88)",
+          "oklch(61% 0.0000 89.88)",
+          "oklch(73% 0.0000 89.88)",
+          "oklch(84% 0.0000 89.88)",
+          "oklch(95% 0.0000 89.88)"
+        ]
+      },
+      "sheet-scrim": {
+        "role": "neutral",
+        "displayName": "sheet scrim",
+        "canonical": "rgb(0 0 0 / 0.5)",
+        "tonalRamp": [
+          "oklch(15% 0.0000 0.00)",
+          "oklch(27% 0.0000 0.00)",
+          "oklch(38% 0.0000 0.00)",
+          "oklch(50% 0.0000 0.00)",
+          "oklch(61% 0.0000 0.00)",
+          "oklch(73% 0.0000 0.00)",
+          "oklch(84% 0.0000 0.00)",
+          "oklch(95% 0.0000 0.00)"
+        ]
+      },
+      "shade-10231ff5": {
+        "role": "neutral",
+        "displayName": "shade 10231ff5",
+        "canonical": "#10231ff5",
+        "tonalRamp": [
+          "oklch(15% 0.0058 178.85)",
+          "oklch(27% 0.0156 178.85)",
+          "oklch(38% 0.0247 178.85)",
+          "oklch(50% 0.0263 178.85)",
+          "oklch(61% 0.0263 178.85)",
+          "oklch(73% 0.0263 178.85)",
+          "oklch(84% 0.0215 178.85)",
+          "oklch(95% 0.0084 178.85)"
+        ]
+      },
+      "shade-10231f99": {
+        "role": "neutral",
+        "displayName": "shade 10231f99",
+        "canonical": "#10231f99",
+        "tonalRamp": [
+          "oklch(15% 0.0058 178.85)",
+          "oklch(27% 0.0156 178.85)",
+          "oklch(38% 0.0247 178.85)",
+          "oklch(50% 0.0263 178.85)",
+          "oklch(61% 0.0263 178.85)",
+          "oklch(73% 0.0263 178.85)",
+          "oklch(84% 0.0215 178.85)",
+          "oklch(95% 0.0084 178.85)"
+        ]
+      },
+      "shade-10231f00": {
+        "role": "neutral",
+        "displayName": "shade 10231f00",
+        "canonical": "#10231f00",
+        "tonalRamp": [
+          "oklch(15% 0.0058 178.85)",
+          "oklch(27% 0.0156 178.85)",
+          "oklch(38% 0.0247 178.85)",
+          "oklch(50% 0.0263 178.85)",
+          "oklch(61% 0.0263 178.85)",
+          "oklch(73% 0.0263 178.85)",
+          "oklch(84% 0.0215 178.85)",
+          "oklch(95% 0.0084 178.85)"
+        ]
+      },
+      "shade-182c25ed": {
+        "role": "neutral",
+        "displayName": "shade 182c25ed",
+        "canonical": "#182c25ed",
+        "tonalRamp": [
+          "oklch(15% 0.0064 169.90)",
+          "oklch(27% 0.0174 169.90)",
+          "oklch(38% 0.0274 169.90)",
+          "oklch(50% 0.0293 169.90)",
+          "oklch(61% 0.0293 169.90)",
+          "oklch(73% 0.0293 169.90)",
+          "oklch(84% 0.0239 169.90)",
+          "oklch(95% 0.0093 169.90)"
+        ]
+      },
+      "shade-182c25a8": {
+        "role": "neutral",
+        "displayName": "shade 182c25a8",
+        "canonical": "#182c25a8",
+        "tonalRamp": [
+          "oklch(15% 0.0064 169.90)",
+          "oklch(27% 0.0174 169.90)",
+          "oklch(38% 0.0274 169.90)",
+          "oklch(50% 0.0293 169.90)",
+          "oklch(61% 0.0293 169.90)",
+          "oklch(73% 0.0293 169.90)",
+          "oklch(84% 0.0239 169.90)",
+          "oklch(95% 0.0093 169.90)"
+        ]
+      },
+      "shade-182c2514": {
+        "role": "neutral",
+        "displayName": "shade 182c2514",
+        "canonical": "#182c2514",
+        "tonalRamp": [
+          "oklch(15% 0.0064 169.90)",
+          "oklch(27% 0.0174 169.90)",
+          "oklch(38% 0.0274 169.90)",
+          "oklch(50% 0.0293 169.90)",
+          "oklch(61% 0.0293 169.90)",
+          "oklch(73% 0.0293 169.90)",
+          "oklch(84% 0.0239 169.90)",
+          "oklch(95% 0.0093 169.90)"
+        ]
+      },
+      "shade-182c2500": {
+        "role": "neutral",
+        "displayName": "shade 182c2500",
+        "canonical": "#182c2500",
+        "tonalRamp": [
+          "oklch(15% 0.0064 169.90)",
+          "oklch(27% 0.0174 169.90)",
+          "oklch(38% 0.0274 169.90)",
+          "oklch(50% 0.0293 169.90)",
+          "oklch(61% 0.0293 169.90)",
+          "oklch(73% 0.0293 169.90)",
+          "oklch(84% 0.0239 169.90)",
+          "oklch(95% 0.0093 169.90)"
+        ]
+      },
+      "shade-10231f85": {
+        "role": "neutral",
+        "displayName": "shade 10231f85",
+        "canonical": "#10231f85",
+        "tonalRamp": [
+          "oklch(15% 0.0058 178.85)",
+          "oklch(27% 0.0156 178.85)",
+          "oklch(38% 0.0247 178.85)",
+          "oklch(50% 0.0263 178.85)",
+          "oklch(61% 0.0263 178.85)",
+          "oklch(73% 0.0263 178.85)",
+          "oklch(84% 0.0215 178.85)",
+          "oklch(95% 0.0084 178.85)"
+        ]
+      },
+      "shade-10231ff2": {
+        "role": "neutral",
+        "displayName": "shade 10231ff2",
+        "canonical": "#10231ff2",
+        "tonalRamp": [
+          "oklch(15% 0.0058 178.85)",
+          "oklch(27% 0.0156 178.85)",
+          "oklch(38% 0.0247 178.85)",
+          "oklch(50% 0.0263 178.85)",
+          "oklch(61% 0.0263 178.85)",
+          "oklch(73% 0.0263 178.85)",
+          "oklch(84% 0.0215 178.85)",
+          "oklch(95% 0.0084 178.85)"
+        ]
+      },
+      "shade-182c25e0": {
+        "role": "neutral",
+        "displayName": "shade 182c25e0",
+        "canonical": "#182c25e0",
+        "tonalRamp": [
+          "oklch(15% 0.0064 169.90)",
+          "oklch(27% 0.0174 169.90)",
+          "oklch(38% 0.0274 169.90)",
+          "oklch(50% 0.0293 169.90)",
+          "oklch(61% 0.0293 169.90)",
+          "oklch(73% 0.0293 169.90)",
+          "oklch(84% 0.0239 169.90)",
+          "oklch(95% 0.0093 169.90)"
+        ]
+      },
+      "shade-182c2577": {
+        "role": "neutral",
+        "displayName": "shade 182c2577",
+        "canonical": "#182c2577",
+        "tonalRamp": [
+          "oklch(15% 0.0064 169.90)",
+          "oklch(27% 0.0174 169.90)",
+          "oklch(38% 0.0274 169.90)",
+          "oklch(50% 0.0293 169.90)",
+          "oklch(61% 0.0293 169.90)",
+          "oklch(73% 0.0293 169.90)",
+          "oklch(84% 0.0239 169.90)",
+          "oklch(95% 0.0093 169.90)"
+        ]
+      },
+      "shade-10231f80": {
+        "role": "neutral",
+        "displayName": "shade 10231f80",
+        "canonical": "#10231f80",
+        "tonalRamp": [
+          "oklch(15% 0.0058 178.85)",
+          "oklch(27% 0.0156 178.85)",
+          "oklch(38% 0.0247 178.85)",
+          "oklch(50% 0.0263 178.85)",
+          "oklch(61% 0.0263 178.85)",
+          "oklch(73% 0.0263 178.85)",
+          "oklch(84% 0.0215 178.85)",
+          "oklch(95% 0.0084 178.85)"
+        ]
+      },
+      "shade-182c25d9": {
+        "role": "neutral",
+        "displayName": "shade 182c25d9",
+        "canonical": "#182c25d9",
+        "tonalRamp": [
+          "oklch(15% 0.0064 169.90)",
+          "oklch(27% 0.0174 169.90)",
+          "oklch(38% 0.0274 169.90)",
+          "oklch(50% 0.0293 169.90)",
+          "oklch(61% 0.0293 169.90)",
+          "oklch(73% 0.0293 169.90)",
+          "oklch(84% 0.0239 169.90)",
+          "oklch(95% 0.0093 169.90)"
         ]
       }
     },
     "typographyMeta": {
-      "display": {
-        "displayName": "Essay display",
-        "purpose": "Large upright cover title; responsive sizes belong to the snippet and DESIGN.md."
+      "hero": {
+        "displayName": "hero",
+        "purpose": "Implemented semantic type role."
+      },
+      "hero-mobile": {
+        "displayName": "hero mobile",
+        "purpose": "Implemented semantic type role."
+      },
+      "reading-display": {
+        "displayName": "reading display",
+        "purpose": "Implemented semantic type role."
+      },
+      "article-display": {
+        "displayName": "article display",
+        "purpose": "Implemented semantic type role."
       },
       "headline": {
-        "displayName": "Section headline",
-        "purpose": "Medium-weight section headings."
+        "displayName": "headline",
+        "purpose": "Implemented semantic type role."
       },
-      "title": {
-        "displayName": "Insight title",
-        "purpose": "Linked editorial record headings."
+      "contact-headline": {
+        "displayName": "contact headline",
+        "purpose": "Implemented semantic type role."
+      },
+      "insight-title": {
+        "displayName": "insight title",
+        "purpose": "Implemented semantic type role."
+      },
+      "about-lead": {
+        "displayName": "about lead",
+        "purpose": "Implemented semantic type role."
+      },
+      "story-title": {
+        "displayName": "story title",
+        "purpose": "Implemented semantic type role."
       },
       "body": {
-        "displayName": "Body",
-        "purpose": "Default interface and page copy."
+        "displayName": "body",
+        "purpose": "Implemented semantic type role."
       },
-      "article": {
-        "displayName": "Article prose",
-        "purpose": "Long reading at 68ch maximum."
+      "article-body": {
+        "displayName": "article body",
+        "purpose": "Implemented semantic type role."
       },
-      "label": {
-        "displayName": "Metadata",
-        "purpose": "Natural-case article metadata."
+      "article-body-mobile": {
+        "displayName": "article body mobile",
+        "purpose": "Implemented semantic type role."
       },
-      "reading-action": {
-        "displayName": "Reading action",
-        "purpose": "Primary reading link text."
+      "action": {
+        "displayName": "action",
+        "purpose": "Implemented semantic type role."
+      },
+      "metadata": {
+        "displayName": "metadata",
+        "purpose": "Implemented semantic type role."
+      },
+      "story-caption": {
+        "displayName": "story caption",
+        "purpose": "Implemented semantic type role."
+      },
+      "brand": {
+        "displayName": "brand",
+        "purpose": "Implemented semantic type role."
+      },
+      "brand-byline": {
+        "displayName": "brand byline",
+        "purpose": "Implemented semantic type role."
+      },
+      "menu-title": {
+        "displayName": "menu title",
+        "purpose": "Implemented semantic type role."
+      },
+      "size-14": {
+        "displayName": "size 14",
+        "purpose": "Observed supporting or responsive size; see sourceTypography for context."
+      },
+      "size-18": {
+        "displayName": "size 18",
+        "purpose": "Observed supporting or responsive size; see sourceTypography for context."
+      },
+      "size-24": {
+        "displayName": "size 24",
+        "purpose": "Observed supporting or responsive size; see sourceTypography for context."
+      },
+      "size-32": {
+        "displayName": "size 32",
+        "purpose": "Observed supporting or responsive size; see sourceTypography for context."
+      },
+      "size-23": {
+        "displayName": "size 23",
+        "purpose": "Observed supporting or responsive size; see sourceTypography for context."
+      },
+      "size-27": {
+        "displayName": "size 27",
+        "purpose": "Observed supporting or responsive size; see sourceTypography for context."
+      },
+      "size-33": {
+        "displayName": "size 33",
+        "purpose": "Observed supporting or responsive size; see sourceTypography for context."
+      },
+      "size-11": {
+        "displayName": "size 11",
+        "purpose": "Observed supporting or responsive size; see sourceTypography for context."
+      },
+      "size-55": {
+        "displayName": "size 55",
+        "purpose": "Observed supporting or responsive size; see sourceTypography for context."
+      },
+      "size-49": {
+        "displayName": "size 49",
+        "purpose": "Observed supporting or responsive size; see sourceTypography for context."
+      },
+      "size-31": {
+        "displayName": "size 31",
+        "purpose": "Observed supporting or responsive size; see sourceTypography for context."
+      },
+      "size-26": {
+        "displayName": "size 26",
+        "purpose": "Observed supporting or responsive size; see sourceTypography for context."
+      },
+      "size-29": {
+        "displayName": "size 29",
+        "purpose": "Observed supporting or responsive size; see sourceTypography for context."
+      },
+      "size-22": {
+        "displayName": "size 22",
+        "purpose": "Observed supporting or responsive size; see sourceTypography for context."
+      },
+      "size-48": {
+        "displayName": "size 48",
+        "purpose": "Observed supporting or responsive size; see sourceTypography for context."
+      },
+      "size-42": {
+        "displayName": "size 42",
+        "purpose": "Observed supporting or responsive size; see sourceTypography for context."
+      },
+      "size-20": {
+        "displayName": "size 20",
+        "purpose": "Observed supporting or responsive size; see sourceTypography for context."
+      },
+      "size-34": {
+        "displayName": "size 34",
+        "purpose": "Observed supporting or responsive size; see sourceTypography for context."
       }
     },
     "shadows": [
       {
-        "name": "sheet-large",
+        "name": "portrait-signature",
+        "value": "0 2px 12px #182c25",
+        "purpose": "Text shadow over portrait."
+      },
+      {
+        "name": "mobile-sheet",
         "value": "0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1)",
-        "purpose": "Mobile dialog only; page content remains flat."
+        "purpose": "Modal navigation only."
+      }
+    ],
+    "gradients": [
+      {
+        "name": "hero-1",
+        "value": "linear-gradient(0deg, #10231ff5 0%, #10231f99 16%, #10231f00 48%), linear-gradient(90deg, #182c25 9%, #182c25ed 26%, #182c25a8 42%, #182c2514 65%, #182c2500 100%), linear-gradient(180deg, #10231f85 0%, #10231f00 24%)",
+        "purpose": "Actual responsive photographic contrast overlay; hero order: desktop, <=1100px, <=720px."
+      },
+      {
+        "name": "photo-window",
+        "value": "linear-gradient(0deg, #10231ff2, #10231f00 80%)",
+        "purpose": "Actual responsive photographic contrast overlay; hero order: desktop, <=1100px, <=720px."
+      },
+      {
+        "name": "hero-2",
+        "value": "linear-gradient(0deg, #10231ff5, #10231f00 47%), linear-gradient(90deg, #182c25 5%, #182c25e0 25%, #182c2577 50%, #182c2500 80%), linear-gradient(180deg, #10231f99, #10231f00 28%)",
+        "purpose": "Actual responsive photographic contrast overlay; hero order: desktop, <=1100px, <=720px."
+      },
+      {
+        "name": "hero-3",
+        "value": "linear-gradient(180deg, #10231f80 0%, #182c2500 16%, #182c2500 26%, #182c25d9 42%, #182c25 58%)",
+        "purpose": "Actual responsive photographic contrast overlay; hero order: desktop, <=1100px, <=720px."
       }
     ],
     "motion": [
       {
         "name": "ease-out",
-        "value": "cubic-bezier(0.2, 0.7, 0.2, 1)",
-        "purpose": "Site state changes."
+        "value": "cubic-bezier(0.2,0.7,0.2,1)",
+        "purpose": "Site transitions."
       },
       {
-        "name": "navigation-topic",
-        "value": "160ms",
-        "purpose": "Navigation border and topic color transitions."
-      },
-      {
-        "name": "reading-action",
+        "name": "state-duration",
         "value": "180ms",
-        "purpose": "Gold background and translateY(-2px) hover state."
+        "purpose": "Background and underline transitions."
       },
       {
-        "name": "sheet-enter",
-        "value": "500ms ease-in-out",
-        "purpose": "Right-side entrance."
+        "name": "image-duration",
+        "value": "400ms",
+        "purpose": "Story image scale to 1.045."
       },
       {
-        "name": "sheet-exit",
-        "value": "300ms ease-in-out",
-        "purpose": "Right-side exit."
+        "name": "sheet-open",
+        "value": "500ms",
+        "purpose": "Library entrance."
       },
       {
-        "name": "reduced-motion",
-        "value": "@media (prefers-reduced-motion: reduce)",
-        "purpose": "No animations or transitions; automatic scrolling. Hover transform remains immediate."
+        "name": "sheet-close",
+        "value": "300ms",
+        "purpose": "Library exit."
+      },
+      {
+        "name": "sheet-control",
+        "value": "150ms cubic-bezier(0.4,0,0.2,1)",
+        "purpose": "Close-control opacity."
       }
     ],
     "breakpoints": [
       {
+        "name": "wide-alignment",
+        "value": "1600px"
+      },
+      {
         "name": "compact-desktop",
-        "value": "1100px",
-        "purpose": "Inclusive max-width; shell and navigation tighten."
+        "value": "1100px"
       },
       {
-        "name": "tablet-menu",
-        "value": "850px",
-        "purpose": "Inclusive max-width; mobile menu, two-column topic index and smaller author portrait."
+        "name": "mobile-navigation",
+        "value": "850px"
       },
       {
-        "name": "mobile",
-        "value": "640px",
-        "purpose": "Inclusive max-width; 20px shell gutters, stacked sections and mobile type."
+        "name": "stacked-layout",
+        "value": "720px"
       },
       {
-        "name": "sheet-width-cap",
-        "value": "640px",
-        "purpose": "Inclusive min-width from Tailwind sm; sheet max-width 384px."
+        "name": "sheet-max-width",
+        "value": "640px"
+      },
+      {
+        "name": "narrow-mobile",
+        "value": "370px"
       }
     ],
-    "colorRampProvenance": "Tonal ramps are synthesized OKLCH preview metadata, not shipping CSS tokens. Canonical values come from globals.css.",
-    "implementationSources": [
+    "sourceTypography": [
+      {
+        "selector": "body",
+        "declarations": "margin: 0;\n  background: var(--background);\n  color: var(--foreground);\n  font: 17px/1.6 var(--font-body);\n  -webkit-font-smoothing: antialiased;"
+      },
+      {
+        "selector": "h2",
+        "declarations": "font-size: clamp(32px, 3.4vw, 48px);"
+      },
+      {
+        "selector": ".brand-name",
+        "declarations": "font-size: 37px; font-weight: 650; line-height: 1; letter-spacing: -0.035em;"
+      },
+      {
+        "selector": ".brand-byline",
+        "declarations": "font-size: 12px; line-height: 1.3;"
+      },
+      {
+        "selector": ".desktop-navigation a",
+        "declarations": "display: inline-flex;\n  align-items: center;\n  min-height: 44px;\n  font-size: 15px;\n  border-bottom: 1px solid transparent;\n  transition: border-color 180ms var(--ease-out);"
+      },
+      {
+        "selector": ".header-contact",
+        "declarations": "display: inline-flex;\n  align-items: center;\n  justify-content: space-between;\n  gap: 24px;\n  min-height: 46px;\n  padding: 10px 18px;\n  border-radius: 6px;\n  background: var(--accent);\n  color: var(--foreground);\n  font-size: 14px;\n  font-weight: 600;\n  transition: background-color 180ms var(--ease-out);"
+      },
+      {
+        "selector": ".hero-copy h1",
+        "declarations": "font-size: clamp(48px, 4.8vw, 70px); line-height: 1.04; letter-spacing: -0.035em;"
+      },
+      {
+        "selector": ".hero-copy > p",
+        "declarations": "max-width: 39ch; margin-top: 26px; color: #edf2e9; font-size: 19px; line-height: 1.6;"
+      },
+      {
+        "selector": ".reading-button",
+        "declarations": "display: inline-flex;\n  align-items: center;\n  justify-content: space-between;\n  gap: 35px;\n  min-height: 54px;\n  padding: 14px 21px;\n  border-radius: 6px;\n  background: var(--accent);\n  color: var(--foreground);\n  font-size: 16px;\n  font-weight: 600;\n  transition: background-color 180ms var(--ease-out);"
+      },
+      {
+        "selector": ".hero-about-link",
+        "declarations": "display: inline-flex; align-items: center; min-height: 44px; font-size: 15px; text-decoration: underline;"
+      },
+      {
+        "selector": ".hero-signature",
+        "declarations": "position: absolute; right: 49px; bottom: 239px; font-size: 16px; line-height: 1.35; text-align: right; text-shadow: 0 2px 12px #182c25;"
+      },
+      {
+        "selector": ".journal-window-title",
+        "declarations": "font-size: clamp(22px, 2.1vw, 29px); line-height: 1.08; letter-spacing: -0.025em;"
+      },
+      {
+        "selector": ".story-caption",
+        "declarations": "position: relative; z-index: 1; display: flex; align-items: center; justify-content: space-between; gap: 10px; font-size: 13px; font-weight: 500; line-height: 1.3;"
+      },
+      {
+        "selector": ".photo-placeholder",
+        "declarations": "display: flex; align-items: center; gap: 12px; max-width: 22ch; font-size: 13px; color: #435343; line-height: 1.5;"
+      },
+      {
+        "selector": ".topics-section h2",
+        "declarations": "font-size: 18px; letter-spacing: -0.015em; margin-bottom: 20px;"
+      },
+      {
+        "selector": ".topic-index a",
+        "declarations": "display: inline-flex; align-items: center; justify-content: space-between; min-height: 47px; padding: 10px 17px; gap: 24px; border: 1px solid var(--line); border-radius: 6px; font-size: 15px; transition: background-color 180ms var(--ease-out);"
+      },
+      {
+        "selector": ".section-intro",
+        "declarations": "max-width: 63ch; margin-top: 20px; color: var(--text-secondary); font-size: 17px;"
+      },
+      {
+        "selector": ".text-link",
+        "declarations": "display: inline-flex; align-items: center; gap: 18px; min-height: 44px; font-size: 16px; font-weight: 500;"
+      },
+      {
+        "selector": ".article-meta",
+        "declarations": "color: var(--text-secondary); font-size: 15px; line-height: 1.65;"
+      },
+      {
+        "selector": ".article-meta span",
+        "declarations": "display: block; font-size: 13px; margin-top: 5px;"
+      },
+      {
+        "selector": ".insight-title",
+        "declarations": "max-width: 28ch; font-size: clamp(28px, 3vw, 39px);"
+      },
+      {
+        "selector": ".insight-summary",
+        "declarations": "max-width: 65ch; margin-top: 14px; color: var(--text-secondary); font-size: 18px;"
+      },
+      {
+        "selector": ".about-name",
+        "declarations": "font-size: 19px; font-weight: 600; margin-bottom: 24px;"
+      },
+      {
+        "selector": ".about-lead",
+        "declarations": "font-size: clamp(25px, 2.6vw, 34px); line-height: 1.4; letter-spacing: -0.025em;"
+      },
+      {
+        "selector": ".content-note",
+        "declarations": "font-size: 14px; color: var(--text-secondary); line-height: 1.65;"
+      },
+      {
+        "selector": ".event-figure figcaption",
+        "declarations": "margin-top: 12px; font-size: 13px; color: var(--text-secondary);"
+      },
+      {
+        "selector": ".speaking-copy p",
+        "declarations": "margin-top: 25px; max-width: 60ch; font-size: 19px; line-height: 1.7; color: var(--text-secondary);"
+      },
+      {
+        "selector": ".speaking-topics",
+        "declarations": "list-style: none; padding: 0; margin: 28px 0 24px; font-size: 16px;"
+      },
+      {
+        "selector": ".projects-section > div > p:first-child",
+        "declarations": "font-size: 24px; line-height: 1.5; max-width: 43ch;"
+      },
+      {
+        "selector": ".contact-section h2",
+        "declarations": "font-size: clamp(30px, 3.4vw, 46px); max-width: 21ch;"
+      },
+      {
+        "selector": ".contact-link",
+        "declarations": "display: inline-flex; align-items: center; justify-content: space-between; gap: 28px; flex-shrink: 0; min-height: 56px; padding: 13px 20px; border-radius: 6px; font-size: 16px; font-weight: 600; background: var(--accent); color: var(--foreground); transition: background-color 180ms var(--ease-out);"
+      },
+      {
+        "selector": ".footer-brand",
+        "declarations": "font-size: 32px; font-weight: 600; letter-spacing: -0.035em; line-height: 1.2;"
+      },
+      {
+        "selector": ".site-footer p",
+        "declarations": "font-size: 14px; color: var(--text-secondary); margin-top: 7px;"
+      },
+      {
+        "selector": ".footer-links",
+        "declarations": "display: flex; gap: 28px; font-size: 15px;"
+      },
+      {
+        "selector": ".menu-title",
+        "declarations": "font: 600 35px/1.2 var(--font-body); letter-spacing: -0.03em;"
+      },
+      {
+        "selector": ".mobile-navigation nav a",
+        "declarations": "display: flex; justify-content: space-between; align-items: center; min-height: 65px; font-size: 23px; border-bottom: 1px solid var(--line);"
+      },
+      {
+        "selector": ".reading-page > h1, .reading-intro h1",
+        "declarations": "font-size: clamp(48px, 6vw, 80px); margin-bottom: 20px; color: var(--foreground);"
+      },
+      {
+        "selector": ".reading-intro",
+        "declarations": "max-width: 65ch; font-size: 21px; line-height: 1.6; color: var(--text-secondary);"
+      },
+      {
+        "selector": ".editorial-notice",
+        "declarations": "max-width: 75ch; font-size: 15px; line-height: 1.65; padding: 16px 20px; margin-top: 25px; background: var(--surface); color: var(--foreground); border-radius: 6px;"
+      },
+      {
+        "selector": ".topic-filters a",
+        "declarations": "display: inline-flex; align-items: center; min-height: 44px; padding: 8px 17px; border: 1px solid var(--line); border-radius: 24px; font-size: 16px;"
+      },
+      {
+        "selector": ".reading-back",
+        "declarations": "display: inline-flex; gap: 10px; align-items: center; min-height: 44px; margin-bottom: 27px; font-size: 16px;"
+      },
+      {
+        "selector": ".article-header h1",
+        "declarations": "max-width: 22ch; font-size: clamp(42px, 5.4vw, 72px); margin-block: 16px 23px;"
+      },
+      {
+        "selector": ".article-header > p:not(.article-meta):not(.editorial-notice)",
+        "declarations": "max-width: 65ch; font-size: 23px; line-height: 1.5; color: var(--text-secondary);"
+      },
+      {
+        "selector": ".article-content",
+        "declarations": "max-width: 68ch; font-size: 21px; line-height: 1.7; margin-block: 40px 48px;"
+      },
+      {
+        "selector": ".article-related h2",
+        "declarations": "font-size: 27px; margin-bottom: 12px;"
+      },
+      {
+        "selector": ".brand-name",
+        "declarations": "font-size: 33px;"
+      },
+      {
+        "selector": ".brand-byline",
+        "declarations": "font-size: 11px;"
+      },
+      {
+        "selector": ".hero-copy h1",
+        "declarations": "font-size: 55px;"
+      },
+      {
+        "selector": ".hero-copy > p",
+        "declarations": "max-width: 34ch; font-size: 18px;"
+      },
+      {
+        "selector": ".story-caption",
+        "declarations": "font-size: 12px;"
+      },
+      {
+        "selector": ".journal-window-title",
+        "declarations": "font-size: 24px;"
+      },
+      {
+        "selector": ".mobile-menu-button",
+        "declarations": "display: inline-flex; gap: 9px; min-height: 44px; font-size: 15px; background: transparent; color: inherit;"
+      },
+      {
+        "selector": ".hero-copy h1",
+        "declarations": "font-size: 49px;"
+      },
+      {
+        "selector": ".hero-signature",
+        "declarations": "right: 25px; font-size: 14px;"
+      },
+      {
+        "selector": ".story-caption",
+        "declarations": "font-size: 13px;"
+      },
+      {
+        "selector": ".brand-name",
+        "declarations": "font-size: 31px;"
+      },
+      {
+        "selector": ".brand-byline",
+        "declarations": "font-size: 11px;"
+      },
+      {
+        "selector": ".hero-copy h1",
+        "declarations": "font-size: clamp(36px, 8.5vw, 56px); line-height: 1.06; max-width: 17ch;"
+      },
+      {
+        "selector": ".hero-copy > p",
+        "declarations": "max-width: 36ch; margin-top: 20px; font-size: 17px; line-height: 1.6;"
+      },
+      {
+        "selector": ".reading-button",
+        "declarations": "min-height: 52px; padding: 13px 17px; font-size: 15px; gap: 24px;"
+      },
+      {
+        "selector": ".hero-about-link",
+        "declarations": "font-size: 14px;"
+      },
+      {
+        "selector": ".hero-signature",
+        "declarations": "top: 324px; bottom: auto; right: 22px; font-size: 12px;"
+      },
+      {
+        "selector": ".journal-window-title",
+        "declarations": "font-size: 26px;"
+      },
+      {
+        "selector": ".topic-index a",
+        "declarations": "gap: 8px; padding-inline: 12px; font-size: 14px;"
+      },
+      {
+        "selector": ".section-intro",
+        "declarations": "margin-top: 17px; font-size: 16px;"
+      },
+      {
+        "selector": ".article-meta",
+        "declarations": "font-size: 14px; display: flex; justify-content: space-between; gap: 15px; flex-wrap: wrap;"
+      },
+      {
+        "selector": ".article-meta span",
+        "declarations": "margin-top: 0; font-size: 13px;"
+      },
+      {
+        "selector": ".insight-title",
+        "declarations": "font-size: 29px; line-height: 1.17;"
+      },
+      {
+        "selector": ".insight-summary",
+        "declarations": "font-size: 17px;"
+      },
+      {
+        "selector": ".about-name",
+        "declarations": "font-size: 17px; margin-bottom: 16px;"
+      },
+      {
+        "selector": ".about-lead",
+        "declarations": "font-size: 26px;"
+      },
+      {
+        "selector": ".speaking-copy p",
+        "declarations": "font-size: 18px; margin-top: 20px;"
+      },
+      {
+        "selector": ".speaking-topics",
+        "declarations": "font-size: 16px; margin-block: 20px;"
+      },
+      {
+        "selector": ".projects-section > div > p:first-child",
+        "declarations": "font-size: 22px;"
+      },
+      {
+        "selector": ".contact-section h2",
+        "declarations": "font-size: 33px;"
+      },
+      {
+        "selector": ".contact-section p",
+        "declarations": "font-size: 16px;"
+      },
+      {
+        "selector": ".contact-link",
+        "declarations": "font-size: 15px; gap: 24px;"
+      },
+      {
+        "selector": ".reading-page > h1, .reading-intro h1",
+        "declarations": "font-size: 48px;"
+      },
+      {
+        "selector": ".reading-intro",
+        "declarations": "font-size: 19px;"
+      },
+      {
+        "selector": ".editorial-notice",
+        "declarations": "padding: 15px 17px; font-size: 14px;"
+      },
+      {
+        "selector": ".topic-filters a",
+        "declarations": "padding: 8px 13px; font-size: 14px;"
+      },
+      {
+        "selector": ".article-header h1",
+        "declarations": "font-size: 42px; letter-spacing: -0.03em;"
+      },
+      {
+        "selector": ".article-header > p:not(.article-meta):not(.editorial-notice)",
+        "declarations": "font-size: 20px;"
+      },
+      {
+        "selector": ".article-content",
+        "declarations": "font-size: 19px; line-height: 1.7; margin-block: 30px 38px;"
+      },
+      {
+        "selector": ".hero-copy h1",
+        "declarations": "font-size: 34px;"
+      },
+      {
+        "selector": ".hero-about-link",
+        "declarations": "font-size: 13px;"
+      },
+      {
+        "selector": ".reading-button",
+        "declarations": "gap: 18px; padding-inline: 14px; font-size: 14px;"
+      }
+    ],
+    "focus": {
+      "outline": "2px solid currentColor",
+      "outlineOffset": "5px",
+      "radius": "3px",
+      "inverseOutlineColor": "#ffffff",
+      "purpose": "Library trigger focus ring may coexist with this outline."
+    },
+    "reducedMotion": "Animations and transitions removed; scroll-behavior:auto.",
+    "sourceEvidence": [
       "src/app/globals.css",
       "src/app/layout.tsx",
+      "src/app/page.tsx",
       "src/components/site-chrome.tsx",
       "src/components/site-interactions.tsx",
       "src/components/ui/sheet.tsx",
-      "src/app/page.tsx",
+      "src/components/ui/button.tsx",
       "src/app/insights/page.tsx",
-      "src/app/insights/[slug]/page.tsx"
-    ],
-    "snippetScope": "Framework-free visual specimens with inherited CSS tokens and literal CSS. Mobile sheet specimen has no dialog runtime; production behavior remains in Radix."
+      "src/app/insights/[slug]/page.tsx",
+      ".impeccable/review/desktop.png",
+      ".impeccable/review/mobile.png"
+    ]
   },
   "components": [
     {
       "name": "Reading action",
       "kind": "button",
-      "refersTo": "reading-action",
-      "description": "Primary reading link followed by visible preview disclosure, grouped after the cover summary.",
-      "html": "<div class=\"ds-cover-actions\"><a class=\"ds-reading\" href=\"/insights/meaningful-growth\">Preview essay <svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M5 12h14m-7-7 7 7-7 7\"/></svg></a><p class=\"ds-preview-status\">Editorial preview</p></div>",
-      "css": ".ds-cover-actions{display:flex;align-items:center;flex-wrap:wrap;gap:16px 24px;margin-top:30px}.ds-cover-actions .ds-reading{margin-top:0}.ds-preview-status{font-family:var(--font-body,'Hanken Grotesk',sans-serif);display:inline-block;margin:0;color:var(--accent-ink,#66501e);font-size:17px;font-weight:500}.ds-reading{font-family:var(--font-body, 'Hanken Grotesk', sans-serif);display:inline-flex;align-items:center;justify-content:space-between;gap:32px;min-height:60px;padding:13px 28px;border-radius:15px;background:var(--accent,#dfc47e);color:var(--foreground,#173e46);font-size:23px;font-weight:600;line-height:1.4;text-decoration:none;transition:background-color 180ms var(--ease-out,cubic-bezier(.2,.7,.2,1)),transform 180ms var(--ease-out,cubic-bezier(.2,.7,.2,1))}.ds-reading:hover{background:#d3b368;transform:translateY(-2px)}.ds-reading:focus-visible{outline:2px solid var(--foreground,#173e46);outline-offset:5px;border-radius:2px}@media(max-width:640px){.ds-reading{min-height:52px;font-size:18px;gap:25px;padding:12px 23px;border-radius:12px}}@media(prefers-reduced-motion:reduce){.ds-reading{transition:none}}@media(max-width:640px){.ds-cover-actions{gap:12px 18px;margin-top:24px}.ds-preview-status{font-size:15px}}"
+      "refersTo": "reading-button",
+      "description": "Citron navigation action with forest text and an inline SVG arrow.",
+      "html": "<a class=\"ds-reading\" href=\"#read\">Read the insights<svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M7 17 17 7M7 7h10v10\"/></svg></a>",
+      "css": ".ds-reading{font-family:var(--font-body,'Hanken Grotesk',sans-serif);display:inline-flex;align-items:center;justify-content:space-between;gap:35px;min-height:54px;padding:14px 21px;border-radius:6px;background:var(--accent,#d9ee9c);color:var(--foreground,#182c25);font-size:16px;font-weight:600;line-height:1.6;text-decoration:none;transition:background-color 180ms cubic-bezier(0.2,0.7,0.2,1)}.ds-reading:hover{background:var(--accent-hover,#e6f7b8)}.ds-reading:focus-visible{outline:2px solid currentColor;outline-offset:5px;border-radius:3px;}@media(max-width:720px){.ds-reading{min-height:52px;padding:13px 17px;font-size:15px;gap:24px}}@media(max-width:370px){.ds-reading{padding-inline:14px;font-size:14px;gap:18px}}@media(prefers-reduced-motion:reduce){.ds-reading{transition:none}}"
     },
     {
-      "name": "Publication masthead",
-      "kind": "nav",
-      "description": "Publication name, byline and quiet desktop navigation; the separate sheet handles mobile.",
-      "html": "<header class=\"ds-masthead\"><a class=\"ds-brand\" href=\"/\" aria-label=\"France ? home\"><span class=\"ds-brand-name\">France</span><span class=\"ds-byline\">Olga France Blas-Obias</span></a><nav class=\"ds-desktop\" aria-label=\"Main navigation\"><a class=\"ds-nav-link\" href=\"/insights\">Insights</a><a class=\"ds-nav-link\" href=\"/#about\">About</a><a class=\"ds-nav-link\" href=\"/#speaking\">Speaking</a><a class=\"ds-nav-link\" href=\"/#projects\">Projects</a><a class=\"ds-nav-link\" href=\"/#connect\">Contact</a></nav></header>",
-      "css": ".ds-masthead{font-family:var(--font-body, 'Hanken Grotesk', sans-serif);color:var(--foreground,#173e46);display:flex;align-items:center;justify-content:space-between;gap:32px;min-height:108px}.ds-brand{display:grid;color:inherit;text-decoration:none;flex-shrink:0}.ds-brand-name{font-size:48px;font-weight:600;line-height:1;letter-spacing:-.035em}.ds-byline{font-size:16px;line-height:1.7;letter-spacing:-.015em}.ds-desktop{display:flex;gap:34px;align-items:center}.ds-nav-link{display:inline-flex;align-items:center;min-height:44px;font-size:18px;color:inherit;text-decoration:none;border-bottom:1px solid transparent;transition:border-color 160ms var(--ease-out,cubic-bezier(.2,.7,.2,1))}.ds-nav-link:hover{border-color:var(--foreground,#173e46)}.ds-nav-link:focus-visible{outline:2px solid var(--foreground,#173e46);outline-offset:5px;border-radius:2px}.ds-brand:focus-visible{outline:2px solid var(--foreground,#173e46);outline-offset:5px;border-radius:2px}@media(max-width:1100px){.ds-desktop{gap:24px}.ds-nav-link{font-size:16px}.ds-brand-name{font-size:40px}.ds-byline{font-size:14px}}@media(max-width:850px){.ds-desktop{display:none}.ds-masthead{min-height:96px}}@media(max-width:640px){.ds-masthead{min-height:86px;gap:15px}.ds-brand-name{font-size:33px}.ds-byline{font-size:12px}}@media(prefers-reduced-motion:reduce){.ds-nav-link{transition:none}}"
+      "name": "Header contact",
+      "kind": "button",
+      "refersTo": "header-contact",
+      "description": "Citron navigation action with forest text and an inline SVG arrow.",
+      "html": "<a class=\"ds-header-contact\" href=\"#read\">Let's connect<svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M7 17 17 7M7 7h10v10\"/></svg></a>",
+      "css": ".ds-header-contact{font-family:var(--font-body,'Hanken Grotesk',sans-serif);display:inline-flex;align-items:center;justify-content:space-between;gap:24px;min-height:46px;padding:10px 18px;border-radius:6px;background:var(--accent,#d9ee9c);color:var(--foreground,#182c25);font-size:14px;font-weight:600;line-height:1.6;text-decoration:none;transition:background-color 180ms cubic-bezier(0.2,0.7,0.2,1)}.ds-header-contact:hover{background:var(--accent-hover,#e6f7b8)}.ds-header-contact:focus-visible{outline:2px solid currentColor;outline-offset:5px;border-radius:3px;}@media(max-width:1100px){.ds-header-contact{gap:16px}}@media(prefers-reduced-motion:reduce){.ds-header-contact{transition:none}}"
     },
     {
-      "name": "Topic index",
-      "kind": "nav",
-      "description": "Ruled homepage index with four columns, reducing to two at 850px.",
-      "html": "<nav class=\"ds-index\" aria-label=\"Explore insights by topic\"><a class=\"ds-topic\" href=\"/insights?topic=entrepreneurship\">Entrepreneurship<svg width=\"19\" height=\"19\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M7 17 17 7M7 7h10v10\"/></svg></a><a class=\"ds-topic\" href=\"/insights?topic=business-strategy\">Business strategy<svg width=\"19\" height=\"19\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M7 17 17 7M7 7h10v10\"/></svg></a><a class=\"ds-topic\" href=\"/insights?topic=sustainability\">Sustainability<svg width=\"19\" height=\"19\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M7 17 17 7M7 7h10v10\"/></svg></a><a class=\"ds-topic\" href=\"/insights?topic=mentorship\">Mentorship<svg width=\"19\" height=\"19\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M7 17 17 7M7 7h10v10\"/></svg></a></nav>",
-      "css": ".ds-index{font-family:var(--font-body, 'Hanken Grotesk', sans-serif);display:grid;grid-template-columns:repeat(4,minmax(0,1fr));border-block:1px solid #b99a50;color:var(--foreground,#173e46)}.ds-topic{display:flex;align-items:center;justify-content:space-between;gap:15px;padding:15px 20px 15px 0;min-height:74px;font-size:23px;font-weight:500;letter-spacing:-.025em;color:inherit;text-decoration:none;transition:color 160ms var(--ease-out,cubic-bezier(.2,.7,.2,1))}.ds-topic:hover{color:#735c27}.ds-topic svg{flex-shrink:0}.ds-topic:focus-visible{outline:2px solid var(--foreground,#173e46);outline-offset:5px;border-radius:2px}@media(max-width:1100px){.ds-topic{font-size:20px;padding-right:16px}}@media(max-width:850px){.ds-index{grid-template-columns:repeat(2,minmax(0,1fr))}.ds-topic{min-height:64px;font-size:22px}.ds-topic:nth-child(-n+2){border-bottom:1px solid var(--line,#b9cdcb)}}@media(max-width:640px){.ds-topic{min-height:63px;font-size:18px;padding-right:15px;gap:8px}.ds-topic svg{width:15px;height:15px}}@media(prefers-reduced-motion:reduce){.ds-topic{transition:none}}"
+      "name": "Closing contact action",
+      "kind": "button",
+      "refersTo": "contact-link",
+      "description": "Citron navigation action with forest text and an inline SVG arrow.",
+      "html": "<a class=\"ds-contact\" href=\"#read\">Connect on LinkedIn<svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M7 17 17 7M7 7h10v10\"/></svg></a>",
+      "css": ".ds-contact{font-family:var(--font-body,'Hanken Grotesk',sans-serif);display:inline-flex;align-items:center;justify-content:space-between;gap:28px;min-height:56px;padding:13px 20px;border-radius:6px;background:var(--accent,#d9ee9c);color:var(--foreground,#182c25);font-size:16px;font-weight:600;line-height:1.6;text-decoration:none;transition:background-color 180ms cubic-bezier(0.2,0.7,0.2,1)}.ds-contact:hover{background:var(--accent-hover,#e6f7b8)}.ds-contact:focus-visible{outline:2px solid currentColor;outline-offset:5px;border-radius:3px;}@media(max-width:720px){.ds-contact{font-size:15px;gap:24px}}@media(prefers-reduced-motion:reduce){.ds-contact{transition:none}}"
     },
     {
-      "name": "Topic filter links",
+      "name": "Homepage topic link",
       "kind": "chip",
-      "refersTo": "filter-link",
-      "description": "Query-string navigation with aria-current selected state; no toggle or input behavior.",
-      "html": "<nav class=\"ds-filters\" aria-label=\"Filter insights by topic\"><a class=\"ds-filter\" href=\"/insights\" aria-current=\"page\">All topics</a><a class=\"ds-filter\" href=\"/insights?topic=sustainability\">Sustainability</a><a class=\"ds-filter\" href=\"/insights?topic=mentorship\">Mentorship</a></nav>",
-      "css": ".ds-filters{font-family:var(--font-body, 'Hanken Grotesk', sans-serif);display:flex;flex-wrap:wrap;gap:10px;margin:30px 0 10px}.ds-filter{display:inline-flex;align-items:center;min-height:44px;padding:8px 17px;border:1px solid var(--line,#b9cdcb);border-radius:24px;font-size:16px;color:var(--foreground,#173e46);text-decoration:none}.ds-filter:hover{background:var(--surface,#e0ece9)}.ds-filter[aria-current=page]{background:var(--foreground,#173e46);color:var(--background,#f5f8f7);border-color:var(--foreground,#173e46)}.ds-filter:focus-visible{outline:2px solid var(--foreground,#173e46);outline-offset:5px;border-radius:2px}@media(max-width:640px){.ds-filters{gap:8px;margin-top:24px}.ds-filter{padding:8px 13px;font-size:14px}}"
+      "refersTo": "topic-link",
+      "description": "Outlined topic navigation distinct from reading filter pills.",
+      "html": "<a class=\"ds-topic\" href=\"#topic\">Sustainability<svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M7 17 17 7M7 7h10v10\"/></svg></a>",
+      "css": ".ds-topic{font-family:var(--font-body,'Hanken Grotesk',sans-serif);display:inline-flex;align-items:center;justify-content:space-between;gap:24px;min-height:47px;padding:10px 17px;border:1px solid var(--line,#cdd3c6);border-radius:6px;font-size:15px;line-height:1.6;color:var(--foreground,#182c25);text-decoration:none;transition:background-color 180ms cubic-bezier(0.2,0.7,0.2,1)}.ds-topic:hover{background:var(--surface,#e6eade)}.ds-topic:focus-visible{outline:2px solid currentColor;outline-offset:5px;border-radius:3px;}@media(max-width:720px){.ds-topic{font-size:14px;padding-inline:12px;gap:8px}}@media(prefers-reduced-motion:reduce){.ds-topic{transition:none}}"
     },
     {
-      "name": "Insight row",
-      "kind": "custom",
-      "description": "Content comes first in the DOM; desktop grid places metadata alongside it, while mobile shows metadata below the reading action.",
-      "html": "<article class=\"ds-row\"><div class=\"ds-row-copy\"><h3 class=\"ds-title\"><a class=\"ds-title-link\" href=\"/insights/meaningful-growth\">What does meaningful growth look like?</a></h3><p class=\"ds-summary\">Looking beyond the next milestone to the kind of business we want to build.</p><a class=\"ds-text-link\" href=\"/insights/meaningful-growth\">Read preview <svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M5 12h14m-7-7 7 7-7 7\"/></svg></a></div><p class=\"ds-meta\">Business strategy<span class=\"ds-preview\">Editorial preview</span></p></article>",
-      "css": ".ds-row{font-family:var(--font-body, 'Hanken Grotesk', sans-serif);display:grid;grid-template-columns:minmax(150px,.75fr) minmax(0,3fr);gap:50px;padding-block:33px;border-block:1px solid var(--line,#b9cdcb);color:var(--foreground,#173e46)}.ds-meta{margin:0;color:var(--text-secondary,#436168);font-size:15px;line-height:1.65}.ds-preview{display:block;font-size:13px;margin-top:5px}.ds-title{margin:0;max-width:27ch;font-size:clamp(28px,3vw,39px);font-weight:500;line-height:1.12;letter-spacing:-.035em;text-wrap:balance}.ds-title-link{color:inherit;text-decoration:none;text-underline-offset:.25em}.ds-title-link:hover{text-decoration:underline;text-decoration-thickness:1px}.ds-summary{margin:14px 0 0;max-width:65ch;color:var(--text-secondary,#436168);font-size:18px;line-height:1.65}.ds-text-link{display:inline-flex;align-items:center;gap:18px;min-height:44px;margin-top:16px;color:inherit;font-size:17px;font-weight:500;text-decoration:none;text-underline-offset:.25em}.ds-text-link:hover{text-decoration:underline}.ds-title-link:focus-visible{outline:2px solid var(--foreground,#173e46);outline-offset:5px;border-radius:2px}.ds-text-link:focus-visible{outline:2px solid var(--foreground,#173e46);outline-offset:5px;border-radius:2px}@media(max-width:1100px){.ds-row{gap:32px}}@media(max-width:640px){.ds-row{grid-template-columns:1fr;gap:15px;padding-block:26px}.ds-meta{font-size:14px;display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap}.ds-preview{margin-top:0}.ds-title{font-size:29px;line-height:1.17}.ds-summary{font-size:17px}.ds-text-link{font-size:16px;margin-top:13px}}.ds-row>.ds-row-copy{grid-column:2;grid-row:1}.ds-row>.ds-meta{grid-column:1;grid-row:1}@media(max-width:640px){.ds-row>.ds-row-copy,.ds-row>.ds-meta{grid-column:auto;grid-row:auto}}"
+      "name": "Reading filters",
+      "kind": "chip",
+      "refersTo": "topic-filter",
+      "description": "Wrapped topic navigation with a current-page state.",
+      "html": "<nav class=\"ds-filters\" aria-label=\"Filter insights\"><a href=\"#all\">All topics</a><a href=\"#strategy\" aria-current=\"page\">Business strategy</a></nav>",
+      "css": ".ds-filters{font-family:var(--font-body,'Hanken Grotesk',sans-serif);display:flex;flex-wrap:wrap;gap:10px;line-height:1.6}.ds-filters a{display:inline-flex;align-items:center;min-height:44px;padding:8px 17px;border:1px solid var(--line,#cdd3c6);border-radius:24px;font-size:16px;color:var(--foreground,#182c25);text-decoration:none}.ds-filters a:hover{background:var(--surface,#e6eade)}.ds-filters a[aria-current=\"page\"]{background:var(--foreground,#182c25);color:var(--background,#f6f6f0);border-color:var(--foreground,#182c25)}.ds-filters a:focus-visible{outline:2px solid currentColor;outline-offset:5px;border-radius:3px;}@media(max-width:720px){.ds-filters{gap:8px}.ds-filters a{padding:8px 13px;font-size:14px}}"
     },
     {
-      "name": "Editorial notice",
+      "name": "Journal story window",
+      "kind": "card",
+      "refersTo": "journal-window",
+      "description": "Citron type-led window from the opening story rail.",
+      "html": "<a class=\"ds-story\" href=\"#journal\"><span class=\"ds-story-title\">A little perspective<br>goes a long way.</span><span class=\"ds-story-caption\">Explore the journal<svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M7 17 17 7M7 7h10v10\"/></svg></span></a>",
+      "css": ".ds-story{font-family:var(--font-body,'Hanken Grotesk',sans-serif);display:flex;flex-direction:column;justify-content:space-between;height:166px;padding:21px;border-radius:10px;background:var(--accent,#d9ee9c);color:var(--foreground,#182c25);text-decoration:none;overflow:hidden;transition:background-color 180ms cubic-bezier(0.2,0.7,0.2,1)}.ds-story-title{font-size:clamp(22px,2.1vw,29px);line-height:1.08;letter-spacing:-.025em}.ds-story-caption{display:flex;justify-content:space-between;align-items:center;gap:10px;font-size:13px;font-weight:500;line-height:1.3}.ds-story:hover{background:var(--accent-hover,#e6f7b8)}.ds-story:focus-visible{outline:2px solid currentColor;outline-offset:5px;border-radius:3px;}@media(max-width:1100px){.ds-story{padding:16px}.ds-story-title{font-size:24px}.ds-story-caption{font-size:12px}}@media(max-width:850px){.ds-story{width:240px;flex-shrink:0}.ds-story-caption{font-size:13px}}@media(max-width:720px){.ds-story{width:220px;height:155px;padding:18px}.ds-story-title{font-size:26px}}@media(prefers-reduced-motion:reduce){.ds-story{transition:none}}"
+    },
+    {
+      "name": "Editorial disclosure",
       "kind": "custom",
       "refersTo": "editorial-notice",
-      "description": "Visible disclosure for illustrative content; a tonal block without an invented control.",
-      "html": "<p class=\"ds-notice\">Editorial preview ? sample content for design review, not a published article by France.</p>",
-      "css": ".ds-notice{font-family:var(--font-body, 'Hanken Grotesk', sans-serif);max-width:75ch;font-size:15px;line-height:1.65;padding:16px 20px;margin:25px 0 0;background:var(--surface,#e0ece9);color:var(--foreground,#173e46);border-radius:4px}@media(max-width:640px){.ds-notice{font-size:14px;padding:15px 17px}}"
+      "description": "Tonal disclosure of illustrative sample writing.",
+      "html": "<p class=\"ds-notice\">Editorial previews — illustrative drafts for design review, not published articles by France.</p>",
+      "css": ".ds-notice{font-family:var(--font-body,'Hanken Grotesk',sans-serif);max-width:75ch;margin:0;padding:16px 20px;background:var(--surface,#e6eade);color:var(--foreground,#182c25);border-radius:6px;font-size:15px;line-height:1.65}@media(max-width:720px){.ds-notice{padding:15px 17px;font-size:14px}}"
+    },
+    {
+      "name": "Publication navigation",
+      "kind": "nav",
+      "description": "Forest-on-paper navigation; home uses white over photography.",
+      "html": "<nav class=\"ds-nav\" aria-label=\"Main navigation\"><a href=\"#insights\">Insights</a><a href=\"#about\">About</a><a href=\"#speaking\">Speaking</a><a href=\"#projects\">Projects</a></nav>",
+      "css": ".ds-nav{font-family:var(--font-body,'Hanken Grotesk',sans-serif);display:flex;align-items:center;gap:30px;color:var(--foreground,#182c25);line-height:1.6}.ds-nav a{display:inline-flex;align-items:center;min-height:44px;font-size:15px;color:inherit;text-decoration:none;border-bottom:1px solid transparent;transition:border-color 180ms cubic-bezier(0.2,0.7,0.2,1)}.ds-nav a:hover{border-color:currentColor}.ds-nav a:focus-visible{outline:2px solid currentColor;outline-offset:5px;border-radius:3px;}@media(max-width:1100px){.ds-nav{gap:20px}}@media(max-width:850px){.ds-nav{display:none}}@media(prefers-reduced-motion:reduce){.ds-nav a{transition:none}}"
     },
     {
       "name": "Mobile navigation sheet",
       "kind": "nav",
-      "description": "Static open-panel specimen. Production uses a Radix modal with overlay, focus management and dismissal; this snippet does not implement dialog runtime.",
-      "html": "<section class=\"ds-sheet\" role=\"dialog\" aria-labelledby=\"ds-sheet-title\" aria-describedby=\"ds-sheet-description\"><header class=\"ds-sheet-header\"><h2 class=\"ds-sheet-title\" id=\"ds-sheet-title\">France</h2><p class=\"ds-sheet-description\" id=\"ds-sheet-description\">Perspectives on business, people and purpose.</p></header><nav class=\"ds-sheet-nav\" aria-label=\"Mobile navigation\"><a class=\"ds-sheet-link\" href=\"/insights\">Insights <svg width=\"19\" height=\"19\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M7 17 17 7M7 7h10v10\"/></svg></a><a class=\"ds-sheet-link\" href=\"/#about\">About <svg width=\"19\" height=\"19\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M7 17 17 7M7 7h10v10\"/></svg></a><a class=\"ds-sheet-link\" href=\"/#speaking\">Speaking <svg width=\"19\" height=\"19\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M7 17 17 7M7 7h10v10\"/></svg></a><a class=\"ds-sheet-link\" href=\"/#projects\">Projects <svg width=\"19\" height=\"19\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M7 17 17 7M7 7h10v10\"/></svg></a><a class=\"ds-sheet-link\" href=\"/#connect\">Contact <svg width=\"19\" height=\"19\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M7 17 17 7M7 7h10v10\"/></svg></a></nav><button class=\"ds-sheet-close\" type=\"button\" aria-label=\"Close\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" aria-hidden=\"true\"><path d=\"m18 6-12 12M6 6l12 12\"/></svg></button></section>",
-      "css": ".ds-sheet{font-family:var(--font-body, 'Hanken Grotesk', sans-serif);position:relative;margin-left:auto;display:flex;flex-direction:column;gap:16px;width:75%;padding:32px 25px;background:var(--background,#f5f8f7);color:var(--foreground,#173e46);border-left:1px solid var(--line,#b9cdcb);box-shadow:0 10px 15px -3px rgb(0 0 0 / .1),0 4px 6px -4px rgb(0 0 0 / .1);overflow-y:auto;overscroll-behavior:contain}.ds-sheet-header{padding:20px 0;display:flex;flex-direction:column;gap:6px}.ds-sheet-title{margin:0;font-size:35px;font-weight:600;line-height:1.2;letter-spacing:-.03em}.ds-sheet-description{margin:0;font-size:14px;color:var(--text-secondary,#436168)}.ds-sheet-nav{display:grid;margin-top:15px}.ds-sheet-link{display:flex;justify-content:space-between;align-items:center;min-height:65px;border-bottom:1px solid var(--line,#b9cdcb);font-size:23px;color:inherit;text-decoration:none}.ds-sheet-link:hover{color:#735c27}.ds-sheet-close{position:absolute;top:6px;right:6px;width:44px;height:44px;display:flex;align-items:center;justify-content:center;border:0;border-radius:2px;background:transparent;color:inherit;opacity:.7;cursor:pointer;transition:opacity 150ms cubic-bezier(.4,0,.2,1)}.ds-sheet-close:hover{opacity:1}.ds-sheet-link:focus-visible{outline:2px solid var(--foreground,#173e46);outline-offset:5px;border-radius:2px}.ds-sheet-close:focus-visible{outline:2px solid var(--foreground,#173e46);outline-offset:5px;border-radius:2px}@media(min-width:640px){.ds-sheet{max-width:384px}}@media(prefers-reduced-motion:reduce){.ds-sheet-close{transition:none}}"
+      "refersTo": "mobile-sheet",
+      "description": "Visual sheet only; production Radix supplies modal behavior and focus management.",
+      "html": "<div class=\"ds-sheet-stage\"><div class=\"ds-sheet\"><header class=\"ds-sheet-header\"><h2>France</h2><p>Perspectives on business, people and purpose.</p></header><nav aria-label=\"Mobile navigation\"><a href=\"#insights\">Insights<svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M7 17 17 7M7 7h10v10\"/></svg></a><a href=\"#about\">About<svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M7 17 17 7M7 7h10v10\"/></svg></a></nav><button class=\"ds-close\" aria-label=\"Close\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" aria-hidden=\"true\"><path d=\"m18 6-12 12M6 6l12 12\"/></svg></button></div></div>",
+      "css": ".ds-sheet-stage{font-family:var(--font-body,'Hanken Grotesk',sans-serif);position:relative;min-height:420px;background:rgb(0 0 0 / .5)}.ds-sheet{position:absolute;inset:0 0 0 auto;display:flex;flex-direction:column;gap:16px;width:75%;height:100%;padding:32px 25px;border-left:1px solid var(--line,#cdd3c6);background:var(--background,#f6f6f0);color:var(--foreground,#182c25);overflow-y:auto;overscroll-behavior:contain;box-shadow:0 10px 15px -3px rgb(0 0 0 / .1),0 4px 6px -4px rgb(0 0 0 / .1)}.ds-sheet-header{display:flex;flex-direction:column;gap:6px;padding:20px 0}.ds-sheet h2{margin:0;font-size:35px;font-weight:600;line-height:1.2;letter-spacing:-.03em}.ds-sheet p{margin:0;font-size:14px;line-height:1.42857;color:var(--text-secondary,#526057)}.ds-sheet nav{display:grid;margin-top:15px}.ds-sheet nav a{display:flex;align-items:center;justify-content:space-between;min-height:65px;border-bottom:1px solid var(--line,#cdd3c6);color:inherit;font-size:23px;line-height:1.6;text-decoration:none}.ds-sheet nav a:hover{color:var(--accent-ink,#3d5122)}.ds-sheet nav a:focus-visible{outline:2px solid currentColor;outline-offset:5px;border-radius:3px;}.ds-close{position:absolute;top:6px;right:6px;display:flex;align-items:center;justify-content:center;width:44px;height:44px;border:0;border-radius:2px;background:transparent;color:inherit;opacity:.7;cursor:pointer;transition:opacity 150ms cubic-bezier(.4,0,.2,1)}.ds-close:hover{opacity:1}.ds-close:focus-visible{outline:2px solid currentColor;outline-offset:5px;border-radius:3px;}@media(min-width:640px){.ds-sheet{max-width:384px}}@media(prefers-reduced-motion:reduce){.ds-close{transition:none}}"
     },
     {
       "name": "Article reading measure",
       "kind": "custom",
-      "description": "Article heading precedes category metadata, followed by summary and 68ch prose; mobile uses the real article typography.",
-      "html": "<article class=\"ds-article\"><header class=\"ds-article-header\"><h1 class=\"ds-article-title\">What does meaningful growth look like?</h1><p class=\"ds-article-meta\">Business strategy</p><p class=\"ds-article-summary\">Looking beyond the next milestone to the kind of business we want to build.</p></header><div class=\"ds-prose\"><p>Growth can open new possibilities.</p><p>It also creates a reason to pause and ask what success should mean: for a business, for the people within it, and for the communities around it.</p></div></article>",
-      "css": ".ds-article{font-family:var(--font-body, 'Hanken Grotesk', sans-serif);max-width:1050px;color:var(--foreground,#173e46)}.ds-article-meta{margin:0;font-size:15px;line-height:1.65;color:var(--text-secondary,#436168)}.ds-article-title{max-width:22ch;margin:16px 0 23px;font-size:clamp(42px,5.4vw,72px);font-weight:500;line-height:1.12;letter-spacing:-.035em;text-wrap:balance}.ds-article-summary{max-width:65ch;margin:14px 0 0;font-size:23px;line-height:1.5;color:var(--text-secondary,#436168)}.ds-prose{max-width:68ch;font-size:21px;line-height:1.7;margin:40px 0 48px}.ds-prose p{margin:0;text-wrap:pretty}.ds-prose p+p{margin-top:1.2em}@media(max-width:640px){.ds-article-meta{font-size:14px}.ds-article-title{font-size:42px;letter-spacing:-.03em}.ds-article-summary{font-size:20px}.ds-prose{font-size:19px;margin:30px 0 38px}}"
+      "description": "Reading typography with sample disclosure and mobile variants.",
+      "html": "<article class=\"ds-article\"><header><h1>What does meaningful growth look like?</h1><p class=\"ds-meta\">Business strategy</p><p class=\"ds-summary\">Looking beyond the next milestone to the kind of business we want to build.</p><p class=\"ds-preview\">Editorial preview — sample content for design review, not a published article by France.</p></header><div class=\"ds-prose\"><p>Growth can open new possibilities.</p><p>It also creates a reason to pause and ask what success should mean: for a business, for the people within it, and for the communities around it.</p></div></article>",
+      "css": ".ds-article{font-family:var(--font-body,'Hanken Grotesk',sans-serif);max-width:1050px;color:var(--foreground,#182c25);line-height:1.6}.ds-article h1{max-width:22ch;margin:16px 0 23px;font-size:clamp(42px,5.4vw,72px);font-weight:500;line-height:1.12;letter-spacing:-.035em;text-wrap:balance}.ds-meta{margin:0;font-size:15px;line-height:1.65;color:var(--text-secondary,#526057)}.ds-summary{max-width:65ch;margin:14px 0 0;font-size:23px;line-height:1.5;color:var(--text-secondary,#526057)}.ds-preview{max-width:75ch;margin:25px 0 0;padding:16px 20px;border-radius:6px;background:var(--surface,#e6eade);font-size:15px;line-height:1.65}.ds-prose{max-width:68ch;margin:40px 0 48px;font-size:21px;line-height:1.7}.ds-prose p{margin:0;text-wrap:pretty}.ds-prose p+p{margin-top:1.2em}.ds-article a:focus-visible{outline:2px solid currentColor;outline-offset:5px;border-radius:3px;}@media(max-width:720px){.ds-article h1{font-size:42px;letter-spacing:-.03em}.ds-meta{font-size:14px}.ds-summary{font-size:20px}.ds-preview{font-size:14px;padding:15px 17px}.ds-prose{font-size:19px;margin:30px 0 38px}}"
     }
   ],
   "narrative": {
-    "northStar": "The Perspective Catalogue",
-    "overview": "An author-led, upright publication identity: clear humanist typography, pale chalk ground, blue-green ink, a cool author surface and a restrained gold reading action. The tone is sophisticated, warm and professional without corporate decoration. Large type, open space and explicit dividers carry the hierarchy.\n\nThe system uses real photographs in rectangular crops and keeps editorial content easy to scan and read. This document describes the implemented website. The generated decision mockup is a composition critique reference; it is not an approved comp or a claim of pixel fidelity.",
+    "northStar": "The Living Portrait",
+    "overview": "France is introduced through real photography, forest shade and clear humanist type. Paper gives the reading surfaces quiet space; citron marks direct invitations to read and connect. The mood is warm, sophisticated and personal, with selectively curved frames rather than a repeated card template.\n\nUpright Hanken Grotesk carries the whole site, from compact white navigation over photography to comfortable long-form reading. Flat tonal sections and fine rules structure the supporting content. This system replaces the rejected text-led catalogue and adapts the user's preferred photographic Oviron reference to France's supplied material.",
     "keyCharacteristics": [
-      "Upright Hanken Grotesk across display, navigation and reading text.",
-      "Chalk and blue-green surfaces with gold used for reading and selected supporting details.",
-      "Flat, rule-separated content with rectangular photography.",
-      "Responsive reading measures and visible keyboard focus."
+      "Real portrait and event photography with forest overlays for readable copy.",
+      "Paper, forest, citron and sage with upright self-hosted Hanken Grotesk.",
+      "Selective rounded windows paired with flat, rule-separated reading content.",
+      "Responsive crops, direct navigation, visible keyboard focus and reduced-motion support."
     ],
     "rules": [
       {
         "name": "The Accent Mapping Rule",
-        "body": "The CSS property `--accent` is reading gold. Tailwind's `--color-accent` maps to the cool surface for shadcn ghost and outline treatments. Do not treat these as interchangeable.",
+        "body": "The CSS property `--accent` is citron for reading and contact actions. Tailwind `--color-accent` maps to the pale surface for library ghost states. Keep those assignments distinct.",
         "section": "colors"
+      },
+      {
+        "name": "The Upright Voice Rule",
+        "body": "Use self-hosted upright Hanken Grotesk across display, navigation and reading text. Hierarchy comes from size, weight and measure.",
+        "section": "typography"
+      },
+      {
+        "name": "The Selective Frame Rule",
+        "body": "Use curved frames for photography, story windows and tonal feature surfaces; keep editorial lists open and separated by fine rules.",
+        "section": "elevation"
       }
     ],
     "dos": [
-      "**Do** use upright Hanken Grotesk and the established reading measures.",
-      "**Do** distinguish the gold reading action from the cool shadcn accent surface.",
-      "**Do** use rules and tonal surfaces to organize content.",
-      "**Do** preserve responsive crops, visible focus, reduced-motion behavior and semantic navigation.",
-      "**Do** keep editorial previews visibly disclosed until approved writing replaces them."
+      "**Do** use current forest, paper and citron assignments and upright Hanken Grotesk.",
+      "**Do** protect face visibility and copy contrast when adjusting photographic crops and overlays.",
+      "**Do** preserve visible keyboard focus, reachable story links and reduced-motion behavior.",
+      "**Do** preserve comfortable reading measures and the mobile type variants.",
+      "**Do** keep editorial previews and missing project photography visibly disclosed."
     ],
     "donts": [
-      "**Don't** add stock geometric decoration or repeated italic slogans.",
-      "**Don't** return to the rejected cream, olive and terracotta treatment.",
-      "**Don't** turn every content section into an identical rounded card.",
-      "**Don't** invent input fields, publishing controls or biography claims to fill visual space.",
-      "**Don't** describe the decision mockup as an approved comp or claim pixel fidelity."
+      "**Don't** restore the superseded catalogue palette or essay-cover opening.",
+      "**Don't** use repeated italic slogans, stock geometric decoration or identical cards for every section.",
+      "**Don't** fabricate biography, speaking credentials, project outcomes or supporting imagery.",
+      "**Don't** describe the visual reference as an approved comp or claim pixel fidelity.",
+      "**Don't** invent form fields or publishing controls to fill visual space."
     ]
   }
 }

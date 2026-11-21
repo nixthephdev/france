@@ -1,50 +1,45 @@
 import Image from "next/image";
 import Link from "next/link";
-import { ArrowRight, ArrowUpRight } from "lucide-react";
+import { ArrowRight, ArrowUpRight, ImageIcon } from "lucide-react";
 import francePortrait from "../../public/images/france-portrait.jpg";
 import franceEvent from "../../public/images/france-asean-event.jpg";
 import { articles, topics, linkedInUrl } from "@/lib/site-content";
 
 export default function Home() {
-  const featured = articles[0];
   return (
-    <main id="main-content">
-      <section className="essay-cover shell" aria-labelledby="featured-title">
-        <h1 id="featured-title">{featured.title}</h1>
-        <p className="cover-summary">
-          Growth asks more of us than bigger numbers. A starting point for
-          thinking about businesses, people and purpose.
-        </p>
-        <div className="cover-actions">
-          <Link className="reading-button" href={"/insights/" + featured.slug}>
-            Preview essay
-            <ArrowRight size={23} aria-hidden="true" />
+    <main id="main-content" className="immersive-home">
+      <section className="portrait-hero" aria-labelledby="hero-title">
+        <div className="hero-photograph">
+          <Image src={francePortrait} alt="Olga France Blas-Obias smiling in a light blue dress" fill sizes="(max-width: 720px) 100vw, 80vw" preload placeholder="blur" className="hero-portrait" />
+        </div>
+        <div className="hero-shade" aria-hidden="true" />
+        <div className="hero-copy">
+          <h1 id="hero-title">Growing businesses,<br />people and purpose.</h1>
+          <p>A personal perspective on entrepreneurship, thoughtful leadership and building a more sustainable future.</p>
+          <div className="hero-actions">
+            <Link className="reading-button" href="/insights">Read the insights <ArrowUpRight size={21} aria-hidden="true" /></Link>
+            <a className="hero-about-link" href="#about">Meet France</a>
+          </div>
+        </div>
+        <p className="hero-signature" translate="no">Olga France<br />Blas-Obias</p>
+        <nav className="story-strip" aria-label="Explore France’s world">
+          <Link className="story-window journal-window" href="/insights">
+            <span className="journal-window-title">A little perspective<br />goes a long way.</span>
+            <span className="story-caption">Explore the journal <ArrowUpRight size={18} aria-hidden="true" /></span>
           </Link>
-          <p className="preview-status">Editorial preview</p>
-        </div>
-      </section>
-
-      <section className="author-band" aria-label="About the author">
-        <div className="author-strip shell">
-          <div className="author-portrait">
-            <Image
-              src={francePortrait}
-              alt="Olga France Blas-Obias smiling in a light blue dress"
-              fill
-              sizes="(max-width: 640px) 84px, 184px"
-              placeholder="blur"
-              className="portrait-photo"
-            />
-          </div>
-          <div className="author-note">
-            <h2>Olga France Blas-Obias</h2>
-            <p>Growing businesses, people and purpose</p>
-            <a className="author-link" href="#about">
-              About France
-              <ArrowRight size={21} aria-hidden="true" />
-            </a>
-          </div>
-        </div>
+          <a className="story-window photo-window" href="#speaking">
+            <Image src={franceEvent} alt="France in front of national flags at an ASEAN event" fill sizes="(max-width: 720px) 220px, 25vw" placeholder="blur" className="story-event-photo" />
+            <span className="story-caption">Conversations & community <ArrowUpRight size={18} aria-hidden="true" /></span>
+          </a>
+          <a className="story-window photo-window" href="#about">
+            <Image src={francePortrait} alt="" fill sizes="(max-width: 720px) 220px, 25vw" placeholder="blur" className="story-portrait-photo" />
+            <span className="story-caption">The person behind the ideas <ArrowUpRight size={18} aria-hidden="true" /></span>
+          </a>
+          <a className="story-window project-window" href="#projects">
+            <span className="photo-placeholder"><ImageIcon size={22} aria-hidden="true" />Project photograph coming soon</span>
+            <span className="story-caption">Projects & advocacy <ArrowUpRight size={18} aria-hidden="true" /></span>
+          </a>
+        </nav>
       </section>
 
       <section
@@ -69,7 +64,7 @@ export default function Home() {
         aria-labelledby="insights-title"
       >
         <div className="section-heading">
-          <h2 id="insights-title">More perspectives</h2>
+          <h2 id="insights-title">A space for ideas.</h2>
           <Link className="text-link" href="/insights">
             View all insights
             <ArrowRight size={19} aria-hidden="true" />
@@ -80,7 +75,7 @@ export default function Home() {
           for France’s own writing.
         </p>
         <div className="insight-list">
-          {articles.slice(1).map((article) => (
+          {articles.map((article) => (
             <article className="insight-row" key={article.slug}>
               <div>
                 <h3 className="insight-title">
@@ -109,8 +104,14 @@ export default function Home() {
         id="about"
         aria-labelledby="about-title"
       >
-        <h2 id="about-title">About France</h2>
+        <div className="about-introduction">
+          <h2 id="about-title">Business is personal.<br />So is purpose.</h2>
+          <figure className="about-portrait-frame">
+            <Image src={francePortrait} alt="Portrait of France" fill sizes="(max-width: 640px) calc(100vw - 40px), 420px" placeholder="blur" className="portrait-photo" />
+          </figure>
+        </div>
         <div>
+          <p className="about-name" translate="no">Olga France Blas-Obias</p>
           <p className="about-lead">
             Entrepreneurship, business strategy, sustainability and mentorship.
             Connected interests, with people at the centre.
