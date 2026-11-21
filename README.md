@@ -10,7 +10,7 @@ Repository: https://github.com/nixthephdev/france
 - Tailwind CSS and a responsive editorial starting design.
 - Customised shadcn/ui buttons, dialogs, and mobile navigation.
 - About, Focus, Insights, Speaking, Projects, and Contact sections.
-- Labelled media placeholders and sample editorial previews.
+- Supplied portrait and event photographs, with labelled project placeholders and sample editorial previews.
 - Keyboard navigation, focus styles, and reduced-motion support.
 - ESLint, TypeScript checks, and a production build command.
 - A committed npm lockfile for repeatable installs.
@@ -42,6 +42,7 @@ Run all three with npm run check. To serve a production build locally, run npm r
 - public/: public assets.
 - docs/project-brief.md: design direction and implementation scope.
 - docs/design-direction.md: audience hypotheses, design rationale, and content handoff.
+- docs/media.md: supplied photo placements and image handling.
 - .env.example: reserved configuration keys, without credentials.
 
 ## Planned integrations

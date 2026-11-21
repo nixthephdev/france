@@ -1,4 +1,7 @@
+import Image from "next/image";
 import { ArrowDown, ArrowUpRight, Leaf } from "lucide-react";
+import francePortrait from "../../public/images/france-portrait.jpg";
+import franceEvent from "../../public/images/france-asean-event.jpg";
 import {
   EnquiryDialog,
   InsightPreviews,
@@ -58,11 +61,17 @@ export default function Home() {
             </div>
           </div>
           <figure className="hero-portrait">
-            <MediaPlaceholder
-              className="portrait-placeholder"
-              title="A moment with France"
-              note="A warm, natural-light portrait"
-            />
+            <div className="portrait-frame">
+              <Image
+                src={francePortrait}
+                alt="Olga France Blas-Obias smiling in a light blue dress"
+                fill
+                sizes="(max-width: 640px) calc(100vw - 40px), (max-width: 1100px) 42vw, 510px"
+                preload
+                placeholder="blur"
+                className="portrait-photo"
+              />
+            </div>
             <figcaption>
               <span>Thoughtful work. Human connections.</span>
               <Leaf size={17} strokeWidth={1.3} aria-hidden="true" />
@@ -177,16 +186,22 @@ export default function Home() {
           aria-labelledby="speaking-title"
         >
           <div className="shell speaking-grid section-space">
-            <div className="speaking-media">
-              <MediaPlaceholder
-                kind="video"
-                title="France, in conversation"
-                note="A speaking clip or event photograph"
-              />
-              <p className="media-footnote">
-                Space for a future speaking highlight
-              </p>
-            </div>
+            <figure className="speaking-media">
+              <div className="event-photo-frame">
+                <Image
+                  src={franceEvent}
+                  alt="France standing in front of national flags at an ASEAN event"
+                  fill
+                  sizes="(max-width: 640px) calc(100vw - 40px), (max-width: 1100px) 46vw, 600px"
+                  loading="lazy"
+                  placeholder="blur"
+                  className="event-photo"
+                />
+              </div>
+              <figcaption className="media-footnote">
+                France at an ASEAN event.
+              </figcaption>
+            </figure>
             <div className="speaking-copy">
               <p className="eyebrow">Speaking & mentorship</p>
               <h2 id="speaking-title">

@@ -235,10 +235,16 @@ h2 {
   min-height: 340px;
   isolation: isolate;
 }
-.portrait-placeholder {
+.portrait-frame {
+  position: relative;
+  overflow: hidden;
   height: 480px;
   border-radius: 180px 180px 3px 3px;
-  padding-top: 80px;
+  background: #e4e6d9;
+}
+.portrait-photo {
+  object-fit: cover;
+  object-position: 58% 38%;
 }
 .placeholder-label {
   display: flex;
@@ -494,9 +500,20 @@ h2 {
   align-items: center;
   gap: 85px;
 }
-.speaking-media .media-placeholder {
-  min-height: 440px;
-  background: #dce0d0;
+.speaking-media {
+  margin: 0;
+  min-width: 0;
+}
+.event-photo-frame {
+  position: relative;
+  overflow: hidden;
+  aspect-ratio: 1 / 1;
+  border-radius: 3px;
+  background: #303c30;
+}
+.event-photo {
+  object-fit: cover;
+  object-position: 50% 44%;
 }
 .media-footnote {
   margin: 14px 0 0;
@@ -721,7 +738,7 @@ h2 {
     font-size: clamp(48px, 6.1vw, 70px);
     letter-spacing: -2.6px;
   }
-  .portrait-placeholder {
+  .portrait-frame {
     height: 440px;
   }
   .hero-actions {
@@ -757,10 +774,8 @@ h2 {
   .hero-description {
     font-size: 15px;
   }
-  .portrait-placeholder {
+  .portrait-frame {
     height: 400px;
-    padding: 22px;
-    padding-top: 65px;
   }
   .hero-actions .quiet-link {
     display: none;
@@ -848,11 +863,9 @@ h2 {
     padding: 14px 17px;
     gap: 16px;
   }
-  .portrait-placeholder {
+  .portrait-frame {
     height: 400px;
     border-radius: 160px 160px 2px 2px;
-    padding: 28px;
-    padding-top: 75px;
   }
   .hero-portrait {
     max-width: 410px;
@@ -924,8 +937,8 @@ h2 {
   .speaking-grid {
     gap: 38px;
   }
-  .speaking-media .media-placeholder {
-    min-height: 320px;
+  .event-photo-frame {
+    aspect-ratio: 4 / 5;
   }
   .project-preview .media-placeholder {
     min-height: 290px;

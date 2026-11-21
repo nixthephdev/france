@@ -9,7 +9,7 @@ The homepage moves from identity and a clear invitation, through her story and a
 ## Decisions
 
 - Keep warm ivory, olive, terracotta, editorial headings, and generous spacing.
-- Use a real portrait as the visual introduction when approved. The current framed placeholder reserves space without impersonating France.
+- Use the supplied portrait as the visual introduction, keeping her face clear across responsive crops. The supplied ASEAN event photo adds context beside Speaking & Mentorship, with a neutral attendance caption.
 - Use plain navigation labels and a consistent contact action.
 - Place real evidence alongside claims once available. Never fill credibility gaps with invented logos, metrics, testimonials, or affiliations.
 - Show sample articles as editorial concepts. Preview dialogs explicitly distinguish them from France's published work.
@@ -28,7 +28,7 @@ The homepage moves from identity and a clear invitation, through her story and a
 7. Approved testimonials and client or organisation logos only if she wants them and has permission.
 8. Primary website goal: speaking enquiries, partnerships, mentorship, or growing readership.
 
-Images and video remain visibly labelled placeholders. Biography and proposed topics are drafts. CMS, email delivery, and analytics require separate implementation and configuration.
+The portrait and ASEAN event photograph are supplied assets. Project imagery remains a visibly labelled placeholder; a speaking video has not been supplied. Biography and proposed topics are drafts. CMS, email delivery, and analytics require separate implementation and configuration.
 
 ## Validation
 
