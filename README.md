@@ -12,7 +12,7 @@ Repository: https://github.com/nixthephdev/france
 - Overlay navigation, a prominent reading action, and a visual story strip; a journal, topic index, and supporting About, Speaking, Projects, and Contact sections.
 - A dedicated `/insights` index with shareable topic filters and three preview reading routes.
 - Supplied portrait and event photographs; unfinished biography and project content are clearly identified.
-- Direct LinkedIn contact links and a recovery page for unknown routes.
+- Direct email and LinkedIn contact links and a recovery page for unknown routes.
 - Keyboard navigation, focus styles, and reduced-motion support.
 - ESLint, TypeScript checks, and a production build command.
 - A committed npm lockfile for repeatable installs.

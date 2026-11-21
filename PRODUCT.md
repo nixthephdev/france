@@ -20,7 +20,7 @@ Existing implementation: Next.js App Router, React, TypeScript, Tailwind CSS, an
 
 The only supplied photographs are a close-up portrait and an ASEAN event photograph. The event photograph does not establish a speaking role. No approved biography, articles, testimonials, client logos, project outcomes, or speaking video have been supplied. Illustrative editorial content must be labelled as such.
 
-LinkedIn is the current working contact destination. Preserve keyboard navigation, responsive layouts, reduced-motion support, and meaningful image descriptions.
+Contact offers a direct mailto link to olgafranceb@gmail.com, supplied by the user from France's LinkedIn contact information, alongside her LinkedIn profile. Preserve keyboard navigation, responsive layouts, reduced-motion support, and meaningful image descriptions.
 
 ## Brand Commitments
 

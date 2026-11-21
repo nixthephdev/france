@@ -1,6 +1,8 @@
 export const linkedInUrl =
   "https://www.linkedin.com/in/olga-france-blas-obias-23912996/";
 
+export const contactEmail = "olgafranceb@gmail.com";
+
 export const navigation = [
   { label: "Insights", href: "/insights" },
   { label: "About", href: "/#about" },

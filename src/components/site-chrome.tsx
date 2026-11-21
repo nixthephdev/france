@@ -2,7 +2,7 @@ import Link from "next/link";
 import { ArrowUpRight } from "lucide-react";
 import { Suspense } from "react";
 import { HeaderNavigation } from "@/components/site-interactions";
-import { linkedInUrl } from "@/lib/site-content";
+import { linkedInUrl, contactEmail } from "@/lib/site-content";
 
 export function SiteHeader() {
   return (
@@ -28,6 +28,7 @@ export function SiteFooter() {
       </div>
       <div className="footer-links">
         <Link href="/insights">Explore the insights</Link>
+        <a href={`mailto:${contactEmail}`}>Email France</a>
         <a href={linkedInUrl} target="_blank" rel="noopener noreferrer">
           LinkedIn
           <ArrowUpRight size={16} aria-hidden="true" />

@@ -15,7 +15,7 @@ The homepage opens with France's portrait, overlaid navigation, concise copy, a 
 - Show sample articles as editorial previews, with conspicuous disclosures on their dedicated reading pages. Do not use modals for reading.
 - Use shadcn/ui for keyboard-aware mobile navigation, styled to the brand. Components complement Next.js and Tailwind.
 - Keep readable line lengths, visible focus states, descriptive headings, and reduced-motion support.
-- Contact opens LinkedIn directly. It does not imply that an email or enquiry has been submitted.
+- Contact offers Email France (mailto:olgafranceb@gmail.com) and LinkedIn. The email action opens the visitor's email application; the website does not submit an enquiry itself.
 
 ## Content to request from France
 

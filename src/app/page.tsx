@@ -1,9 +1,9 @@
 import Image from "next/image";
 import Link from "next/link";
-import { ArrowRight, ArrowUpRight, ImageIcon } from "lucide-react";
+import { ArrowRight, ArrowUpRight, ImageIcon, Mail } from "lucide-react";
 import francePortrait from "../../public/images/france-portrait.jpg";
 import franceEvent from "../../public/images/france-asean-event.jpg";
-import { articles, topics, linkedInUrl } from "@/lib/site-content";
+import { articles, topics, linkedInUrl, contactEmail } from "@/lib/site-content";
 
 export default function Home() {
   return (
@@ -214,16 +214,23 @@ export default function Home() {
             explore.
           </p>
         </div>
-        <a
-          className="contact-link"
-          href={linkedInUrl}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Connect on LinkedIn
-          <ArrowUpRight size={23} aria-hidden="true" />
-          <span className="sr-only"> (opens in a new tab)</span>
-        </a>
+        <div className="contact-actions">
+          <a className="contact-link" href={`mailto:${contactEmail}`}>
+            Email France
+            <Mail size={21} aria-hidden="true" />
+          </a>
+          <span className="contact-address">{contactEmail}</span>
+          <a
+            className="text-link"
+            href={linkedInUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Connect on LinkedIn
+            <ArrowUpRight size={18} aria-hidden="true" />
+            <span className="sr-only"> (opens in a new tab)</span>
+          </a>
+        </div>
       </section>
     </main>
   );
