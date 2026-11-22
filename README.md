@@ -7,9 +7,9 @@ Repository: https://github.com/nixthephdev/france
 ## Current website
 
 - Next.js App Router, React, and TypeScript.
-- A portrait-led homepage based on the user's supplied Oviron reference, with self-hosted Hanken Grotesk typography.
+- A warm, framed editorial homepage based on the user's supplied eyewear reference, with self-hosted Hanken Grotesk typography.
 - Tailwind CSS and customised shadcn/ui mobile navigation.
-- Overlay navigation, a prominent reading action, and a visual story strip on the homepage; dedicated About, Speaking, Projects and Contact pages.
+- In-frame navigation, a floating featured-insight panel and transparent portrait composition; dedicated About, Speaking, Projects and Contact pages.
 - A dedicated `/insights` index with shareable topic filters and three preview reading routes.
 - Supplied portrait and event photographs, her LinkedIn About roles, and an organisation-grouped professional experience section with dates and expandable responsibilities.
 - Clearly identified unfinished project content and editorial previews.
@@ -48,6 +48,7 @@ Run all three with npm run check. To serve a production build locally, run npm r
 - PRODUCT.md: confirmed product facts, goals, and open content decisions.
 - DESIGN.md: implemented visual tokens and component guidance.
 - docs/homepage-direction.md: the current homepage direction and review scope.
+- docs/taupe-direction.md: the current reference-led visual contract and validation.
 - docs/site-pages.md: dedicated routes, page purposes and navigation verification.
 - docs/media.md: supplied photo placements and image handling.
 - .env.example: reserved configuration keys, without credentials.

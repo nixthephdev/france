@@ -4,12 +4,12 @@
 
 The user confirmed that reading France's insights is the primary visitor action. Potential collaborators, event organisers, and people interested in mentorship are secondary audience hypotheses to validate with France.
 
-The homepage opens with France's portrait, overlaid navigation, concise copy, a reading action, and a visual story strip. The user supplied this composition through their preferred Oviron reference after rejecting the earlier text-led catalogue. At the user's request, About, Speaking, Projects and Contact each have a dedicated page; navigation and story links use their actual routes. The homepage retains the journal preview and topic index. This is a design hypothesis, not a measured conversion result.
+The homepage opens inside a rounded frame with a warm taupe backdrop, layered portrait, concise purpose statement and floating featured-insight panel. The user explicitly chose the supplied eyewear reference to replace the earlier Oviron composition. About, Speaking, Projects and Contact retain dedicated pages with real navigation routes. The homepage retains the journal preview and topic index. This is a design hypothesis, not a measured conversion result.
 
 ## Decisions
 
-- Use the current photographic composition: forest shade over the portrait, white copy, citron reading actions, paper reading surfaces, sage supporting sections, and upright Hanken Grotesk. Both earlier design directions were rejected and no longer govern implementation.
-- Use the supplied portrait as the main opening image, keeping her face clear across responsive crops. The supplied ASEAN photo appears in the story strip and beside Speaking & Mentorship, with a neutral attendance caption.
+- Use porcelain, warm taupe, espresso text, walnut reading actions, limestone supporting surfaces and upright Hanken Grotesk. The user's selected framed composition supersedes the earlier forest/citron world.
+- Use a derived transparent cutout of the supplied portrait for the layered opening; preserve the original photograph for About. The ASEAN photo remains on Speaking & Mentorship, with a neutral attendance caption. No artificial body extension or altered credentials.
 - Use plain navigation labels and a consistent contact action.
 - Place real evidence alongside claims once available. Never fill credibility gaps with invented logos, metrics, testimonials, or affiliations.
 - Show sample articles as editorial previews, with conspicuous disclosures on their dedicated reading pages. Do not use modals for reading.

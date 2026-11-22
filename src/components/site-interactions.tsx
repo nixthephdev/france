@@ -19,7 +19,7 @@ export function HeaderNavigation() {
   const pathname = usePathname();
   const isHome = pathname === "/";
   return (
-    <header className={`site-header shell${isHome ? " header-over-photo" : ""}`}>
+    <header className={`site-header shell${isHome ? " header-on-canvas" : ""}`}>
       <Link href="/" className="publication-brand" aria-label="France — home">
         <span className="brand-name" translate="no">France<span className="brand-period">.</span></span>
         <span className="brand-byline" translate="no">Olga France Blas-Obias</span>

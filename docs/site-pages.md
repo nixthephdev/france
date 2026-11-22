@@ -2,7 +2,7 @@
 
 ## Scope
 
-The user explicitly requested separate pages for the navbar destinations instead of homepage section jumps. This is an information-architecture extension of the implemented Living Portrait system, not a replacement visual world. Preserve its palette, typography, actual photographs, factual copy, insight routes and mobile sheet.
+The user explicitly requested separate pages for the navbar destinations instead of homepage section jumps. This document records that route architecture. The subsequent framed/taupe redesign in docs/taupe-direction.md replaces its original visual world while preserving typography, supplied content, route behaviour and mobile navigation.
 
 ## Route contract
 
@@ -18,7 +18,7 @@ The user explicitly requested separate pages for the navbar destinations instead
 
 THESIS: every navbar destination opens a complete, directly addressable page. The homepage is the portrait-led introduction and journal preview.
 
-OWN-WORLD: inherit forest, paper, citron, sage, upright Hanken Grotesk, photographic frames and open reading layouts from DESIGN.md. Reuse existing components and measures.
+OWN-WORLD: inherit the current porcelain, taupe, espresso and walnut system, upright Hanken Grotesk, photographic frames and open reading layouts from DESIGN.md. Reuse existing components and measures.
 
 STORY: choose a destination, read its relevant material, then continue to insights or contact. Current-page navigation is identified visually and with aria-current, including Insights article routes.
 

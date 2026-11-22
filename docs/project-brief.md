@@ -16,8 +16,8 @@ The website will showcase her professional background and provide a space for in
 
 ## Visual direction
 
-- The current user-selected reference is the final Oviron screenshot: a portrait-led opening, overlay navigation and white copy, a citron reading action, and a visual story strip.
-- Forest shade, paper reading surfaces and sage supporting sections accompany the actual photograph. Self-hosted Hanken Grotesk carries upright typography.
+- The current user-selected reference is the supplied Hameed eyewear layout: rounded framing, warm taupe, a layered portrait, outline lettering and a floating featured-insight panel.
+- Porcelain reading surfaces, espresso text, walnut actions and limestone supporting sections accompany the actual photograph. Self-hosted Hanken Grotesk carries upright typography.
 - Generous spacing and layouts that work comfortably on small screens.
 - Authentic, approved photography when it is available.
 - Gentle motion that respects reduced-motion preferences.

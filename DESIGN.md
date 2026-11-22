@@ -1,64 +1,35 @@
 ---
 name: "France"
-description: "A portrait-led personal publication about business, people and purpose."
+description: "A warm, framed editorial portrait introducing ideas about business, people and purpose."
 colors:
-  forest: "#182c25"
-  paper: "#f6f6f0"
-  citron: "#d9ee9c"
-  citron-hover: "#e6f7b8"
-  sage: "#dce5d8"
-  surface: "#e6eade"
-  secondary-text: "#526057"
-  accent-ink: "#3d5122"
-  line: "#cdd3c6"
-  white: "#ffffff"
-  soft-white: "#edf2e9"
-  placeholder-ink: "#435343"
-  sage-rule: "#bdc8b6"
-  inverse-copy: "#dae3d7"
-  brand-period: "#789044"
-  scrollbar: "#87937d"
-  rail-scrollbar: "#b9ce9f"
-  tap-highlight: "#d9ee9c66"
-  menu-hover: "#52605722"
-  inverse-menu-hover: "#ffffff22"
-  rail-track: "#ffffff20"
-  sheet-scrim: "rgb(0 0 0 / 0.5)"
-  shade-10231ff5: "#10231ff5"
-  shade-10231f99: "#10231f99"
-  shade-10231f00: "#10231f00"
-  shade-182c25ed: "#182c25ed"
-  shade-182c25a8: "#182c25a8"
-  shade-182c2514: "#182c2514"
-  shade-182c2500: "#182c2500"
-  shade-10231f85: "#10231f85"
-  shade-10231ff2: "#10231ff2"
-  shade-182c25e0: "#182c25e0"
-  shade-182c2577: "#182c2577"
-  shade-10231f80: "#10231f80"
-  shade-182c25d9: "#182c25d9"
+  porcelain: "#f3efe9"
+  espresso: "#302a25"
+  secondary-text: "#675b4f"
+  limestone: "#e6ddd1"
+  walnut: "#78634c"
+  walnut-hover: "#65513d"
+  accent-ink: "#66503b"
+  line: "#c7bbae"
+  white: "#fffefd"
+  canvas: "#f8f5ef"
+  light-taupe: "#b09a82"
+  outline-ink: "#85715c"
 typography:
   hero:
     fontFamily: "Hanken Grotesk, sans-serif"
-    fontSize: "clamp(48px, 4.8vw, 70px)"
-    fontWeight: 500
-    lineHeight: 1.04
-    letterSpacing: "-0.035em"
-  hero-mobile:
-    fontFamily: "Hanken Grotesk, sans-serif"
-    fontSize: "clamp(36px, 8.5vw, 56px)"
-    fontWeight: 500
-    lineHeight: 1.06
-    letterSpacing: "-0.035em"
-  reading-display:
-    fontFamily: "Hanken Grotesk, sans-serif"
-    fontSize: "clamp(48px, 6vw, 80px)"
+    fontSize: "clamp(34px, 3.25vw, 46px)"
     fontWeight: 500
     lineHeight: 1.12
     letterSpacing: "-0.035em"
-  article-display:
+  hero-mobile:
     fontFamily: "Hanken Grotesk, sans-serif"
-    fontSize: "clamp(42px, 5.4vw, 72px)"
+    fontSize: "clamp(32px, 8.5vw, 42px)"
+    fontWeight: 500
+    lineHeight: 1.1
+    letterSpacing: "-0.035em"
+  display:
+    fontFamily: "Hanken Grotesk, sans-serif"
+    fontSize: "clamp(48px, 6vw, 80px)"
     fontWeight: 500
     lineHeight: 1.12
     letterSpacing: "-0.035em"
@@ -68,29 +39,11 @@ typography:
     fontWeight: 500
     lineHeight: 1.12
     letterSpacing: "-0.035em"
-  contact-headline:
+  feature-title:
     fontFamily: "Hanken Grotesk, sans-serif"
-    fontSize: "clamp(30px, 3.4vw, 46px)"
+    fontSize: "28px"
     fontWeight: 500
-    lineHeight: 1.12
-    letterSpacing: "-0.035em"
-  insight-title:
-    fontFamily: "Hanken Grotesk, sans-serif"
-    fontSize: "clamp(28px, 3vw, 39px)"
-    fontWeight: 500
-    lineHeight: 1.12
-    letterSpacing: "-0.035em"
-  about-lead:
-    fontFamily: "Hanken Grotesk, sans-serif"
-    fontSize: "clamp(25px, 2.6vw, 34px)"
-    fontWeight: 400
-    lineHeight: 1.4
-    letterSpacing: "-0.025em"
-  story-title:
-    fontFamily: "Hanken Grotesk, sans-serif"
-    fontSize: "clamp(22px, 2.1vw, 29px)"
-    fontWeight: 400
-    lineHeight: 1.08
+    lineHeight: 1.16
     letterSpacing: "-0.025em"
   body:
     fontFamily: "Hanken Grotesk, sans-serif"
@@ -100,11 +53,6 @@ typography:
   article-body:
     fontFamily: "Hanken Grotesk, sans-serif"
     fontSize: "21px"
-    fontWeight: 400
-    lineHeight: 1.7
-  article-body-mobile:
-    fontFamily: "Hanken Grotesk, sans-serif"
-    fontSize: "19px"
     fontWeight: 400
     lineHeight: 1.7
   action:
@@ -117,300 +65,270 @@ typography:
     fontSize: "15px"
     fontWeight: 400
     lineHeight: 1.65
-  story-caption:
-    fontFamily: "Hanken Grotesk, sans-serif"
-    fontSize: "13px"
-    fontWeight: 500
-    lineHeight: 1.3
-  brand:
-    fontFamily: "Hanken Grotesk, sans-serif"
-    fontSize: "37px"
-    fontWeight: 650
-    lineHeight: 1
-    letterSpacing: "-0.035em"
-  brand-byline:
-    fontFamily: "Hanken Grotesk, sans-serif"
-    fontSize: "12px"
-    fontWeight: 400
-    lineHeight: 1.3
-  menu-title:
-    fontFamily: "Hanken Grotesk, sans-serif"
-    fontSize: "35px"
-    fontWeight: 600
-    lineHeight: 1.2
-    letterSpacing: "-0.03em"
-  size-14:
-    fontFamily: "Hanken Grotesk, sans-serif"
-    fontSize: "14px"
-  size-18:
-    fontFamily: "Hanken Grotesk, sans-serif"
-    fontSize: "18px"
-  size-24:
-    fontFamily: "Hanken Grotesk, sans-serif"
-    fontSize: "24px"
-  size-32:
-    fontFamily: "Hanken Grotesk, sans-serif"
-    fontSize: "32px"
-  size-23:
-    fontFamily: "Hanken Grotesk, sans-serif"
-    fontSize: "23px"
-  size-27:
-    fontFamily: "Hanken Grotesk, sans-serif"
-    fontSize: "27px"
-  size-33:
-    fontFamily: "Hanken Grotesk, sans-serif"
-    fontSize: "33px"
   size-11:
     fontFamily: "Hanken Grotesk, sans-serif"
     fontSize: "11px"
-  size-55:
+  size-12:
     fontFamily: "Hanken Grotesk, sans-serif"
-    fontSize: "55px"
-  size-49:
+    fontSize: "12px"
+  size-13:
     fontFamily: "Hanken Grotesk, sans-serif"
-    fontSize: "49px"
-  size-31:
+    fontSize: "13px"
+  size-14:
     fontFamily: "Hanken Grotesk, sans-serif"
-    fontSize: "31px"
-  size-26:
+    fontSize: "14px"
+  size-15:
     fontFamily: "Hanken Grotesk, sans-serif"
-    fontSize: "26px"
-  size-29:
+    fontSize: "15px"
+  size-16:
     fontFamily: "Hanken Grotesk, sans-serif"
-    fontSize: "29px"
-  size-22:
+    fontSize: "16px"
+  size-17:
     fontFamily: "Hanken Grotesk, sans-serif"
-    fontSize: "22px"
-  size-48:
+    fontSize: "17px"
+  size-18:
     fontFamily: "Hanken Grotesk, sans-serif"
-    fontSize: "48px"
-  size-42:
+    fontSize: "18px"
+  size-19:
     fontFamily: "Hanken Grotesk, sans-serif"
-    fontSize: "42px"
+    fontSize: "19px"
   size-20:
     fontFamily: "Hanken Grotesk, sans-serif"
     fontSize: "20px"
+  size-21:
+    fontFamily: "Hanken Grotesk, sans-serif"
+    fontSize: "21px"
+  size-22:
+    fontFamily: "Hanken Grotesk, sans-serif"
+    fontSize: "22px"
+  size-23:
+    fontFamily: "Hanken Grotesk, sans-serif"
+    fontSize: "23px"
+  size-24:
+    fontFamily: "Hanken Grotesk, sans-serif"
+    fontSize: "24px"
+  size-25:
+    fontFamily: "Hanken Grotesk, sans-serif"
+    fontSize: "25px"
+  size-26:
+    fontFamily: "Hanken Grotesk, sans-serif"
+    fontSize: "26px"
+  size-27:
+    fontFamily: "Hanken Grotesk, sans-serif"
+    fontSize: "27px"
+  size-28:
+    fontFamily: "Hanken Grotesk, sans-serif"
+    fontSize: "28px"
+  size-29:
+    fontFamily: "Hanken Grotesk, sans-serif"
+    fontSize: "29px"
+  size-30:
+    fontFamily: "Hanken Grotesk, sans-serif"
+    fontSize: "30px"
+  size-31:
+    fontFamily: "Hanken Grotesk, sans-serif"
+    fontSize: "31px"
+  size-32:
+    fontFamily: "Hanken Grotesk, sans-serif"
+    fontSize: "32px"
+  size-33:
+    fontFamily: "Hanken Grotesk, sans-serif"
+    fontSize: "33px"
   size-34:
     fontFamily: "Hanken Grotesk, sans-serif"
     fontSize: "34px"
+  size-35:
+    fontFamily: "Hanken Grotesk, sans-serif"
+    fontSize: "35px"
+  size-37:
+    fontFamily: "Hanken Grotesk, sans-serif"
+    fontSize: "37px"
+  size-39:
+    fontFamily: "Hanken Grotesk, sans-serif"
+    fontSize: "39px"
+  size-42:
+    fontFamily: "Hanken Grotesk, sans-serif"
+    fontSize: "42px"
+  size-46:
+    fontFamily: "Hanken Grotesk, sans-serif"
+    fontSize: "46px"
+  size-48:
+    fontFamily: "Hanken Grotesk, sans-serif"
+    fontSize: "48px"
+  size-72:
+    fontFamily: "Hanken Grotesk, sans-serif"
+    fontSize: "72px"
+  size-80:
+    fontFamily: "Hanken Grotesk, sans-serif"
+    fontSize: "80px"
+  size-82:
+    fontFamily: "Hanken Grotesk, sans-serif"
+    fontSize: "82px"
+  size-96:
+    fontFamily: "Hanken Grotesk, sans-serif"
+    fontSize: "96px"
+  size-164:
+    fontFamily: "Hanken Grotesk, sans-serif"
+    fontSize: "164px"
 rounded:
-  sheet-close: "2px"
   focus: "3px"
-  control: "6px"
-  story: "10px"
-  portrait: "12px"
-  feature: "16px"
+  event-photo: "10px"
+  oval: "50%"
+  action: "6px"
+  photo: "12px"
+  feature: "14px"
+  section: "16px"
   filter: "24px"
+  frame: "28px"
+  frame-mobile: "22px"
 spacing:
-  s8: "8px"
-  s10: "10px"
-  s12: "12px"
-  s14: "14px"
-  s16: "16px"
-  s17: "17px"
-  s18: "18px"
-  s20: "20px"
-  s21: "21px"
-  s24: "24px"
-  s25: "25px"
-  s28: "28px"
-  s30: "30px"
-  s32: "32px"
-  s34: "34px"
-  s35: "35px"
-  s36: "36px"
-  s38: "38px"
-  s40: "40px"
-  s42: "42px"
-  s48: "48px"
-  s50: "50px"
-  s55: "55px"
-  s56: "56px"
-  s60: "60px"
-  s64: "64px"
-  s72: "72px"
-  s80: "80px"
-  s85: "85px"
-  s96: "96px"
-  s100: "100px"
-  s110: "110px"
-  s114: "114px"
-  s128: "128px"
+  compact: "10px"
+  inset: "20px"
+  medium: "24px"
+  group: "36px"
+  section: "96px"
+  section-mobile: "56px"
 components:
   reading-button:
-    backgroundColor: "{colors.citron}"
-    textColor: "{colors.forest}"
+    backgroundColor: "{colors.walnut}"
+    textColor: "{colors.white}"
     typography: "{typography.action}"
-    rounded: "{rounded.control}"
+    rounded: "{rounded.action}"
     padding: "14px 21px"
   reading-button-hover:
-    backgroundColor: "{colors.citron-hover}"
+    backgroundColor: "{colors.walnut-hover}"
   header-contact:
-    backgroundColor: "{colors.citron}"
-    textColor: "{colors.forest}"
-    rounded: "{rounded.control}"
+    backgroundColor: "{colors.walnut}"
+    textColor: "{colors.white}"
+    rounded: "{rounded.action}"
     padding: "10px 18px"
   contact-link:
-    backgroundColor: "{colors.citron}"
-    textColor: "{colors.forest}"
+    backgroundColor: "{colors.walnut}"
+    textColor: "{colors.white}"
     typography: "{typography.action}"
-    rounded: "{rounded.control}"
+    rounded: "{rounded.action}"
     padding: "13px 20px"
+  featured-insight:
+    backgroundColor: "{colors.white}"
+    textColor: "{colors.espresso}"
+    rounded: "{rounded.feature}"
+    padding: "27px 30px"
+    width: "365px"
   topic-link:
-    textColor: "{colors.forest}"
-    rounded: "{rounded.control}"
+    textColor: "{colors.espresso}"
+    rounded: "{rounded.action}"
     padding: "10px 17px"
   topic-filter:
-    textColor: "{colors.forest}"
+    textColor: "{colors.espresso}"
     rounded: "{rounded.filter}"
     padding: "8px 17px"
   topic-filter-current:
-    backgroundColor: "{colors.forest}"
-    textColor: "{colors.paper}"
-  journal-window:
-    backgroundColor: "{colors.citron}"
-    textColor: "{colors.forest}"
-    rounded: "{rounded.story}"
-    padding: "21px"
-    height: "166px"
-  project-window:
-    backgroundColor: "{colors.sage}"
-    textColor: "{colors.forest}"
-    rounded: "{rounded.story}"
-    padding: "21px"
-    height: "166px"
-  editorial-notice:
-    backgroundColor: "{colors.surface}"
-    textColor: "{colors.forest}"
-    typography: "{typography.metadata}"
-    rounded: "{rounded.control}"
-    padding: "16px 20px"
-  mobile-sheet:
-    backgroundColor: "{colors.paper}"
-    textColor: "{colors.forest}"
-    padding: "32px 25px"
-    width: "75%"
+    backgroundColor: "{colors.espresso}"
+    textColor: "{colors.porcelain}"
+  publication-navigation:
+    textColor: "{colors.espresso}"
+  experience-disclosure:
+    textColor: "{colors.espresso}"
+    padding: "6px 0"
 ---
 
- Design System: France
+# Design System: France
 
 ## Overview
 
-**Creative North Star: "The Living Portrait"**
+**Creative North Star: "The Framed Editorial Portrait"**
 
-France is introduced through real photography, forest shade and clear humanist type. Paper gives the reading surfaces quiet space; citron marks direct invitations to read and connect. The mood is warm, sophisticated and personal, with selectively curved frames rather than a repeated card template.
+France's site pairs a warm, lightly framed canvas with her real portrait and clear upright type. The opening feels personal and composed: a transparent portrait sits over a taupe oval, with oversized outline PURPOSE lettering behind it and a floating white insight panel beside it.
 
-Upright Hanken Grotesk carries the whole site, from compact white navigation over photography to comfortable long-form reading. Flat tonal sections and fine rules structure the supporting content. This system replaces the rejected text-led catalogue and adapts the user's preferred photographic Oviron reference to France's supplied material.
+The supporting pages carry the same warm materials into open reading layouts, fine rules, understated photographic frames and direct invitations to read or connect. The homepage composition is a signature opening, while About, Speaking, Projects, Contact and Insights retain their own useful page structure.
 
 **Key Characteristics:**
-- Real portrait and event photography with forest overlays for readable copy.
-- Paper, forest, citron and sage with upright self-hosted Hanken Grotesk.
-- Selective rounded windows paired with flat, rule-separated reading content.
-- Responsive crops, direct navigation, visible keyboard focus and reduced-motion support.
+
+- Porcelain, espresso and walnut with a light taupe portrait backdrop.
+- Self-hosted upright Hanken Grotesk throughout.
+- A rounded outer frame and one softly elevated featured insight.
+- Open editorial rows, real navigation and accessible disclosures.
 
 ## Colors
 
-Fresh citron and soft botanical surfaces sit against deep forest and clean paper. Frontmatter values are normative; shade stops describe photographic overlays rather than additional flat surfaces.
+Warm neutrals provide the atmosphere; walnut identifies direct actions.
 
 ### Primary
-- **Forest:** main text, portrait foundation, selected filters and the closing contact surface.
-- **Citron / Citron Hover:** reading and contact controls, journal window, selection and inverse navigation punctuation.
+
+- **Walnut** fills reading and contact actions; **Walnut Hover** deepens their hover state.
+- **Accent Ink** gives small supporting text and mobile navigation states a darker brown emphasis.
 
 ### Secondary
-- **Sage:** project story window with its disclosed photograph placeholder.
-- **Surface:** speaking feature, editorial notices and quiet hover states.
+
+- **Light Taupe** forms the portrait backdrop.
+- **Limestone** supports tonal sections, editorial notices and quiet hover fills.
 
 ### Neutral
-- **Paper / White:** page ground and inverse content.
-- **Secondary Text / Line:** reading support and structural dividers.
-- **Soft White / Inverse Copy:** secondary copy on photographic and forest surfaces.
-- **Accent Ink / Placeholder Ink / Sage Rule / Brand Period:** contextual link, placeholder, list-rule and brand details.
-- **Scrollbar / Rail Scrollbar / Rail Track:** scroll affordances.
-- **Tap Highlight / Menu Hover / Inverse Menu Hover / Sheet Scrim:** transient interaction and modal states.
-- **Shade stops:** alpha-preserving forest and deeper green stops combined into the responsive gradients in the sidecar.
 
-**The Accent Mapping Rule.** The CSS property `--accent` is citron for reading and contact actions. Tailwind `--color-accent` maps to the pale surface for library ghost states. Keep those assignments distinct.
+- **Porcelain** is the page background; **Canvas** is the framed hero surface and backing for its journal link.
+- **Espresso** carries headings, navigation, the outer frame and the dark contact section.
+- **Secondary Text** softens descriptions and metadata; **Line** separates editorial rows and experience groups.
+- **White** lifts the featured insight and supplies inverse action text; **Outline Ink** strokes decorative PURPOSE lettering.
+
+**The Action Mapping Rule.** CSS `--accent` is walnut for primary actions. Tailwind `--color-accent` maps to limestone for library ghost states. Keep these assignments distinct.
 
 ## Typography
 
-**Display Font:** Hanken Grotesk, with sans-serif fallback.
-**Body Font:** Hanken Grotesk, with sans-serif fallback.
+Use self-hosted variable Hanken Grotesk, upright, with a sans-serif fallback. The local font spans weights (100–900); hierarchy is established through size, measure and weight.
 
-**Character:** Self-hosted upright variable humanist sans, supported at weights 100–900. Reading text is regular, headings medium and controls semibold; the brand uses 650. Frontmatter records all actual font-size expressions, including fluid endpoints and small supporting sizes. Semantic roles carry their observed weight, leading and tracking; neutral size primitives carry no invented styles. Responsive source declarations are retained in the sidecar.
+- **Hero:** a compact medium-weight statement; on mobile the smaller fluid variant keeps the introduction above the portrait.
+- **Display:** larger titles on dedicated content and reading pages. Article titles use a separate fluid range (42–72px) and a short measure (22ch).
+- **Headline:** section titles with tight tracking and balanced wrapping.
+- **Feature title:** a compact panel heading, reduced to (26px) on mobile.
+- **Body:** comfortable introductory reading. Long articles use the article-body role, a measure (68ch), and a mobile size (19px).
+- **Action and metadata:** clear upright labels without a separate display face.
 
-### Hierarchy
-- **Hero:** compact fluid display; tablet overrides and mobile scale preserve the portrait-to-copy relationship.
-- **Reading Display / Article Display:** distinct page-heading scales; article headlines have a 22ch maximum measure.
-- **Headline / Insight Title:** section and list hierarchy; list titles have a 28ch maximum measure.
-- **About Lead / Story Title:** short statements with the implemented tracking.
-- **Body / Article Body:** general copy and larger long-form reading text. Article prose is limited to 68ch; summaries to 65ch.
-- **Action / Metadata / Story Caption:** functional sentence-case support.
-- **Brand / Byline / Menu Title:** the implemented identity relationships.
-
-**The Upright Voice Rule.** Use self-hosted upright Hanken Grotesk across display, navigation and reading text. Hierarchy comes from size, weight and measure.
+**The Upright Voice Rule.** Use upright Hanken Grotesk for headings, navigation and reading; build hierarchy with scale and weight.
 
 ## Layout
 
-The container is at most 1280px, otherwise viewport width minus 128px. The subtraction becomes 80px at 1100px, then 40px at 720px. Section padding steps from 96px to 72px at 850px and 56px at 720px. The spacing inventory records observed dimensions without imposing a fabricated uniform grid.
+The main container caps at (1280px), with desktop side allowances (64px). These narrow to (40px) below (1100px) and (20px) below (720px). Section spacing reduces from (96px) to (72px) below (850px), then (56px) below (720px).
 
-The desktop opening is an inset photograph with copy left, France right, navigation above and four story windows below. The inset is 16px; height is viewport-relative with a 780px minimum and 980px cap. At 1600px, copy and rail align to the 1280px content measure. Responsive crops and gradients protect face visibility and copy contrast.
+The hero has its own rounded frame, an outer margin (24px), dark navigation inside the top edge, a left introduction and insight panel, and a right portrait. On mobile the frame margin becomes (8px); the introduction, portrait, insight and footer links stack in reading order. The panel overlaps only the portrait stage, keeping its reading action clear. Footer links wrap, with a light backing under Explore the journal.
 
-At 850px the desktop navigation becomes a menu and the story grid becomes a horizontal rail with proximity snapping. At 720px, the opening has an 8px inset, an upper portrait area, copy below the face and 220px-wide story windows. At 370px the composition tightens again. Hero height becomes automatic with explicit minimums.
-
-About, Speaking, Projects and Contact have dedicated routes. Their two-column content moves to one column at 720px. The About page retains its portrait on mobile. Inner pages use paper navigation, a clear page heading and the existing reading measures; current navigation links have aria-current and visible emphasis, including on nested insight articles. Homepage story windows open these routes. Insight rows pair metadata with reading content on desktop and follow source order on mobile, with metadata after the preview. Reading filters wrap; article content retains its comfortable measure.
+Desktop editorial rows place metadata beside the main content; profile and speaking layouts use two columns. Below (720px) these become single-column layouts. Experience groups use an organisation column beside their roles and collapse to one column at the same breakpoint. Desktop navigation becomes a modal mobile sheet below (850px).
 
 ## Elevation & Depth
 
-The site is predominantly flat. Tonal surfaces, photographic crops, alpha gradients and fine rules provide separation. Content cards have no decorative shadows. The portrait signature has a soft forest text shadow for legibility. The mobile modal uses a diffuse library shadow and half-black scrim; that depth belongs to the overlay.
+Depth comes from the framed canvas, the portrait's real alpha silhouette, the taupe oval and selective layering. The featured insight alone uses the soft warm shadow (`0 16px 38px #48362424`), without a visible border. Reading lists and experience remain flat, separated by fine rules. The mobile modal sheet retains its functional overlay and shadow.
 
-### Shadow Vocabulary
-- **Portrait signature:** `text-shadow: 0 2px 12px #182c25`.
-- **Mobile sheet:** `box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1)`.
+**The Selective Lift Rule.** Reserve the soft editorial shadow for the featured insight; use tonal surfaces and rules for supporting content.
 
-**The Selective Frame Rule.** Use curved frames for photography, story windows and tonal feature surfaces; keep editorial lists open and separated by fine rules.
+Color and border transitions use (180ms) with `cubic-bezier(0.2, 0.7, 0.2, 1)`. Reduced-motion preference disables animation, transitions and smooth scrolling.
 
 ## Shapes
 
-Control corners serve actions and notices. Story corners serve the story windows and event photograph; portrait corners serve the about photograph and mobile features; feature corners serve the desktop hero, speaking panel and contact surface. Filter pills use their own radius. Focus outlines and the sheet close control retain their smaller observed radii. Exact values live in frontmatter. Clip photography inside its frame.
+Use small curved action corners, softly rounded photographic windows and larger section curves. The outer hero frame uses a thin espresso stroke (2px) and tighter mobile corners. The portrait backdrop is an oval; its cutout preserves the real face, pose and clothing. PURPOSE is transparent lettering with a fine outline, behind the portrait and hidden from assistive technology.
 
 ## Components
 
-### Buttons
+- **Reading and contact actions:** walnut fills with white text, an inline SVG arrow and a deeper hover. Reading actions have a minimum height (54px), reduced to (52px) on mobile; the panel's reading link is full width with its own minimum height (48px). Header contact is more compact.
+- **Featured insight:** a white, shadow-only panel containing a real article link, compact title, editorial-preview disclosure and supporting summary. Mobile hides the summary while retaining the title, disclosure and action.
+- **Topic navigation:** outlined rectangular links on the homepage; pill filters in Insights. The selected filter uses espresso and porcelain with `aria-current="page"`.
+- **Publication navigation:** plain text links with an underline on hover and current page. The mobile sheet supplies modal focus management, a reachable close action and real page destinations.
+- **Experience disclosures:** native details/summary elements, a rotating SVG chevron and a minimum summary target (44px). Retain all supplied roles, dates and descriptions; the current About page contains fourteen role disclosures.
+- **Editorial rows and notices:** open, rule-separated story lists and limestone disclosure blocks. Sample writing remains visibly labelled as an editorial preview.
 
-Compact citron controls use forest text and inline SVG arrows. Reading, header contact and closing contact actions have distinct padding and heights. Hover shifts to Citron Hover. Inverse actions use white focus outlines; the general outline is two pixels in current color with a five-pixel offset. The mobile Menu control is transparent with contextual translucent hover fills. Library focus rings may coexist with the outline.
-
-### Chips
-
-Homepage topic links are outlined rectangles with arrows. Reading-page filters are pills; the current filter becomes forest with paper text and declares its current-page state. Both use Surface for quiet hover. These remain navigation links.
-
-### Cards / Containers
-
-The story window is a fixed-height clipped frame with a bottom caption. Journal is citron; project is sage with a disclosed photograph placeholder. Photo windows use a bottom gradient and subtle image scaling on hover or keyboard focus. Editorial previews use open rule-separated rows. Larger tonal features use their observed padding and selective rounding.
-
-### Navigation
-
-Home navigation is white over photography; inner-page navigation is forest on paper. Desktop links gain a fine current-color underline. Current-page links use aria-current and visible emphasis. The current Contact action has a 1px outline at 3px offset; keyboard focus increases it to 2px at 5px offset. Below 850px a labelled Menu opens the paper right-side sheet: full-height scrolling, 75% width, and a 384px maximum from the library's 640px breakpoint. Links have large vertical targets and separators; the close control is 44px square. Production Radix supplies modal keyboard and focus behavior; sidecar snippets document appearance only.
-
-### Reading Surfaces
-
-Editorial notices are pale tonal blocks that visibly disclose sample writing. Articles use large titles, category metadata, a summary and comfortable prose. Responsive type differs from the homepage hero. No input fields exist to document.
-
-### Motion
-
-State changes use 180ms with the site easing; story-image transforms use 400ms and scale to 1.045. The library sheet uses 500ms opening and 300ms closing. Reduced-motion preferences remove animations and transitions and switch smooth scrolling to automatic. There is no autoplay.
+Keyboard focus uses a visible current-color outline (2px) with an offset (5px); filled action focus uses espresso on light surfaces and white within the dark contact section. Hover feedback must not replace keyboard focus.
 
 ## Do's and Don'ts
 
 ### Do:
-- **Do** use current forest, paper and citron assignments and upright Hanken Grotesk.
-- **Do** protect face visibility and copy contrast when adjusting photographic crops and overlays.
-- **Do** preserve visible keyboard focus, reachable story links and reduced-motion behavior.
-- **Do** preserve comfortable reading measures and the mobile type variants.
-- **Do** keep editorial previews and missing project photography visibly disclosed.
+
+- **Do** carry the warm palette and upright Hanken Grotesk across every route.
+- **Do** preserve the real portrait silhouette and keep decorative PURPOSE lettering behind it and aria-hidden.
+- **Do** keep the featured panel shadow-only and its article link reachable at every viewport.
+- **Do** preserve real page destinations, keyboard focus, reduced-motion behavior and native experience disclosures.
+- **Do** keep sample writing and missing project imagery visibly disclosed.
 
 ### Don't:
-- **Don't** restore the superseded catalogue palette or essay-cover opening.
-- **Don't** use repeated italic slogans, stock geometric decoration or identical cards for every section.
-- **Don't** fabricate biography, speaking credentials, project outcomes or supporting imagery.
-- **Don't** describe the visual reference as an approved comp or claim pixel fidelity.
-- **Don't** invent form fields or publishing controls to fill visual space.
+
+- **Don't** restore the superseded forest/citron hero or photographic story strip.
+- **Don't** add shopping, account or carousel controls suggested by the visual reference.
+- **Don't** turn every editorial row or experience role into a raised card.
+- **Don't** invent credentials, outcomes, article authorship or replacement portrait details.

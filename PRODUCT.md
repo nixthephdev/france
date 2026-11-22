@@ -32,7 +32,9 @@ The client's stated direction: minimalist, sophisticated, warm, and purpose-driv
 
 The user rejected the first design as ugly and generic despite the installed skills. Its cream, olive, terracotta, repeated italic headings, identical section treatment, and decorative shapes are rejected implementation choices, not a required visual identity. A redesign is authorised.
 
-The user also rejected the subsequent text-led catalogue and supplied visual references, explicitly preferring the final Oviron consulting screenshot. The current direction uses an immersive portrait, overlaid navigation and concise copy, a citron reading action, and a visual story strip. This supersedes the catalogue's essay-first composition while keeping reading insights the primary action. Temporary media placeholders are authorised.
+The user also rejected the subsequent text-led catalogue and supplied visual references, explicitly preferring the final Oviron consulting screenshot. That version used an immersive portrait, overlaid navigation and concise copy, a citron reading action, and a visual story strip. It superseded the catalogue's essay-first composition while keeping reading insights the primary action. Temporary media placeholders are authorised.
+
+The later instruction “lets build that instead bro” replaces the Oviron treatment with the supplied Hameed eyewear reference: warm taupe and porcelain, a rounded ink frame, layered portrait, outline background lettering and a floating featured-insight panel. This explicit warm-neutral choice supersedes earlier palette guidance. Preserve the multi-page structure, all supplied experience data and reading priority. A derived transparent portrait cutout is authorised for this composition; retain the original supplied photographs and do not invent the subject's body, clothing or credentials.
 
 ## Open Decisions
 

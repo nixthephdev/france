@@ -1,65 +1,53 @@
 import Image from "next/image";
 import Link from "next/link";
-import { ArrowRight, ArrowUpRight, ImageIcon } from "lucide-react";
-import francePortrait from "../../public/images/france-portrait.jpg";
-import franceEvent from "../../public/images/france-asean-event.jpg";
-import { articles, topics } from "@/lib/site-content";
+import { ArrowDown, ArrowRight, ArrowUpRight, Mail } from "lucide-react";
+import franceCutout from "../../public/images/france-portrait-cutout.png";
+import { articles, topics, linkedInUrl, contactEmail } from "@/lib/site-content";
 
 export default function Home() {
+  const featured = articles[0];
   return (
     <main id="main-content" className="immersive-home">
-      <section className="portrait-hero" aria-labelledby="hero-title">
-        <div className="hero-photograph">
+      <section className="editorial-hero" aria-labelledby="hero-title">
+        <div className="hero-backdrop" aria-hidden="true" />
+        <div className="hero-portrait-stage">
+          <span className="hero-outline" aria-hidden="true">PURPOSE</span>
           <Image
-            src={francePortrait}
-            alt="Olga France Blas-Obias smiling in a light blue dress"
+            src={franceCutout}
+            alt="Olga France Blas-Obias"
             fill
-            sizes="(max-width: 720px) 100vw, 80vw"
+            sizes="(max-width: 720px) 90vw, 60vw"
             preload
-            placeholder="blur"
-            className="hero-portrait"
+            className="hero-cutout"
           />
         </div>
-        <div className="hero-shade" aria-hidden="true" />
-        <div className="hero-copy">
+        <div className="hero-introduction">
           <h1 id="hero-title">Growing businesses,<br />people and purpose.</h1>
           <p>
-            A personal perspective on entrepreneurship, thoughtful leadership
-            and building a more sustainable future.
+            A personal perspective on business, thoughtful leadership
+            and a more sustainable future.
           </p>
-          <div className="hero-actions">
-            <Link className="reading-button" href="/insights">
-              Read the insights <ArrowUpRight size={21} aria-hidden="true" />
-            </Link>
-            <Link className="hero-about-link" href="/about">Meet France</Link>
-          </div>
         </div>
-        <p className="hero-signature" translate="no">Olga France<br />Blas-Obias</p>
-        <nav className="story-strip" aria-label="Explore France’s world">
-          <Link className="story-window journal-window" href="/insights">
-            <span className="journal-window-title">A little perspective<br />goes a long way.</span>
-            <span className="story-caption">Explore the journal <ArrowUpRight size={18} aria-hidden="true" /></span>
+        <article className="hero-insight-panel" aria-labelledby="featured-insight-title">
+          <h2 id="featured-insight-title">{featured.title}</h2>
+          <p className="hero-preview-label">Editorial preview</p>
+          <p className="hero-insight-description">{featured.summary}</p>
+          <Link className="reading-button" href={`/insights/${featured.slug}`}>
+            Read the insight<ArrowUpRight size={19} aria-hidden="true" />
           </Link>
-          <Link className="story-window photo-window" href="/speaking">
-            <Image
-              src={franceEvent}
-              alt="France in front of national flags at an ASEAN event"
-              fill
-              sizes="(max-width: 720px) 220px, 25vw"
-              placeholder="blur"
-              className="story-event-photo"
-            />
-            <span className="story-caption">Conversations & community <ArrowUpRight size={18} aria-hidden="true" /></span>
-          </Link>
-          <Link className="story-window photo-window" href="/about">
-            <Image src={francePortrait} alt="" fill sizes="(max-width: 720px) 220px, 25vw" placeholder="blur" className="story-portrait-photo" />
-            <span className="story-caption">The person behind the ideas <ArrowUpRight size={18} aria-hidden="true" /></span>
-          </Link>
-          <Link className="story-window project-window" href="/projects">
-            <span className="photo-placeholder"><ImageIcon size={22} aria-hidden="true" />Project photograph coming soon</span>
-            <span className="story-caption">Projects & advocacy <ArrowUpRight size={18} aria-hidden="true" /></span>
-          </Link>
-        </nav>
+        </article>
+        <div className="hero-bottom-bar">
+          <div className="hero-social-links">
+            <a href={linkedInUrl} target="_blank" rel="noopener noreferrer" aria-label="France on LinkedIn (opens in a new tab)">
+              LinkedIn<ArrowUpRight size={16} aria-hidden="true" />
+            </a>
+            <a href={`mailto:${contactEmail}`} aria-label="Email France">
+              <Mail size={19} aria-hidden="true" />
+            </a>
+          </div>
+          <a className="hero-journal-link" href="#journal">Explore the journal<ArrowDown size={17} aria-hidden="true" /></a>
+          <Link className="hero-about-link" href="/about">Meet France<ArrowUpRight size={17} aria-hidden="true" /></Link>
+        </div>
       </section>
 
       <section className="topics-section shell" aria-labelledby="topics-title">
@@ -73,7 +61,7 @@ export default function Home() {
         </nav>
       </section>
 
-      <section className="more-insights shell section-space" aria-labelledby="insights-title">
+      <section className="more-insights shell section-space" id="journal" aria-labelledby="insights-title">
         <div className="section-heading">
           <h2 id="insights-title">A space for ideas.</h2>
           <Link className="text-link" href="/insights">

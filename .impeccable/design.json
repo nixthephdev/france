@@ -1,750 +1,395 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-11-21T13:42:23.190Z",
+  "generatedAt": "2026-11-22T03:19:52.620Z",
   "title": "Design System: France",
   "extensions": {
     "colorMeta": {
-      "forest": {
-        "role": "primary",
-        "displayName": "forest",
-        "canonical": "#182c25",
-        "tonalRamp": [
-          "oklch(15% 0.0064 169.90)",
-          "oklch(27% 0.0174 169.90)",
-          "oklch(38% 0.0274 169.90)",
-          "oklch(50% 0.0293 169.90)",
-          "oklch(61% 0.0293 169.90)",
-          "oklch(73% 0.0293 169.90)",
-          "oklch(84% 0.0239 169.90)",
-          "oklch(95% 0.0093 169.90)"
-        ]
-      },
-      "paper": {
+      "porcelain": {
         "role": "neutral",
-        "displayName": "paper",
-        "canonical": "#f6f6f0",
+        "displayName": "Porcelain",
+        "canonical": "#f3efe9",
         "tonalRamp": [
-          "oklch(15% 0.0017 106.55)",
-          "oklch(27% 0.0047 106.55)",
-          "oklch(38% 0.0074 106.55)",
-          "oklch(50% 0.0079 106.55)",
-          "oklch(61% 0.0079 106.55)",
-          "oklch(73% 0.0079 106.55)",
-          "oklch(84% 0.0065 106.55)",
-          "oklch(95% 0.0025 106.55)"
+          "oklch(15% 0.0020 78.28)",
+          "oklch(27% 0.0055 78.28)",
+          "oklch(38% 0.0085 78.28)",
+          "oklch(50% 0.0091 78.28)",
+          "oklch(61% 0.0091 78.28)",
+          "oklch(73% 0.0091 78.28)",
+          "oklch(84% 0.0075 78.28)",
+          "oklch(95% 0.0029 78.28)"
         ]
       },
-      "citron": {
-        "role": "primary",
-        "displayName": "citron",
-        "canonical": "#d9ee9c",
+      "espresso": {
+        "role": "neutral",
+        "displayName": "Espresso",
+        "canonical": "#302a25",
         "tonalRamp": [
-          "oklch(15% 0.0235 120.25)",
-          "oklch(27% 0.0637 120.25)",
-          "oklch(38% 0.1006 120.25)",
-          "oklch(50% 0.1073 120.25)",
-          "oklch(61% 0.1073 120.25)",
-          "oklch(73% 0.1073 120.25)",
-          "oklch(84% 0.0878 120.25)",
-          "oklch(95% 0.0342 120.25)"
-        ]
-      },
-      "citron-hover": {
-        "role": "primary",
-        "displayName": "citron hover",
-        "canonical": "#e6f7b8",
-        "tonalRamp": [
-          "oklch(15% 0.0182 120.27)",
-          "oklch(27% 0.0495 120.27)",
-          "oklch(38% 0.0782 120.27)",
-          "oklch(50% 0.0834 120.27)",
-          "oklch(61% 0.0834 120.27)",
-          "oklch(73% 0.0834 120.27)",
-          "oklch(84% 0.0682 120.27)",
-          "oklch(95% 0.0265 120.27)"
-        ]
-      },
-      "sage": {
-        "role": "secondary",
-        "displayName": "sage",
-        "canonical": "#dce5d8",
-        "tonalRamp": [
-          "oklch(15% 0.0044 135.84)",
-          "oklch(27% 0.0118 135.84)",
-          "oklch(38% 0.0186 135.84)",
-          "oklch(50% 0.0199 135.84)",
-          "oklch(61% 0.0199 135.84)",
-          "oklch(73% 0.0199 135.84)",
-          "oklch(84% 0.0163 135.84)",
-          "oklch(95% 0.0063 135.84)"
-        ]
-      },
-      "surface": {
-        "role": "secondary",
-        "displayName": "surface",
-        "canonical": "#e6eade",
-        "tonalRamp": [
-          "oklch(15% 0.0036 121.78)",
-          "oklch(27% 0.0098 121.78)",
-          "oklch(38% 0.0155 121.78)",
-          "oklch(50% 0.0165 121.78)",
-          "oklch(61% 0.0165 121.78)",
-          "oklch(73% 0.0165 121.78)",
-          "oklch(84% 0.0135 121.78)",
-          "oklch(95% 0.0053 121.78)"
+          "oklch(15% 0.0028 62.12)",
+          "oklch(27% 0.0075 62.12)",
+          "oklch(38% 0.0118 62.12)",
+          "oklch(50% 0.0126 62.12)",
+          "oklch(61% 0.0126 62.12)",
+          "oklch(73% 0.0126 62.12)",
+          "oklch(84% 0.0103 62.12)",
+          "oklch(95% 0.0040 62.12)"
         ]
       },
       "secondary-text": {
         "role": "neutral",
-        "displayName": "secondary text",
-        "canonical": "#526057",
+        "displayName": "Secondary Text",
+        "canonical": "#675b4f",
         "tonalRamp": [
-          "oklch(15% 0.0049 157.25)",
-          "oklch(27% 0.0133 157.25)",
-          "oklch(38% 0.0210 157.25)",
-          "oklch(50% 0.0224 157.25)",
-          "oklch(61% 0.0224 157.25)",
-          "oklch(73% 0.0224 157.25)",
-          "oklch(84% 0.0184 157.25)",
-          "oklch(95% 0.0071 157.25)"
+          "oklch(15% 0.0054 67.19)",
+          "oklch(27% 0.0146 67.19)",
+          "oklch(38% 0.0229 67.19)",
+          "oklch(50% 0.0244 67.19)",
+          "oklch(61% 0.0244 67.19)",
+          "oklch(73% 0.0244 67.19)",
+          "oklch(84% 0.0200 67.19)",
+          "oklch(95% 0.0078 67.19)"
+        ]
+      },
+      "limestone": {
+        "role": "secondary",
+        "displayName": "Limestone",
+        "canonical": "#e6ddd1",
+        "tonalRamp": [
+          "oklch(15% 0.0042 75.31)",
+          "oklch(27% 0.0114 75.31)",
+          "oklch(38% 0.0178 75.31)",
+          "oklch(50% 0.0189 75.31)",
+          "oklch(61% 0.0189 75.31)",
+          "oklch(73% 0.0189 75.31)",
+          "oklch(84% 0.0155 75.31)",
+          "oklch(95% 0.0061 75.31)"
+        ]
+      },
+      "walnut": {
+        "role": "primary",
+        "displayName": "Walnut",
+        "canonical": "#78634c",
+        "tonalRamp": [
+          "oklch(15% 0.0096 69.16)",
+          "oklch(27% 0.0262 69.16)",
+          "oklch(38% 0.0411 69.16)",
+          "oklch(50% 0.0437 69.16)",
+          "oklch(61% 0.0437 69.16)",
+          "oklch(73% 0.0437 69.16)",
+          "oklch(84% 0.0358 69.16)",
+          "oklch(95% 0.0140 69.16)"
+        ]
+      },
+      "walnut-hover": {
+        "role": "primary",
+        "displayName": "Walnut Hover",
+        "canonical": "#65513d",
+        "tonalRamp": [
+          "oklch(15% 0.0090 66.48)",
+          "oklch(27% 0.0245 66.48)",
+          "oklch(38% 0.0383 66.48)",
+          "oklch(50% 0.0408 66.48)",
+          "oklch(61% 0.0408 66.48)",
+          "oklch(73% 0.0408 66.48)",
+          "oklch(84% 0.0334 66.48)",
+          "oklch(95% 0.0131 66.48)"
         ]
       },
       "accent-ink": {
-        "role": "neutral",
-        "displayName": "accent ink",
-        "canonical": "#3d5122",
+        "role": "primary",
+        "displayName": "Accent Ink",
+        "canonical": "#66503b",
         "tonalRamp": [
-          "oklch(15% 0.0164 128.45)",
-          "oklch(27% 0.0446 128.45)",
-          "oklch(38% 0.0705 128.45)",
-          "oklch(50% 0.0752 128.45)",
-          "oklch(61% 0.0752 128.45)",
-          "oklch(73% 0.0752 128.45)",
-          "oklch(84% 0.0615 128.45)",
-          "oklch(95% 0.0239 128.45)"
+          "oklch(15% 0.0096 65.01)",
+          "oklch(27% 0.0262 65.01)",
+          "oklch(38% 0.0411 65.01)",
+          "oklch(50% 0.0437 65.01)",
+          "oklch(61% 0.0437 65.01)",
+          "oklch(73% 0.0437 65.01)",
+          "oklch(84% 0.0358 65.01)",
+          "oklch(95% 0.0140 65.01)"
         ]
       },
       "line": {
         "role": "neutral",
-        "displayName": "line",
-        "canonical": "#cdd3c6",
+        "displayName": "Line",
+        "canonical": "#c7bbae",
         "tonalRamp": [
-          "oklch(15% 0.0041 127.18)",
-          "oklch(27% 0.0112 127.18)",
-          "oklch(38% 0.0176 127.18)",
-          "oklch(50% 0.0188 127.18)",
-          "oklch(61% 0.0188 127.18)",
-          "oklch(73% 0.0188 127.18)",
-          "oklch(84% 0.0154 127.18)",
-          "oklch(95% 0.0060 127.18)"
+          "oklch(15% 0.0050 69.72)",
+          "oklch(27% 0.0136 69.72)",
+          "oklch(38% 0.0212 69.72)",
+          "oklch(50% 0.0226 69.72)",
+          "oklch(61% 0.0226 69.72)",
+          "oklch(73% 0.0226 69.72)",
+          "oklch(84% 0.0185 69.72)",
+          "oklch(95% 0.0072 69.72)"
         ]
       },
       "white": {
         "role": "neutral",
-        "displayName": "white",
-        "canonical": "#ffffff",
+        "displayName": "White",
+        "canonical": "#fffefd",
         "tonalRamp": [
-          "oklch(15% 0.0000 89.88)",
-          "oklch(27% 0.0000 89.88)",
-          "oklch(38% 0.0000 89.88)",
-          "oklch(50% 0.0000 89.88)",
-          "oklch(61% 0.0000 89.88)",
-          "oklch(73% 0.0000 89.88)",
-          "oklch(84% 0.0000 89.88)",
-          "oklch(95% 0.0000 89.88)"
+          "oklch(15% 0.0004 67.80)",
+          "oklch(27% 0.0010 67.80)",
+          "oklch(38% 0.0016 67.80)",
+          "oklch(50% 0.0017 67.80)",
+          "oklch(61% 0.0017 67.80)",
+          "oklch(73% 0.0017 67.80)",
+          "oklch(84% 0.0014 67.80)",
+          "oklch(95% 0.0005 67.80)"
         ]
       },
-      "soft-white": {
+      "canvas": {
         "role": "neutral",
-        "displayName": "soft white",
-        "canonical": "#edf2e9",
+        "displayName": "Canvas",
+        "canonical": "#f8f5ef",
         "tonalRamp": [
-          "oklch(15% 0.0029 130.78)",
-          "oklch(27% 0.0077 130.78)",
-          "oklch(38% 0.0122 130.78)",
-          "oklch(50% 0.0130 130.78)",
-          "oklch(61% 0.0130 130.78)",
-          "oklch(73% 0.0130 130.78)",
-          "oklch(84% 0.0107 130.78)",
-          "oklch(95% 0.0041 130.78)"
+          "oklch(15% 0.0019 84.57)",
+          "oklch(27% 0.0051 84.57)",
+          "oklch(38% 0.0081 84.57)",
+          "oklch(50% 0.0086 84.57)",
+          "oklch(61% 0.0086 84.57)",
+          "oklch(73% 0.0086 84.57)",
+          "oklch(84% 0.0070 84.57)",
+          "oklch(95% 0.0027 84.57)"
         ]
       },
-      "placeholder-ink": {
-        "role": "neutral",
-        "displayName": "placeholder ink",
-        "canonical": "#435343",
+      "light-taupe": {
+        "role": "secondary",
+        "displayName": "Light Taupe",
+        "canonical": "#b09a82",
         "tonalRamp": [
-          "oklch(15% 0.0072 144.97)",
-          "oklch(27% 0.0196 144.97)",
-          "oklch(38% 0.0309 144.97)",
-          "oklch(50% 0.0329 144.97)",
-          "oklch(61% 0.0329 144.97)",
-          "oklch(73% 0.0329 144.97)",
-          "oklch(84% 0.0269 144.97)",
-          "oklch(95% 0.0105 144.97)"
+          "oklch(15% 0.0094 69.48)",
+          "oklch(27% 0.0256 69.48)",
+          "oklch(38% 0.0401 69.48)",
+          "oklch(50% 0.0427 69.48)",
+          "oklch(61% 0.0427 69.48)",
+          "oklch(73% 0.0427 69.48)",
+          "oklch(84% 0.0350 69.48)",
+          "oklch(95% 0.0137 69.48)"
         ]
       },
-      "sage-rule": {
+      "outline-ink": {
         "role": "neutral",
-        "displayName": "sage rule",
-        "canonical": "#bdc8b6",
+        "displayName": "Outline Ink",
+        "canonical": "#85715c",
         "tonalRamp": [
-          "oklch(15% 0.0060 133.02)",
-          "oklch(27% 0.0163 133.02)",
-          "oklch(38% 0.0258 133.02)",
-          "oklch(50% 0.0275 133.02)",
-          "oklch(61% 0.0275 133.02)",
-          "oklch(73% 0.0275 133.02)",
-          "oklch(84% 0.0225 133.02)",
-          "oklch(95% 0.0088 133.02)"
-        ]
-      },
-      "inverse-copy": {
-        "role": "neutral",
-        "displayName": "inverse copy",
-        "canonical": "#dae3d7",
-        "tonalRamp": [
-          "oklch(15% 0.0041 137.80)",
-          "oklch(27% 0.0111 137.80)",
-          "oklch(38% 0.0176 137.80)",
-          "oklch(50% 0.0188 137.80)",
-          "oklch(61% 0.0188 137.80)",
-          "oklch(73% 0.0188 137.80)",
-          "oklch(84% 0.0154 137.80)",
-          "oklch(95% 0.0060 137.80)"
-        ]
-      },
-      "brand-period": {
-        "role": "neutral",
-        "displayName": "brand period",
-        "canonical": "#789044",
-        "tonalRamp": [
-          "oklch(15% 0.0233 123.98)",
-          "oklch(27% 0.0632 123.98)",
-          "oklch(38% 0.0997 123.98)",
-          "oklch(50% 0.1064 123.98)",
-          "oklch(61% 0.1064 123.98)",
-          "oklch(73% 0.1064 123.98)",
-          "oklch(84% 0.0870 123.98)",
-          "oklch(95% 0.0338 123.98)"
-        ]
-      },
-      "scrollbar": {
-        "role": "neutral",
-        "displayName": "scrollbar",
-        "canonical": "#87937d",
-        "tonalRamp": [
-          "oklch(15% 0.0076 130.79)",
-          "oklch(27% 0.0207 130.79)",
-          "oklch(38% 0.0327 130.79)",
-          "oklch(50% 0.0348 130.79)",
-          "oklch(61% 0.0348 130.79)",
-          "oklch(73% 0.0348 130.79)",
-          "oklch(84% 0.0285 130.79)",
-          "oklch(95% 0.0111 130.79)"
-        ]
-      },
-      "rail-scrollbar": {
-        "role": "neutral",
-        "displayName": "rail scrollbar",
-        "canonical": "#b9ce9f",
-        "tonalRamp": [
-          "oklch(15% 0.0148 127.40)",
-          "oklch(27% 0.0401 127.40)",
-          "oklch(38% 0.0634 127.40)",
-          "oklch(50% 0.0676 127.40)",
-          "oklch(61% 0.0676 127.40)",
-          "oklch(73% 0.0676 127.40)",
-          "oklch(84% 0.0553 127.40)",
-          "oklch(95% 0.0215 127.40)"
-        ]
-      },
-      "tap-highlight": {
-        "role": "neutral",
-        "displayName": "tap highlight",
-        "canonical": "#d9ee9c66",
-        "tonalRamp": [
-          "oklch(15% 0.0235 120.25)",
-          "oklch(27% 0.0637 120.25)",
-          "oklch(38% 0.1006 120.25)",
-          "oklch(50% 0.1073 120.25)",
-          "oklch(61% 0.1073 120.25)",
-          "oklch(73% 0.1073 120.25)",
-          "oklch(84% 0.0878 120.25)",
-          "oklch(95% 0.0342 120.25)"
-        ]
-      },
-      "menu-hover": {
-        "role": "neutral",
-        "displayName": "menu hover",
-        "canonical": "#52605722",
-        "tonalRamp": [
-          "oklch(15% 0.0049 157.25)",
-          "oklch(27% 0.0133 157.25)",
-          "oklch(38% 0.0210 157.25)",
-          "oklch(50% 0.0224 157.25)",
-          "oklch(61% 0.0224 157.25)",
-          "oklch(73% 0.0224 157.25)",
-          "oklch(84% 0.0184 157.25)",
-          "oklch(95% 0.0071 157.25)"
-        ]
-      },
-      "inverse-menu-hover": {
-        "role": "neutral",
-        "displayName": "inverse menu hover",
-        "canonical": "#ffffff22",
-        "tonalRamp": [
-          "oklch(15% 0.0000 89.88)",
-          "oklch(27% 0.0000 89.88)",
-          "oklch(38% 0.0000 89.88)",
-          "oklch(50% 0.0000 89.88)",
-          "oklch(61% 0.0000 89.88)",
-          "oklch(73% 0.0000 89.88)",
-          "oklch(84% 0.0000 89.88)",
-          "oklch(95% 0.0000 89.88)"
-        ]
-      },
-      "rail-track": {
-        "role": "neutral",
-        "displayName": "rail track",
-        "canonical": "#ffffff20",
-        "tonalRamp": [
-          "oklch(15% 0.0000 89.88)",
-          "oklch(27% 0.0000 89.88)",
-          "oklch(38% 0.0000 89.88)",
-          "oklch(50% 0.0000 89.88)",
-          "oklch(61% 0.0000 89.88)",
-          "oklch(73% 0.0000 89.88)",
-          "oklch(84% 0.0000 89.88)",
-          "oklch(95% 0.0000 89.88)"
-        ]
-      },
-      "sheet-scrim": {
-        "role": "neutral",
-        "displayName": "sheet scrim",
-        "canonical": "rgb(0 0 0 / 0.5)",
-        "tonalRamp": [
-          "oklch(15% 0.0000 0.00)",
-          "oklch(27% 0.0000 0.00)",
-          "oklch(38% 0.0000 0.00)",
-          "oklch(50% 0.0000 0.00)",
-          "oklch(61% 0.0000 0.00)",
-          "oklch(73% 0.0000 0.00)",
-          "oklch(84% 0.0000 0.00)",
-          "oklch(95% 0.0000 0.00)"
-        ]
-      },
-      "shade-10231ff5": {
-        "role": "neutral",
-        "displayName": "shade 10231ff5",
-        "canonical": "#10231ff5",
-        "tonalRamp": [
-          "oklch(15% 0.0058 178.85)",
-          "oklch(27% 0.0156 178.85)",
-          "oklch(38% 0.0247 178.85)",
-          "oklch(50% 0.0263 178.85)",
-          "oklch(61% 0.0263 178.85)",
-          "oklch(73% 0.0263 178.85)",
-          "oklch(84% 0.0215 178.85)",
-          "oklch(95% 0.0084 178.85)"
-        ]
-      },
-      "shade-10231f99": {
-        "role": "neutral",
-        "displayName": "shade 10231f99",
-        "canonical": "#10231f99",
-        "tonalRamp": [
-          "oklch(15% 0.0058 178.85)",
-          "oklch(27% 0.0156 178.85)",
-          "oklch(38% 0.0247 178.85)",
-          "oklch(50% 0.0263 178.85)",
-          "oklch(61% 0.0263 178.85)",
-          "oklch(73% 0.0263 178.85)",
-          "oklch(84% 0.0215 178.85)",
-          "oklch(95% 0.0084 178.85)"
-        ]
-      },
-      "shade-10231f00": {
-        "role": "neutral",
-        "displayName": "shade 10231f00",
-        "canonical": "#10231f00",
-        "tonalRamp": [
-          "oklch(15% 0.0058 178.85)",
-          "oklch(27% 0.0156 178.85)",
-          "oklch(38% 0.0247 178.85)",
-          "oklch(50% 0.0263 178.85)",
-          "oklch(61% 0.0263 178.85)",
-          "oklch(73% 0.0263 178.85)",
-          "oklch(84% 0.0215 178.85)",
-          "oklch(95% 0.0084 178.85)"
-        ]
-      },
-      "shade-182c25ed": {
-        "role": "neutral",
-        "displayName": "shade 182c25ed",
-        "canonical": "#182c25ed",
-        "tonalRamp": [
-          "oklch(15% 0.0064 169.90)",
-          "oklch(27% 0.0174 169.90)",
-          "oklch(38% 0.0274 169.90)",
-          "oklch(50% 0.0293 169.90)",
-          "oklch(61% 0.0293 169.90)",
-          "oklch(73% 0.0293 169.90)",
-          "oklch(84% 0.0239 169.90)",
-          "oklch(95% 0.0093 169.90)"
-        ]
-      },
-      "shade-182c25a8": {
-        "role": "neutral",
-        "displayName": "shade 182c25a8",
-        "canonical": "#182c25a8",
-        "tonalRamp": [
-          "oklch(15% 0.0064 169.90)",
-          "oklch(27% 0.0174 169.90)",
-          "oklch(38% 0.0274 169.90)",
-          "oklch(50% 0.0293 169.90)",
-          "oklch(61% 0.0293 169.90)",
-          "oklch(73% 0.0293 169.90)",
-          "oklch(84% 0.0239 169.90)",
-          "oklch(95% 0.0093 169.90)"
-        ]
-      },
-      "shade-182c2514": {
-        "role": "neutral",
-        "displayName": "shade 182c2514",
-        "canonical": "#182c2514",
-        "tonalRamp": [
-          "oklch(15% 0.0064 169.90)",
-          "oklch(27% 0.0174 169.90)",
-          "oklch(38% 0.0274 169.90)",
-          "oklch(50% 0.0293 169.90)",
-          "oklch(61% 0.0293 169.90)",
-          "oklch(73% 0.0293 169.90)",
-          "oklch(84% 0.0239 169.90)",
-          "oklch(95% 0.0093 169.90)"
-        ]
-      },
-      "shade-182c2500": {
-        "role": "neutral",
-        "displayName": "shade 182c2500",
-        "canonical": "#182c2500",
-        "tonalRamp": [
-          "oklch(15% 0.0064 169.90)",
-          "oklch(27% 0.0174 169.90)",
-          "oklch(38% 0.0274 169.90)",
-          "oklch(50% 0.0293 169.90)",
-          "oklch(61% 0.0293 169.90)",
-          "oklch(73% 0.0293 169.90)",
-          "oklch(84% 0.0239 169.90)",
-          "oklch(95% 0.0093 169.90)"
-        ]
-      },
-      "shade-10231f85": {
-        "role": "neutral",
-        "displayName": "shade 10231f85",
-        "canonical": "#10231f85",
-        "tonalRamp": [
-          "oklch(15% 0.0058 178.85)",
-          "oklch(27% 0.0156 178.85)",
-          "oklch(38% 0.0247 178.85)",
-          "oklch(50% 0.0263 178.85)",
-          "oklch(61% 0.0263 178.85)",
-          "oklch(73% 0.0263 178.85)",
-          "oklch(84% 0.0215 178.85)",
-          "oklch(95% 0.0084 178.85)"
-        ]
-      },
-      "shade-10231ff2": {
-        "role": "neutral",
-        "displayName": "shade 10231ff2",
-        "canonical": "#10231ff2",
-        "tonalRamp": [
-          "oklch(15% 0.0058 178.85)",
-          "oklch(27% 0.0156 178.85)",
-          "oklch(38% 0.0247 178.85)",
-          "oklch(50% 0.0263 178.85)",
-          "oklch(61% 0.0263 178.85)",
-          "oklch(73% 0.0263 178.85)",
-          "oklch(84% 0.0215 178.85)",
-          "oklch(95% 0.0084 178.85)"
-        ]
-      },
-      "shade-182c25e0": {
-        "role": "neutral",
-        "displayName": "shade 182c25e0",
-        "canonical": "#182c25e0",
-        "tonalRamp": [
-          "oklch(15% 0.0064 169.90)",
-          "oklch(27% 0.0174 169.90)",
-          "oklch(38% 0.0274 169.90)",
-          "oklch(50% 0.0293 169.90)",
-          "oklch(61% 0.0293 169.90)",
-          "oklch(73% 0.0293 169.90)",
-          "oklch(84% 0.0239 169.90)",
-          "oklch(95% 0.0093 169.90)"
-        ]
-      },
-      "shade-182c2577": {
-        "role": "neutral",
-        "displayName": "shade 182c2577",
-        "canonical": "#182c2577",
-        "tonalRamp": [
-          "oklch(15% 0.0064 169.90)",
-          "oklch(27% 0.0174 169.90)",
-          "oklch(38% 0.0274 169.90)",
-          "oklch(50% 0.0293 169.90)",
-          "oklch(61% 0.0293 169.90)",
-          "oklch(73% 0.0293 169.90)",
-          "oklch(84% 0.0239 169.90)",
-          "oklch(95% 0.0093 169.90)"
-        ]
-      },
-      "shade-10231f80": {
-        "role": "neutral",
-        "displayName": "shade 10231f80",
-        "canonical": "#10231f80",
-        "tonalRamp": [
-          "oklch(15% 0.0058 178.85)",
-          "oklch(27% 0.0156 178.85)",
-          "oklch(38% 0.0247 178.85)",
-          "oklch(50% 0.0263 178.85)",
-          "oklch(61% 0.0263 178.85)",
-          "oklch(73% 0.0263 178.85)",
-          "oklch(84% 0.0215 178.85)",
-          "oklch(95% 0.0084 178.85)"
-        ]
-      },
-      "shade-182c25d9": {
-        "role": "neutral",
-        "displayName": "shade 182c25d9",
-        "canonical": "#182c25d9",
-        "tonalRamp": [
-          "oklch(15% 0.0064 169.90)",
-          "oklch(27% 0.0174 169.90)",
-          "oklch(38% 0.0274 169.90)",
-          "oklch(50% 0.0293 169.90)",
-          "oklch(61% 0.0293 169.90)",
-          "oklch(73% 0.0293 169.90)",
-          "oklch(84% 0.0239 169.90)",
-          "oklch(95% 0.0093 169.90)"
+          "oklch(15% 0.0088 68.24)",
+          "oklch(27% 0.0240 68.24)",
+          "oklch(38% 0.0375 68.24)",
+          "oklch(50% 0.0399 68.24)",
+          "oklch(61% 0.0399 68.24)",
+          "oklch(73% 0.0399 68.24)",
+          "oklch(84% 0.0327 68.24)",
+          "oklch(95% 0.0128 68.24)"
         ]
       }
     },
     "typographyMeta": {
       "hero": {
-        "displayName": "hero",
-        "purpose": "Implemented semantic type role."
+        "displayName": "Hero statement",
+        "purpose": "Compact purpose statement beside the real portrait."
       },
       "hero-mobile": {
-        "displayName": "hero mobile",
-        "purpose": "Implemented semantic type role."
+        "displayName": "Mobile hero statement",
+        "purpose": "Smaller fluid statement above the mobile portrait."
       },
-      "reading-display": {
-        "displayName": "reading display",
-        "purpose": "Implemented semantic type role."
-      },
-      "article-display": {
-        "displayName": "article display",
-        "purpose": "Implemented semantic type role."
+      "display": {
+        "displayName": "Page display",
+        "purpose": "Dedicated content and Insights page titles."
       },
       "headline": {
-        "displayName": "headline",
-        "purpose": "Implemented semantic type role."
+        "displayName": "Section headline",
+        "purpose": "Major sections across routes."
       },
-      "contact-headline": {
-        "displayName": "contact headline",
-        "purpose": "Implemented semantic type role."
-      },
-      "insight-title": {
-        "displayName": "insight title",
-        "purpose": "Implemented semantic type role."
-      },
-      "about-lead": {
-        "displayName": "about lead",
-        "purpose": "Implemented semantic type role."
-      },
-      "story-title": {
-        "displayName": "story title",
-        "purpose": "Implemented semantic type role."
+      "feature-title": {
+        "displayName": "Featured insight title",
+        "purpose": "Title inside the floating white panel."
       },
       "body": {
-        "displayName": "body",
-        "purpose": "Implemented semantic type role."
+        "displayName": "Body",
+        "purpose": "Introductory copy and experience descriptions."
       },
       "article-body": {
-        "displayName": "article body",
-        "purpose": "Implemented semantic type role."
-      },
-      "article-body-mobile": {
-        "displayName": "article body mobile",
-        "purpose": "Implemented semantic type role."
+        "displayName": "Article body",
+        "purpose": "Long-form reading at a comfortable measure."
       },
       "action": {
-        "displayName": "action",
-        "purpose": "Implemented semantic type role."
+        "displayName": "Action",
+        "purpose": "Reading and contact links."
       },
       "metadata": {
-        "displayName": "metadata",
-        "purpose": "Implemented semantic type role."
-      },
-      "story-caption": {
-        "displayName": "story caption",
-        "purpose": "Implemented semantic type role."
-      },
-      "brand": {
-        "displayName": "brand",
-        "purpose": "Implemented semantic type role."
-      },
-      "brand-byline": {
-        "displayName": "brand byline",
-        "purpose": "Implemented semantic type role."
-      },
-      "menu-title": {
-        "displayName": "menu title",
-        "purpose": "Implemented semantic type role."
-      },
-      "size-14": {
-        "displayName": "size 14",
-        "purpose": "Observed supporting or responsive size; see sourceTypography for context."
-      },
-      "size-18": {
-        "displayName": "size 18",
-        "purpose": "Observed supporting or responsive size; see sourceTypography for context."
-      },
-      "size-24": {
-        "displayName": "size 24",
-        "purpose": "Observed supporting or responsive size; see sourceTypography for context."
-      },
-      "size-32": {
-        "displayName": "size 32",
-        "purpose": "Observed supporting or responsive size; see sourceTypography for context."
-      },
-      "size-23": {
-        "displayName": "size 23",
-        "purpose": "Observed supporting or responsive size; see sourceTypography for context."
-      },
-      "size-27": {
-        "displayName": "size 27",
-        "purpose": "Observed supporting or responsive size; see sourceTypography for context."
-      },
-      "size-33": {
-        "displayName": "size 33",
-        "purpose": "Observed supporting or responsive size; see sourceTypography for context."
+        "displayName": "Metadata",
+        "purpose": "Topic, date and disclosure text."
       },
       "size-11": {
-        "displayName": "size 11",
-        "purpose": "Observed supporting or responsive size; see sourceTypography for context."
+        "displayName": "Size 11",
+        "purpose": "Observed 11px text size or fluid endpoint; weight and leading remain component-specific."
       },
-      "size-55": {
-        "displayName": "size 55",
-        "purpose": "Observed supporting or responsive size; see sourceTypography for context."
+      "size-12": {
+        "displayName": "Size 12",
+        "purpose": "Observed 12px text size or fluid endpoint; weight and leading remain component-specific."
       },
-      "size-49": {
-        "displayName": "size 49",
-        "purpose": "Observed supporting or responsive size; see sourceTypography for context."
+      "size-13": {
+        "displayName": "Size 13",
+        "purpose": "Observed 13px text size or fluid endpoint; weight and leading remain component-specific."
       },
-      "size-31": {
-        "displayName": "size 31",
-        "purpose": "Observed supporting or responsive size; see sourceTypography for context."
+      "size-14": {
+        "displayName": "Size 14",
+        "purpose": "Observed 14px text size or fluid endpoint; weight and leading remain component-specific."
       },
-      "size-26": {
-        "displayName": "size 26",
-        "purpose": "Observed supporting or responsive size; see sourceTypography for context."
+      "size-15": {
+        "displayName": "Size 15",
+        "purpose": "Observed 15px text size or fluid endpoint; weight and leading remain component-specific."
       },
-      "size-29": {
-        "displayName": "size 29",
-        "purpose": "Observed supporting or responsive size; see sourceTypography for context."
+      "size-16": {
+        "displayName": "Size 16",
+        "purpose": "Observed 16px text size or fluid endpoint; weight and leading remain component-specific."
       },
-      "size-22": {
-        "displayName": "size 22",
-        "purpose": "Observed supporting or responsive size; see sourceTypography for context."
+      "size-17": {
+        "displayName": "Size 17",
+        "purpose": "Observed 17px text size or fluid endpoint; weight and leading remain component-specific."
       },
-      "size-48": {
-        "displayName": "size 48",
-        "purpose": "Observed supporting or responsive size; see sourceTypography for context."
+      "size-18": {
+        "displayName": "Size 18",
+        "purpose": "Observed 18px text size or fluid endpoint; weight and leading remain component-specific."
       },
-      "size-42": {
-        "displayName": "size 42",
-        "purpose": "Observed supporting or responsive size; see sourceTypography for context."
+      "size-19": {
+        "displayName": "Size 19",
+        "purpose": "Observed 19px text size or fluid endpoint; weight and leading remain component-specific."
       },
       "size-20": {
-        "displayName": "size 20",
-        "purpose": "Observed supporting or responsive size; see sourceTypography for context."
+        "displayName": "Size 20",
+        "purpose": "Observed 20px text size or fluid endpoint; weight and leading remain component-specific."
+      },
+      "size-21": {
+        "displayName": "Size 21",
+        "purpose": "Observed 21px text size or fluid endpoint; weight and leading remain component-specific."
+      },
+      "size-22": {
+        "displayName": "Size 22",
+        "purpose": "Observed 22px text size or fluid endpoint; weight and leading remain component-specific."
+      },
+      "size-23": {
+        "displayName": "Size 23",
+        "purpose": "Observed 23px text size or fluid endpoint; weight and leading remain component-specific."
+      },
+      "size-24": {
+        "displayName": "Size 24",
+        "purpose": "Observed 24px text size or fluid endpoint; weight and leading remain component-specific."
+      },
+      "size-25": {
+        "displayName": "Size 25",
+        "purpose": "Observed 25px text size or fluid endpoint; weight and leading remain component-specific."
+      },
+      "size-26": {
+        "displayName": "Size 26",
+        "purpose": "Observed 26px text size or fluid endpoint; weight and leading remain component-specific."
+      },
+      "size-27": {
+        "displayName": "Size 27",
+        "purpose": "Observed 27px text size or fluid endpoint; weight and leading remain component-specific."
+      },
+      "size-28": {
+        "displayName": "Size 28",
+        "purpose": "Observed 28px text size or fluid endpoint; weight and leading remain component-specific."
+      },
+      "size-29": {
+        "displayName": "Size 29",
+        "purpose": "Observed 29px text size or fluid endpoint; weight and leading remain component-specific."
+      },
+      "size-30": {
+        "displayName": "Size 30",
+        "purpose": "Observed 30px text size or fluid endpoint; weight and leading remain component-specific."
+      },
+      "size-31": {
+        "displayName": "Size 31",
+        "purpose": "Observed 31px text size or fluid endpoint; weight and leading remain component-specific."
+      },
+      "size-32": {
+        "displayName": "Size 32",
+        "purpose": "Observed 32px text size or fluid endpoint; weight and leading remain component-specific."
+      },
+      "size-33": {
+        "displayName": "Size 33",
+        "purpose": "Observed 33px text size or fluid endpoint; weight and leading remain component-specific."
       },
       "size-34": {
-        "displayName": "size 34",
-        "purpose": "Observed supporting or responsive size; see sourceTypography for context."
+        "displayName": "Size 34",
+        "purpose": "Observed 34px text size or fluid endpoint; weight and leading remain component-specific."
+      },
+      "size-35": {
+        "displayName": "Size 35",
+        "purpose": "Observed 35px text size or fluid endpoint; weight and leading remain component-specific."
+      },
+      "size-37": {
+        "displayName": "Size 37",
+        "purpose": "Observed 37px text size or fluid endpoint; weight and leading remain component-specific."
+      },
+      "size-39": {
+        "displayName": "Size 39",
+        "purpose": "Observed 39px text size or fluid endpoint; weight and leading remain component-specific."
+      },
+      "size-42": {
+        "displayName": "Size 42",
+        "purpose": "Observed 42px text size or fluid endpoint; weight and leading remain component-specific."
+      },
+      "size-46": {
+        "displayName": "Size 46",
+        "purpose": "Observed 46px text size or fluid endpoint; weight and leading remain component-specific."
+      },
+      "size-48": {
+        "displayName": "Size 48",
+        "purpose": "Observed 48px text size or fluid endpoint; weight and leading remain component-specific."
+      },
+      "size-72": {
+        "displayName": "Size 72",
+        "purpose": "Observed 72px text size or fluid endpoint; weight and leading remain component-specific."
+      },
+      "size-80": {
+        "displayName": "Size 80",
+        "purpose": "Observed 80px text size or fluid endpoint; weight and leading remain component-specific."
+      },
+      "size-82": {
+        "displayName": "Size 82",
+        "purpose": "Observed 82px text size or fluid endpoint; weight and leading remain component-specific."
+      },
+      "size-96": {
+        "displayName": "Size 96",
+        "purpose": "Observed 96px text size or fluid endpoint; weight and leading remain component-specific."
+      },
+      "size-164": {
+        "displayName": "Size 164",
+        "purpose": "Observed 164px text size or fluid endpoint; weight and leading remain component-specific."
       }
     },
     "shadows": [
       {
-        "name": "portrait-signature",
-        "value": "0 2px 12px #182c25",
-        "purpose": "Text shadow over portrait."
+        "name": "featured-insight",
+        "value": "0 16px 38px #48362424",
+        "purpose": "Soft warm elevation under the borderless white insight panel."
       },
       {
-        "name": "mobile-sheet",
-        "value": "0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1)",
-        "purpose": "Modal navigation only."
-      }
-    ],
-    "gradients": [
-      {
-        "name": "hero-1",
-        "value": "linear-gradient(0deg, #10231ff5 0%, #10231f99 16%, #10231f00 48%), linear-gradient(90deg, #182c25 9%, #182c25ed 26%, #182c25a8 42%, #182c2514 65%, #182c2500 100%), linear-gradient(180deg, #10231f85 0%, #10231f00 24%)",
-        "purpose": "Actual responsive photographic contrast overlay; hero order: desktop, <=1100px, <=720px."
-      },
-      {
-        "name": "photo-window",
-        "value": "linear-gradient(0deg, #10231ff2, #10231f00 80%)",
-        "purpose": "Actual responsive photographic contrast overlay; hero order: desktop, <=1100px, <=720px."
-      },
-      {
-        "name": "hero-2",
-        "value": "linear-gradient(0deg, #10231ff5, #10231f00 47%), linear-gradient(90deg, #182c25 5%, #182c25e0 25%, #182c2577 50%, #182c2500 80%), linear-gradient(180deg, #10231f99, #10231f00 28%)",
-        "purpose": "Actual responsive photographic contrast overlay; hero order: desktop, <=1100px, <=720px."
-      },
-      {
-        "name": "hero-3",
-        "value": "linear-gradient(180deg, #10231f80 0%, #182c2500 16%, #182c2500 26%, #182c25d9 42%, #182c25 58%)",
-        "purpose": "Actual responsive photographic contrast overlay; hero order: desktop, <=1100px, <=720px."
+        "name": "modal-sheet",
+        "value": "0 10px 15px -3px rgb(0 0 0 / .1), 0 4px 6px -4px rgb(0 0 0 / .1)",
+        "purpose": "Functional elevation for the mobile navigation sheet."
       }
     ],
     "motion": [
       {
         "name": "ease-out",
-        "value": "cubic-bezier(0.2,0.7,0.2,1)",
-        "purpose": "Site transitions."
+        "value": "cubic-bezier(0.2, 0.7, 0.2, 1)",
+        "purpose": "Action background, navigation border and disclosure-chevron transitions."
       },
       {
         "name": "state-duration",
         "value": "180ms",
-        "purpose": "Background and underline transitions."
-      },
-      {
-        "name": "image-duration",
-        "value": "400ms",
-        "purpose": "Story image scale to 1.045."
-      },
-      {
-        "name": "sheet-open",
-        "value": "500ms",
-        "purpose": "Library entrance."
-      },
-      {
-        "name": "sheet-close",
-        "value": "300ms",
-        "purpose": "Library exit."
-      },
-      {
-        "name": "sheet-control",
-        "value": "150ms cubic-bezier(0.4,0,0.2,1)",
-        "purpose": "Close-control opacity."
+        "purpose": "Default state-transition duration; disabled with reduced motion."
       }
     ],
     "breakpoints": [
       {
-        "name": "wide-alignment",
+        "name": "wide",
         "value": "1600px"
       },
       {
@@ -756,388 +401,13 @@
         "value": "850px"
       },
       {
-        "name": "stacked-layout",
+        "name": "stacked",
         "value": "720px"
       },
       {
-        "name": "sheet-max-width",
-        "value": "640px"
-      },
-      {
-        "name": "narrow-mobile",
+        "name": "small-phone",
         "value": "370px"
       }
-    ],
-    "sourceTypography": [
-      {
-        "selector": "body",
-        "declarations": "margin: 0;\n  background: var(--background);\n  color: var(--foreground);\n  font: 17px/1.6 var(--font-body);\n  -webkit-font-smoothing: antialiased;"
-      },
-      {
-        "selector": "h2",
-        "declarations": "font-size: clamp(32px, 3.4vw, 48px);"
-      },
-      {
-        "selector": ".brand-name",
-        "declarations": "font-size: 37px; font-weight: 650; line-height: 1; letter-spacing: -0.035em;"
-      },
-      {
-        "selector": ".brand-byline",
-        "declarations": "font-size: 12px; line-height: 1.3;"
-      },
-      {
-        "selector": ".desktop-navigation a",
-        "declarations": "display: inline-flex;\n  align-items: center;\n  min-height: 44px;\n  font-size: 15px;\n  border-bottom: 1px solid transparent;\n  transition: border-color 180ms var(--ease-out);"
-      },
-      {
-        "selector": ".header-contact",
-        "declarations": "display: inline-flex;\n  align-items: center;\n  justify-content: space-between;\n  gap: 24px;\n  min-height: 46px;\n  padding: 10px 18px;\n  border-radius: 6px;\n  background: var(--accent);\n  color: var(--foreground);\n  font-size: 14px;\n  font-weight: 600;\n  transition: background-color 180ms var(--ease-out);"
-      },
-      {
-        "selector": ".hero-copy h1",
-        "declarations": "font-size: clamp(48px, 4.8vw, 70px); line-height: 1.04; letter-spacing: -0.035em;"
-      },
-      {
-        "selector": ".hero-copy > p",
-        "declarations": "max-width: 39ch; margin-top: 26px; color: #edf2e9; font-size: 19px; line-height: 1.6;"
-      },
-      {
-        "selector": ".reading-button",
-        "declarations": "display: inline-flex;\n  align-items: center;\n  justify-content: space-between;\n  gap: 35px;\n  min-height: 54px;\n  padding: 14px 21px;\n  border-radius: 6px;\n  background: var(--accent);\n  color: var(--foreground);\n  font-size: 16px;\n  font-weight: 600;\n  transition: background-color 180ms var(--ease-out);"
-      },
-      {
-        "selector": ".hero-about-link",
-        "declarations": "display: inline-flex; align-items: center; min-height: 44px; font-size: 15px; text-decoration: underline;"
-      },
-      {
-        "selector": ".hero-signature",
-        "declarations": "position: absolute; right: 49px; bottom: 239px; font-size: 16px; line-height: 1.35; text-align: right; text-shadow: 0 2px 12px #182c25;"
-      },
-      {
-        "selector": ".journal-window-title",
-        "declarations": "font-size: clamp(22px, 2.1vw, 29px); line-height: 1.08; letter-spacing: -0.025em;"
-      },
-      {
-        "selector": ".story-caption",
-        "declarations": "position: relative; z-index: 1; display: flex; align-items: center; justify-content: space-between; gap: 10px; font-size: 13px; font-weight: 500; line-height: 1.3;"
-      },
-      {
-        "selector": ".photo-placeholder",
-        "declarations": "display: flex; align-items: center; gap: 12px; max-width: 22ch; font-size: 13px; color: #435343; line-height: 1.5;"
-      },
-      {
-        "selector": ".topics-section h2",
-        "declarations": "font-size: 18px; letter-spacing: -0.015em; margin-bottom: 20px;"
-      },
-      {
-        "selector": ".topic-index a",
-        "declarations": "display: inline-flex; align-items: center; justify-content: space-between; min-height: 47px; padding: 10px 17px; gap: 24px; border: 1px solid var(--line); border-radius: 6px; font-size: 15px; transition: background-color 180ms var(--ease-out);"
-      },
-      {
-        "selector": ".section-intro",
-        "declarations": "max-width: 63ch; margin-top: 20px; color: var(--text-secondary); font-size: 17px;"
-      },
-      {
-        "selector": ".text-link",
-        "declarations": "display: inline-flex; align-items: center; gap: 18px; min-height: 44px; font-size: 16px; font-weight: 500;"
-      },
-      {
-        "selector": ".article-meta",
-        "declarations": "color: var(--text-secondary); font-size: 15px; line-height: 1.65;"
-      },
-      {
-        "selector": ".article-meta span",
-        "declarations": "display: block; font-size: 13px; margin-top: 5px;"
-      },
-      {
-        "selector": ".insight-title",
-        "declarations": "max-width: 28ch; font-size: clamp(28px, 3vw, 39px);"
-      },
-      {
-        "selector": ".insight-summary",
-        "declarations": "max-width: 65ch; margin-top: 14px; color: var(--text-secondary); font-size: 18px;"
-      },
-      {
-        "selector": ".about-name",
-        "declarations": "font-size: 19px; font-weight: 600; margin-bottom: 24px;"
-      },
-      {
-        "selector": ".about-lead",
-        "declarations": "font-size: clamp(25px, 2.6vw, 34px); line-height: 1.4; letter-spacing: -0.025em;"
-      },
-      {
-        "selector": ".content-note",
-        "declarations": "font-size: 14px; color: var(--text-secondary); line-height: 1.65;"
-      },
-      {
-        "selector": ".event-figure figcaption",
-        "declarations": "margin-top: 12px; font-size: 13px; color: var(--text-secondary);"
-      },
-      {
-        "selector": ".speaking-copy p",
-        "declarations": "margin-top: 25px; max-width: 60ch; font-size: 19px; line-height: 1.7; color: var(--text-secondary);"
-      },
-      {
-        "selector": ".speaking-topics",
-        "declarations": "list-style: none; padding: 0; margin: 28px 0 24px; font-size: 16px;"
-      },
-      {
-        "selector": ".projects-section > div > p:first-child",
-        "declarations": "font-size: 24px; line-height: 1.5; max-width: 43ch;"
-      },
-      {
-        "selector": ".contact-section h2",
-        "declarations": "font-size: clamp(30px, 3.4vw, 46px); max-width: 21ch;"
-      },
-      {
-        "selector": ".contact-link",
-        "declarations": "display: inline-flex; align-items: center; justify-content: space-between; gap: 28px; flex-shrink: 0; min-height: 56px; padding: 13px 20px; border-radius: 6px; font-size: 16px; font-weight: 600; background: var(--accent); color: var(--foreground); transition: background-color 180ms var(--ease-out);"
-      },
-      {
-        "selector": ".footer-brand",
-        "declarations": "font-size: 32px; font-weight: 600; letter-spacing: -0.035em; line-height: 1.2;"
-      },
-      {
-        "selector": ".site-footer p",
-        "declarations": "font-size: 14px; color: var(--text-secondary); margin-top: 7px;"
-      },
-      {
-        "selector": ".footer-links",
-        "declarations": "display: flex; gap: 28px; font-size: 15px;"
-      },
-      {
-        "selector": ".menu-title",
-        "declarations": "font: 600 35px/1.2 var(--font-body); letter-spacing: -0.03em;"
-      },
-      {
-        "selector": ".mobile-navigation nav a",
-        "declarations": "display: flex; justify-content: space-between; align-items: center; min-height: 65px; font-size: 23px; border-bottom: 1px solid var(--line);"
-      },
-      {
-        "selector": ".reading-page > h1, .reading-intro h1",
-        "declarations": "font-size: clamp(48px, 6vw, 80px); margin-bottom: 20px; color: var(--foreground);"
-      },
-      {
-        "selector": ".reading-intro",
-        "declarations": "max-width: 65ch; font-size: 21px; line-height: 1.6; color: var(--text-secondary);"
-      },
-      {
-        "selector": ".editorial-notice",
-        "declarations": "max-width: 75ch; font-size: 15px; line-height: 1.65; padding: 16px 20px; margin-top: 25px; background: var(--surface); color: var(--foreground); border-radius: 6px;"
-      },
-      {
-        "selector": ".topic-filters a",
-        "declarations": "display: inline-flex; align-items: center; min-height: 44px; padding: 8px 17px; border: 1px solid var(--line); border-radius: 24px; font-size: 16px;"
-      },
-      {
-        "selector": ".reading-back",
-        "declarations": "display: inline-flex; gap: 10px; align-items: center; min-height: 44px; margin-bottom: 27px; font-size: 16px;"
-      },
-      {
-        "selector": ".article-header h1",
-        "declarations": "max-width: 22ch; font-size: clamp(42px, 5.4vw, 72px); margin-block: 16px 23px;"
-      },
-      {
-        "selector": ".article-header > p:not(.article-meta):not(.editorial-notice)",
-        "declarations": "max-width: 65ch; font-size: 23px; line-height: 1.5; color: var(--text-secondary);"
-      },
-      {
-        "selector": ".article-content",
-        "declarations": "max-width: 68ch; font-size: 21px; line-height: 1.7; margin-block: 40px 48px;"
-      },
-      {
-        "selector": ".article-related h2",
-        "declarations": "font-size: 27px; margin-bottom: 12px;"
-      },
-      {
-        "selector": ".brand-name",
-        "declarations": "font-size: 33px;"
-      },
-      {
-        "selector": ".brand-byline",
-        "declarations": "font-size: 11px;"
-      },
-      {
-        "selector": ".hero-copy h1",
-        "declarations": "font-size: 55px;"
-      },
-      {
-        "selector": ".hero-copy > p",
-        "declarations": "max-width: 34ch; font-size: 18px;"
-      },
-      {
-        "selector": ".story-caption",
-        "declarations": "font-size: 12px;"
-      },
-      {
-        "selector": ".journal-window-title",
-        "declarations": "font-size: 24px;"
-      },
-      {
-        "selector": ".mobile-menu-button",
-        "declarations": "display: inline-flex; gap: 9px; min-height: 44px; font-size: 15px; background: transparent; color: inherit;"
-      },
-      {
-        "selector": ".hero-copy h1",
-        "declarations": "font-size: 49px;"
-      },
-      {
-        "selector": ".hero-signature",
-        "declarations": "right: 25px; font-size: 14px;"
-      },
-      {
-        "selector": ".story-caption",
-        "declarations": "font-size: 13px;"
-      },
-      {
-        "selector": ".brand-name",
-        "declarations": "font-size: 31px;"
-      },
-      {
-        "selector": ".brand-byline",
-        "declarations": "font-size: 11px;"
-      },
-      {
-        "selector": ".hero-copy h1",
-        "declarations": "font-size: clamp(36px, 8.5vw, 56px); line-height: 1.06; max-width: 17ch;"
-      },
-      {
-        "selector": ".hero-copy > p",
-        "declarations": "max-width: 36ch; margin-top: 20px; font-size: 17px; line-height: 1.6;"
-      },
-      {
-        "selector": ".reading-button",
-        "declarations": "min-height: 52px; padding: 13px 17px; font-size: 15px; gap: 24px;"
-      },
-      {
-        "selector": ".hero-about-link",
-        "declarations": "font-size: 14px;"
-      },
-      {
-        "selector": ".hero-signature",
-        "declarations": "top: 324px; bottom: auto; right: 22px; font-size: 12px;"
-      },
-      {
-        "selector": ".journal-window-title",
-        "declarations": "font-size: 26px;"
-      },
-      {
-        "selector": ".topic-index a",
-        "declarations": "gap: 8px; padding-inline: 12px; font-size: 14px;"
-      },
-      {
-        "selector": ".section-intro",
-        "declarations": "margin-top: 17px; font-size: 16px;"
-      },
-      {
-        "selector": ".article-meta",
-        "declarations": "font-size: 14px; display: flex; justify-content: space-between; gap: 15px; flex-wrap: wrap;"
-      },
-      {
-        "selector": ".article-meta span",
-        "declarations": "margin-top: 0; font-size: 13px;"
-      },
-      {
-        "selector": ".insight-title",
-        "declarations": "font-size: 29px; line-height: 1.17;"
-      },
-      {
-        "selector": ".insight-summary",
-        "declarations": "font-size: 17px;"
-      },
-      {
-        "selector": ".about-name",
-        "declarations": "font-size: 17px; margin-bottom: 16px;"
-      },
-      {
-        "selector": ".about-lead",
-        "declarations": "font-size: 26px;"
-      },
-      {
-        "selector": ".speaking-copy p",
-        "declarations": "font-size: 18px; margin-top: 20px;"
-      },
-      {
-        "selector": ".speaking-topics",
-        "declarations": "font-size: 16px; margin-block: 20px;"
-      },
-      {
-        "selector": ".projects-section > div > p:first-child",
-        "declarations": "font-size: 22px;"
-      },
-      {
-        "selector": ".contact-section h2",
-        "declarations": "font-size: 33px;"
-      },
-      {
-        "selector": ".contact-section p",
-        "declarations": "font-size: 16px;"
-      },
-      {
-        "selector": ".contact-link",
-        "declarations": "font-size: 15px; gap: 24px;"
-      },
-      {
-        "selector": ".reading-page > h1, .reading-intro h1",
-        "declarations": "font-size: 48px;"
-      },
-      {
-        "selector": ".reading-intro",
-        "declarations": "font-size: 19px;"
-      },
-      {
-        "selector": ".editorial-notice",
-        "declarations": "padding: 15px 17px; font-size: 14px;"
-      },
-      {
-        "selector": ".topic-filters a",
-        "declarations": "padding: 8px 13px; font-size: 14px;"
-      },
-      {
-        "selector": ".article-header h1",
-        "declarations": "font-size: 42px; letter-spacing: -0.03em;"
-      },
-      {
-        "selector": ".article-header > p:not(.article-meta):not(.editorial-notice)",
-        "declarations": "font-size: 20px;"
-      },
-      {
-        "selector": ".article-content",
-        "declarations": "font-size: 19px; line-height: 1.7; margin-block: 30px 38px;"
-      },
-      {
-        "selector": ".hero-copy h1",
-        "declarations": "font-size: 34px;"
-      },
-      {
-        "selector": ".hero-about-link",
-        "declarations": "font-size: 13px;"
-      },
-      {
-        "selector": ".reading-button",
-        "declarations": "gap: 18px; padding-inline: 14px; font-size: 14px;"
-      }
-    ],
-    "focus": {
-      "outline": "2px solid currentColor",
-      "outlineOffset": "5px",
-      "radius": "3px",
-      "inverseOutlineColor": "#ffffff",
-      "purpose": "Library trigger focus ring may coexist with this outline."
-    },
-    "reducedMotion": "Animations and transitions removed; scroll-behavior:auto.",
-    "sourceEvidence": [
-      "src/app/globals.css",
-      "src/app/layout.tsx",
-      "src/app/page.tsx",
-      "src/components/site-chrome.tsx",
-      "src/components/site-interactions.tsx",
-      "src/components/ui/sheet.tsx",
-      "src/components/ui/button.tsx",
-      "src/app/insights/page.tsx",
-      "src/app/insights/[slug]/page.tsx",
-      ".impeccable/review/desktop.png",
-      ".impeccable/review/mobile.png"
     ]
   },
   "components": [
@@ -1145,120 +415,105 @@
       "name": "Reading action",
       "kind": "button",
       "refersTo": "reading-button",
-      "description": "Citron navigation action with forest text and an inline SVG arrow.",
-      "html": "<a class=\"ds-reading\" href=\"#read\">Read the insights<svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M7 17 17 7M7 7h10v10\"/></svg></a>",
-      "css": ".ds-reading{font-family:var(--font-body,'Hanken Grotesk',sans-serif);display:inline-flex;align-items:center;justify-content:space-between;gap:35px;min-height:54px;padding:14px 21px;border-radius:6px;background:var(--accent,#d9ee9c);color:var(--foreground,#182c25);font-size:16px;font-weight:600;line-height:1.6;text-decoration:none;transition:background-color 180ms cubic-bezier(0.2,0.7,0.2,1)}.ds-reading:hover{background:var(--accent-hover,#e6f7b8)}.ds-reading:focus-visible{outline:2px solid currentColor;outline-offset:5px;border-radius:3px;}@media(max-width:720px){.ds-reading{min-height:52px;padding:13px 17px;font-size:15px;gap:24px}}@media(max-width:370px){.ds-reading{padding-inline:14px;font-size:14px;gap:18px}}@media(prefers-reduced-motion:reduce){.ds-reading{transition:none}}"
+      "description": "Walnut reading link with white text and an inline arrow.",
+      "html": "<a class=\"ds-reading\" href=\"/insights\">Read the insight<svg width=\"19\" height=\"19\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M7 17 17 7M7 7h10v10\"/></svg></a>",
+      "css": ".ds-reading{font-family:var(--font-body,'Hanken Grotesk',sans-serif);display:inline-flex;align-items:center;justify-content:space-between;gap:35px;min-height:54px;padding:14px 21px;font-size:16px;border-radius:6px;background:var(--accent,#78634c);color:var(--white,#fffefd);font-weight:600;line-height:1.6;text-decoration:none;transition:background-color 180ms cubic-bezier(.2,.7,.2,1)}.ds-reading:hover{background:var(--accent-hover,#65513d)}.ds-reading:focus-visible{outline:2px solid var(--foreground,#302a25);outline-offset:5px}@media(prefers-reduced-motion:reduce){*{transition:none!important}}@media(max-width:720px){.ds-reading{min-height:52px;padding:13px 17px;font-size:15px;gap:24px}}"
     },
     {
       "name": "Header contact",
       "kind": "button",
       "refersTo": "header-contact",
-      "description": "Citron navigation action with forest text and an inline SVG arrow.",
-      "html": "<a class=\"ds-header-contact\" href=\"#read\">Let's connect<svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M7 17 17 7M7 7h10v10\"/></svg></a>",
-      "css": ".ds-header-contact{font-family:var(--font-body,'Hanken Grotesk',sans-serif);display:inline-flex;align-items:center;justify-content:space-between;gap:24px;min-height:46px;padding:10px 18px;border-radius:6px;background:var(--accent,#d9ee9c);color:var(--foreground,#182c25);font-size:14px;font-weight:600;line-height:1.6;text-decoration:none;transition:background-color 180ms cubic-bezier(0.2,0.7,0.2,1)}.ds-header-contact:hover{background:var(--accent-hover,#e6f7b8)}.ds-header-contact:focus-visible{outline:2px solid currentColor;outline-offset:5px;border-radius:3px;}@media(max-width:1100px){.ds-header-contact{gap:16px}}@media(prefers-reduced-motion:reduce){.ds-header-contact{transition:none}}"
+      "description": "Compact direct link to the dedicated Contact page.",
+      "html": "<a class=\"ds-header-contact\" href=\"/contact\">Contact<svg width=\"19\" height=\"19\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M7 17 17 7M7 7h10v10\"/></svg></a>",
+      "css": ".ds-header-contact{font-family:var(--font-body,'Hanken Grotesk',sans-serif);display:inline-flex;align-items:center;justify-content:space-between;gap:24px;min-height:46px;padding:10px 18px;font-size:14px;border-radius:6px;background:var(--accent,#78634c);color:var(--white,#fffefd);font-weight:600;line-height:1.6;text-decoration:none;transition:background-color 180ms cubic-bezier(.2,.7,.2,1)}.ds-header-contact:hover{background:var(--accent-hover,#65513d)}.ds-header-contact:focus-visible{outline:2px solid var(--foreground,#302a25);outline-offset:5px}@media(prefers-reduced-motion:reduce){*{transition:none!important}}"
     },
     {
       "name": "Closing contact action",
       "kind": "button",
       "refersTo": "contact-link",
-      "description": "Citron navigation action with forest text and an inline SVG arrow.",
-      "html": "<a class=\"ds-contact\" href=\"#read\">Connect on LinkedIn<svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M7 17 17 7M7 7h10v10\"/></svg></a>",
-      "css": ".ds-contact{font-family:var(--font-body,'Hanken Grotesk',sans-serif);display:inline-flex;align-items:center;justify-content:space-between;gap:28px;min-height:56px;padding:13px 20px;border-radius:6px;background:var(--accent,#d9ee9c);color:var(--foreground,#182c25);font-size:16px;font-weight:600;line-height:1.6;text-decoration:none;transition:background-color 180ms cubic-bezier(0.2,0.7,0.2,1)}.ds-contact:hover{background:var(--accent-hover,#e6f7b8)}.ds-contact:focus-visible{outline:2px solid currentColor;outline-offset:5px;border-radius:3px;}@media(max-width:720px){.ds-contact{font-size:15px;gap:24px}}@media(prefers-reduced-motion:reduce){.ds-contact{transition:none}}"
+      "description": "Contact invitation used within the dark closing section.",
+      "html": "<div class=\"ds-contact-stage\"><a class=\"ds-contact\" href=\"/contact\">Get in touch<svg width=\"19\" height=\"19\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M7 17 17 7M7 7h10v10\"/></svg></a></div>",
+      "css": ".ds-contact-stage{padding:24px;background:var(--foreground,#302a25);border-radius:16px}.ds-contact{font-family:var(--font-body,'Hanken Grotesk',sans-serif);display:inline-flex;align-items:center;justify-content:space-between;gap:28px;min-height:56px;padding:13px 20px;font-size:16px;border-radius:6px;background:var(--accent,#78634c);color:var(--white,#fffefd);font-weight:600;line-height:1.6;text-decoration:none;transition:background-color 180ms cubic-bezier(.2,.7,.2,1)}.ds-contact:hover{background:var(--accent-hover,#65513d)}.ds-contact:focus-visible{outline:2px solid var(--foreground,#302a25);outline-offset:5px}@media(prefers-reduced-motion:reduce){*{transition:none!important}}.ds-contact:focus-visible{outline-color:var(--white,#fffefd)}"
+    },
+    {
+      "name": "Featured insight panel",
+      "kind": "card",
+      "refersTo": "featured-insight",
+      "description": "Borderless white article panel; the soft shadow provides its edge.",
+      "html": "<article class=\"ds-feature\"><h2>A space for ideas.</h2><p class=\"ds-preview\">Editorial preview</p><p class=\"ds-description\">Perspectives on business, people and purpose.</p><a class=\"ds-feature-link\" href=\"/insights\">Read the insight<svg width=\"19\" height=\"19\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M7 17 17 7M7 7h10v10\"/></svg></a></article>",
+      "css": ".ds-feature{font-family:var(--font-body,'Hanken Grotesk',sans-serif);width:365px;max-width:100%;padding:27px 30px;border-radius:14px;background:var(--white,#fffefd);color:var(--foreground,#302a25);box-shadow:0 16px 38px #48362424}.ds-feature h2{margin:0;font-size:28px;font-weight:500;line-height:1.16;letter-spacing:-.025em}.ds-preview{margin:10px 0 0;font-size:13px;color:var(--accent-ink,#66503b)}.ds-description{margin:15px 0 0;font-size:16px;line-height:1.55;color:var(--text-secondary,#675b4f)}.ds-feature-link{font-family:var(--font-body,'Hanken Grotesk',sans-serif);display:inline-flex;align-items:center;justify-content:space-between;width:100%;gap:20px;min-height:48px;margin-top:20px;padding:14px 21px;font-size:15px;border-radius:6px;background:var(--accent,#78634c);color:var(--white,#fffefd);font-weight:600;line-height:1.6;text-decoration:none;transition:background-color 180ms cubic-bezier(.2,.7,.2,1)}.ds-feature-link:hover{background:var(--accent-hover,#65513d)}.ds-feature-link:focus-visible{outline:2px solid var(--foreground,#302a25);outline-offset:5px}@media(prefers-reduced-motion:reduce){*{transition:none!important}}@media(max-width:720px){.ds-feature{padding:22px}.ds-feature h2{font-size:26px}.ds-description{display:none}.ds-feature-link{margin-top:18px}}"
     },
     {
       "name": "Homepage topic link",
       "kind": "chip",
       "refersTo": "topic-link",
-      "description": "Outlined topic navigation distinct from reading filter pills.",
-      "html": "<a class=\"ds-topic\" href=\"#topic\">Sustainability<svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M7 17 17 7M7 7h10v10\"/></svg></a>",
-      "css": ".ds-topic{font-family:var(--font-body,'Hanken Grotesk',sans-serif);display:inline-flex;align-items:center;justify-content:space-between;gap:24px;min-height:47px;padding:10px 17px;border:1px solid var(--line,#cdd3c6);border-radius:6px;font-size:15px;line-height:1.6;color:var(--foreground,#182c25);text-decoration:none;transition:background-color 180ms cubic-bezier(0.2,0.7,0.2,1)}.ds-topic:hover{background:var(--surface,#e6eade)}.ds-topic:focus-visible{outline:2px solid currentColor;outline-offset:5px;border-radius:3px;}@media(max-width:720px){.ds-topic{font-size:14px;padding-inline:12px;gap:8px}}@media(prefers-reduced-motion:reduce){.ds-topic{transition:none}}"
+      "description": "Fine outlined topic navigation with modest corners.",
+      "html": "<a class=\"ds-topic\" href=\"/insights?topic=sustainability\">Sustainability<svg width=\"19\" height=\"19\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M7 17 17 7M7 7h10v10\"/></svg></a>",
+      "css": ".ds-topic{font-family:var(--font-body,'Hanken Grotesk',sans-serif);display:inline-flex;align-items:center;justify-content:space-between;gap:24px;min-height:47px;padding:10px 17px;border:1px solid var(--line,#c7bbae);border-radius:6px;color:var(--foreground,#302a25);font-size:15px;line-height:1.6;text-decoration:none;transition:background-color 180ms cubic-bezier(.2,.7,.2,1)}.ds-topic:hover{background:var(--surface,#e6ddd1)}.ds-topic:focus-visible{outline:2px solid currentColor;outline-offset:5px;border-radius:3px}@media(prefers-reduced-motion:reduce){*{transition:none!important}}"
     },
     {
       "name": "Reading filters",
       "kind": "chip",
       "refersTo": "topic-filter",
-      "description": "Wrapped topic navigation with a current-page state.",
-      "html": "<nav class=\"ds-filters\" aria-label=\"Filter insights\"><a href=\"#all\">All topics</a><a href=\"#strategy\" aria-current=\"page\">Business strategy</a></nav>",
-      "css": ".ds-filters{font-family:var(--font-body,'Hanken Grotesk',sans-serif);display:flex;flex-wrap:wrap;gap:10px;line-height:1.6}.ds-filters a{display:inline-flex;align-items:center;min-height:44px;padding:8px 17px;border:1px solid var(--line,#cdd3c6);border-radius:24px;font-size:16px;color:var(--foreground,#182c25);text-decoration:none}.ds-filters a:hover{background:var(--surface,#e6eade)}.ds-filters a[aria-current=\"page\"]{background:var(--foreground,#182c25);color:var(--background,#f6f6f0);border-color:var(--foreground,#182c25)}.ds-filters a:focus-visible{outline:2px solid currentColor;outline-offset:5px;border-radius:3px;}@media(max-width:720px){.ds-filters{gap:8px}.ds-filters a{padding:8px 13px;font-size:14px}}"
-    },
-    {
-      "name": "Journal story window",
-      "kind": "card",
-      "refersTo": "journal-window",
-      "description": "Citron type-led window from the opening story rail.",
-      "html": "<a class=\"ds-story\" href=\"#journal\"><span class=\"ds-story-title\">A little perspective<br>goes a long way.</span><span class=\"ds-story-caption\">Explore the journal<svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M7 17 17 7M7 7h10v10\"/></svg></span></a>",
-      "css": ".ds-story{font-family:var(--font-body,'Hanken Grotesk',sans-serif);display:flex;flex-direction:column;justify-content:space-between;height:166px;padding:21px;border-radius:10px;background:var(--accent,#d9ee9c);color:var(--foreground,#182c25);text-decoration:none;overflow:hidden;transition:background-color 180ms cubic-bezier(0.2,0.7,0.2,1)}.ds-story-title{font-size:clamp(22px,2.1vw,29px);line-height:1.08;letter-spacing:-.025em}.ds-story-caption{display:flex;justify-content:space-between;align-items:center;gap:10px;font-size:13px;font-weight:500;line-height:1.3}.ds-story:hover{background:var(--accent-hover,#e6f7b8)}.ds-story:focus-visible{outline:2px solid currentColor;outline-offset:5px;border-radius:3px;}@media(max-width:1100px){.ds-story{padding:16px}.ds-story-title{font-size:24px}.ds-story-caption{font-size:12px}}@media(max-width:850px){.ds-story{width:240px;flex-shrink:0}.ds-story-caption{font-size:13px}}@media(max-width:720px){.ds-story{width:220px;height:155px;padding:18px}.ds-story-title{font-size:26px}}@media(prefers-reduced-motion:reduce){.ds-story{transition:none}}"
-    },
-    {
-      "name": "Editorial disclosure",
-      "kind": "custom",
-      "refersTo": "editorial-notice",
-      "description": "Tonal disclosure of illustrative sample writing.",
-      "html": "<p class=\"ds-notice\">Editorial previews — illustrative drafts for design review, not published articles by France.</p>",
-      "css": ".ds-notice{font-family:var(--font-body,'Hanken Grotesk',sans-serif);max-width:75ch;margin:0;padding:16px 20px;background:var(--surface,#e6eade);color:var(--foreground,#182c25);border-radius:6px;font-size:15px;line-height:1.65}@media(max-width:720px){.ds-notice{padding:15px 17px;font-size:14px}}"
+      "description": "Wrapping pill links with a visible current-topic state.",
+      "html": "<nav class=\"ds-filters\" aria-label=\"Filter insights\"><a href=\"/insights\" aria-current=\"page\">All topics</a><a href=\"/insights?topic=sustainability\">Sustainability</a></nav>",
+      "css": ".ds-filters{font-family:var(--font-body,'Hanken Grotesk',sans-serif);display:flex;flex-wrap:wrap;gap:10px;line-height:1.6}.ds-filters a{display:inline-flex;align-items:center;min-height:44px;padding:8px 17px;border:1px solid var(--line,#c7bbae);border-radius:24px;font-size:16px;color:var(--foreground,#302a25);text-decoration:none}.ds-filters a:hover{background:var(--surface,#e6ddd1)}.ds-filters a[aria-current=\"page\"]{background:var(--foreground,#302a25);color:var(--background,#f3efe9);border-color:var(--foreground,#302a25)}.ds-filters a:focus-visible{outline:2px solid currentColor;outline-offset:5px;border-radius:3px}@media(max-width:720px){.ds-filters{gap:8px}.ds-filters a{padding:8px 13px;font-size:14px}}"
     },
     {
       "name": "Publication navigation",
       "kind": "nav",
-      "description": "Forest-on-paper navigation; home uses white over photography.",
-      "html": "<nav class=\"ds-nav\" aria-label=\"Main navigation\"><a href=\"#insights\">Insights</a><a href=\"#about\">About</a><a href=\"#speaking\">Speaking</a><a href=\"#projects\">Projects</a></nav>",
-      "css": ".ds-nav{font-family:var(--font-body,'Hanken Grotesk',sans-serif);display:flex;align-items:center;gap:30px;color:var(--foreground,#182c25);line-height:1.6}.ds-nav a{display:inline-flex;align-items:center;min-height:44px;font-size:15px;color:inherit;text-decoration:none;border-bottom:1px solid transparent;transition:border-color 180ms cubic-bezier(0.2,0.7,0.2,1)}.ds-nav a:hover{border-color:currentColor}.ds-nav a:focus-visible{outline:2px solid currentColor;outline-offset:5px;border-radius:3px;}@media(max-width:1100px){.ds-nav{gap:20px}}@media(max-width:850px){.ds-nav{display:none}}@media(prefers-reduced-motion:reduce){.ds-nav a{transition:none}}"
+      "refersTo": "publication-navigation",
+      "description": "Espresso text links with current-page and hover underlines.",
+      "html": "<nav class=\"ds-nav\" aria-label=\"Main navigation\"><a href=\"/insights\">Insights</a><a href=\"/about\" aria-current=\"page\">About</a><a href=\"/speaking\">Speaking</a><a href=\"/projects\">Projects</a></nav>",
+      "css": ".ds-nav{font-family:var(--font-body,'Hanken Grotesk',sans-serif);display:flex;flex-wrap:wrap;align-items:center;gap:30px;color:var(--foreground,#302a25);line-height:1.6}.ds-nav a{display:inline-flex;align-items:center;min-height:44px;font-size:15px;color:inherit;text-decoration:none;border-bottom:1px solid transparent;transition:border-color 180ms cubic-bezier(.2,.7,.2,1)}.ds-nav a:hover,.ds-nav a[aria-current=\"page\"]{border-color:currentColor}.ds-nav a[aria-current=\"page\"]{font-weight:600}.ds-nav a:focus-visible{outline:2px solid currentColor;outline-offset:5px;border-radius:3px}@media(prefers-reduced-motion:reduce){*{transition:none!important}}"
     },
     {
-      "name": "Mobile navigation sheet",
-      "kind": "nav",
-      "refersTo": "mobile-sheet",
-      "description": "Visual sheet only; production Radix supplies modal behavior and focus management.",
-      "html": "<div class=\"ds-sheet-stage\"><div class=\"ds-sheet\"><header class=\"ds-sheet-header\"><h2>France</h2><p>Perspectives on business, people and purpose.</p></header><nav aria-label=\"Mobile navigation\"><a href=\"#insights\">Insights<svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M7 17 17 7M7 7h10v10\"/></svg></a><a href=\"#about\">About<svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M7 17 17 7M7 7h10v10\"/></svg></a></nav><button class=\"ds-close\" aria-label=\"Close\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" aria-hidden=\"true\"><path d=\"m18 6-12 12M6 6l12 12\"/></svg></button></div></div>",
-      "css": ".ds-sheet-stage{font-family:var(--font-body,'Hanken Grotesk',sans-serif);position:relative;min-height:420px;background:rgb(0 0 0 / .5)}.ds-sheet{position:absolute;inset:0 0 0 auto;display:flex;flex-direction:column;gap:16px;width:75%;height:100%;padding:32px 25px;border-left:1px solid var(--line,#cdd3c6);background:var(--background,#f6f6f0);color:var(--foreground,#182c25);overflow-y:auto;overscroll-behavior:contain;box-shadow:0 10px 15px -3px rgb(0 0 0 / .1),0 4px 6px -4px rgb(0 0 0 / .1)}.ds-sheet-header{display:flex;flex-direction:column;gap:6px;padding:20px 0}.ds-sheet h2{margin:0;font-size:35px;font-weight:600;line-height:1.2;letter-spacing:-.03em}.ds-sheet p{margin:0;font-size:14px;line-height:1.42857;color:var(--text-secondary,#526057)}.ds-sheet nav{display:grid;margin-top:15px}.ds-sheet nav a{display:flex;align-items:center;justify-content:space-between;min-height:65px;border-bottom:1px solid var(--line,#cdd3c6);color:inherit;font-size:23px;line-height:1.6;text-decoration:none}.ds-sheet nav a:hover{color:var(--accent-ink,#3d5122)}.ds-sheet nav a:focus-visible{outline:2px solid currentColor;outline-offset:5px;border-radius:3px;}.ds-close{position:absolute;top:6px;right:6px;display:flex;align-items:center;justify-content:center;width:44px;height:44px;border:0;border-radius:2px;background:transparent;color:inherit;opacity:.7;cursor:pointer;transition:opacity 150ms cubic-bezier(.4,0,.2,1)}.ds-close:hover{opacity:1}.ds-close:focus-visible{outline:2px solid currentColor;outline-offset:5px;border-radius:3px;}@media(min-width:640px){.ds-sheet{max-width:384px}}@media(prefers-reduced-motion:reduce){.ds-close{transition:none}}"
-    },
-    {
-      "name": "Article reading measure",
+      "name": "Experience disclosure",
       "kind": "custom",
-      "description": "Reading typography with sample disclosure and mobile variants.",
-      "html": "<article class=\"ds-article\"><header><h1>What does meaningful growth look like?</h1><p class=\"ds-meta\">Business strategy</p><p class=\"ds-summary\">Looking beyond the next milestone to the kind of business we want to build.</p><p class=\"ds-preview\">Editorial preview — sample content for design review, not a published article by France.</p></header><div class=\"ds-prose\"><p>Growth can open new possibilities.</p><p>It also creates a reason to pause and ask what success should mean: for a business, for the people within it, and for the communities around it.</p></div></article>",
-      "css": ".ds-article{font-family:var(--font-body,'Hanken Grotesk',sans-serif);max-width:1050px;color:var(--foreground,#182c25);line-height:1.6}.ds-article h1{max-width:22ch;margin:16px 0 23px;font-size:clamp(42px,5.4vw,72px);font-weight:500;line-height:1.12;letter-spacing:-.035em;text-wrap:balance}.ds-meta{margin:0;font-size:15px;line-height:1.65;color:var(--text-secondary,#526057)}.ds-summary{max-width:65ch;margin:14px 0 0;font-size:23px;line-height:1.5;color:var(--text-secondary,#526057)}.ds-preview{max-width:75ch;margin:25px 0 0;padding:16px 20px;border-radius:6px;background:var(--surface,#e6eade);font-size:15px;line-height:1.65}.ds-prose{max-width:68ch;margin:40px 0 48px;font-size:21px;line-height:1.7}.ds-prose p{margin:0;text-wrap:pretty}.ds-prose p+p{margin-top:1.2em}.ds-article a:focus-visible{outline:2px solid currentColor;outline-offset:5px;border-radius:3px;}@media(max-width:720px){.ds-article h1{font-size:42px;letter-spacing:-.03em}.ds-meta{font-size:14px}.ds-summary{font-size:20px}.ds-preview{font-size:14px;padding:15px 17px}.ds-prose{font-size:19px;margin:30px 0 38px}}"
+      "refersTo": "experience-disclosure",
+      "description": "Native role disclosure with a large summary target and rotating SVG chevron.",
+      "html": "<details class=\"ds-details\"><summary>Role details<svg width=\"17\" height=\"17\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" aria-hidden=\"true\"><path d=\"m6 9 6 6 6-6\"/></svg></summary><div class=\"ds-description\">Supplied responsibilities and experience.</div></details>",
+      "css": ".ds-details{font-family:var(--font-body,'Hanken Grotesk',sans-serif);margin-top:8px;color:var(--foreground,#302a25);line-height:1.6}.ds-details summary{display:inline-flex;align-items:center;gap:12px;min-height:44px;padding-block:6px;font-size:15px;list-style:none;cursor:pointer;touch-action:manipulation}.ds-details summary::-webkit-details-marker{display:none}.ds-details summary:hover{text-decoration:underline;text-underline-offset:.25em}.ds-details summary:focus-visible{outline:2px solid currentColor;outline-offset:5px;border-radius:3px}.ds-details summary svg{transition:transform 180ms cubic-bezier(.2,.7,.2,1)}.ds-details[open] summary svg{transform:rotate(180deg)}.ds-details .ds-description{max-width:65ch;padding-block:8px 6px;font-size:17px;color:var(--text-secondary,#675b4f)}@media(prefers-reduced-motion:reduce){*{transition:none!important}}"
     }
   ],
   "narrative": {
-    "northStar": "The Living Portrait",
-    "overview": "France is introduced through real photography, forest shade and clear humanist type. Paper gives the reading surfaces quiet space; citron marks direct invitations to read and connect. The mood is warm, sophisticated and personal, with selectively curved frames rather than a repeated card template.\n\nUpright Hanken Grotesk carries the whole site, from compact white navigation over photography to comfortable long-form reading. Flat tonal sections and fine rules structure the supporting content. This system replaces the rejected text-led catalogue and adapts the user's preferred photographic Oviron reference to France's supplied material.",
+    "northStar": "The Framed Editorial Portrait",
+    "overview": "France's site pairs a warm, lightly framed canvas with her real portrait and clear upright type. The opening feels personal and composed: a transparent portrait sits over a taupe oval, with oversized outline PURPOSE lettering behind it and a floating white insight panel beside it.\n\nThe supporting pages carry the same warm materials into open reading layouts, fine rules, understated photographic frames and direct invitations to read or connect. The homepage composition is a signature opening, while About, Speaking, Projects, Contact and Insights retain their own useful page structure.",
     "keyCharacteristics": [
-      "Real portrait and event photography with forest overlays for readable copy.",
-      "Paper, forest, citron and sage with upright self-hosted Hanken Grotesk.",
-      "Selective rounded windows paired with flat, rule-separated reading content.",
-      "Responsive crops, direct navigation, visible keyboard focus and reduced-motion support."
+      "Porcelain, espresso and walnut with a light taupe portrait backdrop.",
+      "Self-hosted upright Hanken Grotesk throughout.",
+      "A rounded outer frame and one softly elevated featured insight.",
+      "Open editorial rows, real navigation and accessible disclosures."
     ],
     "rules": [
       {
-        "name": "The Accent Mapping Rule",
-        "body": "The CSS property `--accent` is citron for reading and contact actions. Tailwind `--color-accent` maps to the pale surface for library ghost states. Keep those assignments distinct.",
+        "name": "The Action Mapping Rule",
+        "body": "CSS `--accent` is walnut for primary actions. Tailwind `--color-accent` maps to limestone for library ghost states. Keep these assignments distinct.",
         "section": "colors"
       },
       {
         "name": "The Upright Voice Rule",
-        "body": "Use self-hosted upright Hanken Grotesk across display, navigation and reading text. Hierarchy comes from size, weight and measure.",
+        "body": "Use upright Hanken Grotesk for headings, navigation and reading; build hierarchy with scale and weight.",
         "section": "typography"
       },
       {
-        "name": "The Selective Frame Rule",
-        "body": "Use curved frames for photography, story windows and tonal feature surfaces; keep editorial lists open and separated by fine rules.",
+        "name": "The Selective Lift Rule",
+        "body": "Reserve the soft editorial shadow for the featured insight; use tonal surfaces and rules for supporting content.",
         "section": "elevation"
       }
     ],
     "dos": [
-      "**Do** use current forest, paper and citron assignments and upright Hanken Grotesk.",
-      "**Do** protect face visibility and copy contrast when adjusting photographic crops and overlays.",
-      "**Do** preserve visible keyboard focus, reachable story links and reduced-motion behavior.",
-      "**Do** preserve comfortable reading measures and the mobile type variants.",
-      "**Do** keep editorial previews and missing project photography visibly disclosed."
+      "**Do** carry the warm palette and upright Hanken Grotesk across every route.",
+      "**Do** preserve the real portrait silhouette and keep decorative PURPOSE lettering behind it and aria-hidden.",
+      "**Do** keep the featured panel shadow-only and its article link reachable at every viewport.",
+      "**Do** preserve real page destinations, keyboard focus, reduced-motion behavior and native experience disclosures.",
+      "**Do** keep sample writing and missing project imagery visibly disclosed."
     ],
     "donts": [
-      "**Don't** restore the superseded catalogue palette or essay-cover opening.",
-      "**Don't** use repeated italic slogans, stock geometric decoration or identical cards for every section.",
-      "**Don't** fabricate biography, speaking credentials, project outcomes or supporting imagery.",
-      "**Don't** describe the visual reference as an approved comp or claim pixel fidelity.",
-      "**Don't** invent form fields or publishing controls to fill visual space."
+      "**Don't** restore the superseded forest/citron hero or photographic story strip.",
+      "**Don't** add shopping, account or carousel controls suggested by the visual reference.",
+      "**Don't** turn every editorial row or experience role into a raised card.",
+      "**Don't** invent credentials, outcomes, article authorship or replacement portrait details."
     ]
   }
 }

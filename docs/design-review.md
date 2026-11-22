@@ -1,44 +1,37 @@
-# Design implementation and validation
+# Framed editorial portrait: implementation and review
 
 ## Current direction
 
-The user rejected the text-led Perspective Catalogue and supplied photographic references, explicitly preferring the last Oviron screenshot. The current rebuild uses an immersive portrait, overlay navigation, concise left-aligned copy, a citron reading action and a visual story strip. Reading insights remains the primary action.
+The user explicitly chose the supplied Hameed eyewear reference with “lets build that instead bro.” The new design uses a rounded ink frame, porcelain canvas, warm taupe backdrop, layered photographic cutout, decorative outline lettering and a floating featured-insight panel. It replaces the previous Oviron/forest/citron composition. The separate pages and supplied profile, experience and contact data remain.
 
-The implementation is code-led. The user-supplied Oviron screenshot governs composition; the original attachment has no local file path and the review packet describes it explicitly. No generated quality-bar card, approved-comp reproduction score, automated fidelity gate or human approval receipt is claimed. The previous catalogue mockup is superseded.
+The implementation is code-led from the chosen reference and the contract in docs/taupe-direction.md. There is no generated page comp, quality-bar card, pixel-fidelity score or fabricated approval receipt. The original screenshot is a conversation attachment rather than a local comp file.
 
 ## Skills applied
 
-- **Frontend Design:** reference-led photographic composition, restrained upright type, authentic subject imagery, purposeful reading actions and no invented social proof.
-- **Impeccable:** a replacement direction contract, rendered desktop/mobile inspection, one source-detector pass, asset provenance checks, a fresh independent finish reviewer and design-system documentation.
-- **UI/UX Pro Max:** an initial consulting/photography query produced unrelated glass/luxury suggestions and was rejected. A narrower consultant/author query supported minimal sans-serif hierarchy, accessible hero actions and responsive controls; the user's reference governs visual decisions.
-- **Web Design Guidelines:** semantic routes and controls, responsive image sizing, self-hosted type, keyboard focus, reduced motion, and URL-based topic filters.
+- Frontend Design: reference-specific framed composition, controlled typography, one selectively elevated article panel and restrained supporting layouts.
+- Impeccable: explicit replacement contract, rendered inspection, one source-detector pass, raster provenance, refreshed design documentation and an independent finish review.
+- UI/UX Pro Max: local design research; the initial motion-heavy/black palette result was not adopted. The narrower minimalist-author result supported readable hierarchy and accessible controls. The user's selected warm visual world governs palette and composition.
+- Web Design Guidelines: semantic routes, current-page navigation, focus indicators, native experience disclosures, self-hosted fonts, responsive images and reduced-motion behavior.
+- Image Generation: built-in background-removal edit created public/images/france-portrait-cutout.png as a sibling asset; the original portrait remains unchanged. The exact prompt is embedded in the PNG and documented in docs/media.md.
 
-## Independent review
+## Validation
 
-The fresh reviewer examined all seven desktop/mobile homepage, article, index and menu captures, plus source, craft floor and the current direction contract. The previous catalogue's verdict does not apply to this redesign. The initial disposition was **fix**, solely because DESIGN.md still described the superseded catalogue. The reviewer reported no material visual or source-quality finding in the current implementation.
+- ESLint and the production build, including TypeScript compilation, passed.
+- All five navbar destinations load directly with HTTP 200, dedicated metadata and one visible h1.
+- Desktop navigation, browser back/forward, home links, mobile route dismissal/current states/focus containment/Escape/focus return passed.
+- Inner-page overflow checks passed at 320, 390, 768 and 1440px. The hero action remained visible within the checked 844px phone/900px desktop viewport heights at widths 320, 390, 768, 1100, 1440 and 1600px.
+- The featured action opens a real editorial-preview reading route; filtering, nested Insights state, contact email/LinkedIn targets and collaboration/speaking invitations passed.
+- The fourteen supplied experience roles remain; native responsibility disclosure keyboard toggling and reduced motion passed. No unexpected browser errors were observed.
+- Seventeen current desktop/mobile/page/menu/focus/experience captures were opened and validated under .impeccable/review/taupe. Root used the installed Edge/Playwright capture fallback already established in this environment.
+- Three shipping rasters have provenance; the derived PNG has a real alpha channel. No missing origins were reported.
+- The single source-detector pass reported documentation-scale font/radius omissions. The documenter added all 35 observed text sizes and relevant radii, validating actual YAML/JSON and references. No second detector pass or empty-detector-result claim is made.
 
-After refreshing DESIGN.md and its sidecar and repairing draft frontmatter serialization, the reviewer scored the persistence fix **resolved** and returned **ship**. That final verdict covers the documentation correction; the prior visual and source review remains applicable. It is not a claim of user-tested usability or production launch readiness.
+## Finish review
 
-## Verification
+The fresh reviewer inspected the chosen reference description, current contract, source, all seventeen captures, testing evidence and provenance. It confirmed the framed composition, portrait silhouette, responsive hierarchy, functional reading path and preserved content, and returned **fix** for one material issue: secondary text measured 4.41:1 on limestone.
 
-- ESLint, TypeScript checks, and a production build passed.
-- Home layouts checked at 320, 390, 768, 1280, 1440, and 1600px with no horizontal overflow; the primary reading action remained above the fold.
-- Mobile reading navigation opens a real article route, not a modal.
-- All four topic filters update the URL and selected state; invalid topics recover to the full index.
-- Mobile menu focus containment, Escape dismissal, focus return, and route dismissal passed.
-- Story links target existing sections; keyboard Tab reveals offscreen stories and Enter opens the Projects section. The story strip has no autoplay or gesture-only action.
-- The header changes from a photo overlay to normal page chrome when entering the journal.
-- Reduced-motion behavior and unknown-article recovery passed.
-- No unexpected browser JavaScript errors were observed.
-- Impeccable's source detector ran once against the previous catalogue's DESIGN.md and reported palette, type and radius drift advisories. This redesign intentionally replaces those tokens; the documenter refreshes DESIGN.md and its sidecar from the implementation. No second detector run or empty-result claim is made.
-- Both supplied JPEGs retain their origin metadata and original photographic pixels; the final provenance scan reported two rasters and no missing origins.
+The correction darkened --text-secondary to #675b4f in source, DESIGN.md and the sidecar. Runtime computed colors now measure 4.91:1 on limestone. The production build and complete interaction matrix passed again; all seventeen captures were regenerated. The reviewer scored the contrast fix **resolved**, found the recaptures valid with no visible regression from that fix, and returned **ship** at the scope of the scored correction.
 
-Impeccable's capture browser failed in the restricted environment in the prior pass, so evidence is captured through installed Edge/Playwright against the current production build at http://127.0.0.1:3003. Fonts and image decoding settle before captures; mobile story scroll is reset after loading thumbnails. Each capture was opened to confirm correct content. Hidden outgoing Next.js content is excluded from interaction selectors.
+## Content limits
 
-## Dedicated-page extension
-
-The user subsequently requested a multi-page website. About, Speaking, Projects and Contact now live on their own routes, with active navigation states on desktop and mobile. The homepage retains the portrait introduction, story links, topic index and editorial previews. The route contract, complete interaction matrix and independent extension review are recorded in docs/site-pages.md. This preserves the existing visual world; the original review is not presented as approval of new pages.
-
-## Content and launch limits
-
-The articles are explicitly labelled illustrative editorial previews. France's real writing, full biography, project evidence, and final contact workflow still need to be supplied/configured. Sanity, email delivery, analytics, and production hosting are not connected.
+The articles remain disclosed editorial previews. Project photography and project stories remain placeholders. Supplied profile appointments are not independently verified. CMS publishing, email delivery, analytics and production hosting remain unconfigured; direct email opens the visitor's email application.
