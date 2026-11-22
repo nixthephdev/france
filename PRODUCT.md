@@ -36,6 +36,8 @@ The user also rejected the subsequent text-led catalogue and supplied visual ref
 
 The later instruction “lets build that instead bro” replaces the Oviron treatment with the supplied Hameed eyewear reference: warm taupe and porcelain, a rounded ink frame, layered portrait, outline background lettering and a floating featured-insight panel. This explicit warm-neutral choice supersedes earlier palette guidance. Preserve the multi-page structure, all supplied experience data and reading priority. A derived transparent portrait cutout is authorised for this composition; retain the original supplied photographs and do not invent the subject's body, clothing or credentials.
 
+The latest instruction “lets use that at inspiration instead bro” replaces the framed eyewear composition with the supplied ÉLANORA fashion reference's open portrait hero, refined upright serif headlines, warm neutrals and editorial spacing. Adapt its visual language to France's personal publication: read insights first, then background and speaking. Keep all separate pages and supplied facts. Do not carry over retail controls or fabricate social proof. The former rounded outer frame, outline lettering and floating article panel are superseded. See docs/elanora-direction.md.
+
 ## Open Decisions
 
 Preferred public display name, final biography and article copy, publication cadence, project evidence, and the production domain remain unconfirmed.

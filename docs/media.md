@@ -5,10 +5,10 @@ The user supplied these two downloaded photographs for the website. The original
 | File | Dimensions | Placement |
 | --- | --- | --- |
 | public/images/france-portrait.jpg | 2048 × 2048 | Original supplied photograph; About page portrait on desktop and mobile |
-| public/images/france-asean-event.jpg | 1920 × 2048 | Original supplied photograph; Speaking & Mentorship page |
+| public/images/france-asean-event.jpg | 1920 × 2048 | Original supplied photograph; homepage event feature and Speaking & Mentorship page |
 | public/images/france-portrait-cutout.png | 1254 × 1254 | Derived transparent hero portrait; built-in image generation/editing tool, background removal |
 
-Next.js Image generates responsive sources. The hero cutout is preloaded and reserves its display area; supporting photography retains its existing loading behaviour. The original source JPEGs remain unchanged. The PNG is a generated derivative, not a claim of pixel-identical extraction: it removes the interior background for a transparent silhouette while preserving the supplied identity, dress and existing crop. No body extension was requested. Its alpha channel was checked, its embedded prompt retained, and the rendered result inspected on the actual taupe canvas.
+Next.js Image generates responsive sources. The hero cutout is preloaded and reserves its display area; supporting photography loads lazily. The original source JPEGs remain unchanged. The PNG is a generated derivative, not a claim of pixel-identical extraction: it removes the interior background for a transparent silhouette while preserving the supplied identity, dress and existing crop. No body extension was requested. Its alpha channel was checked, its embedded prompt retained, and the rendered result inspected on the warm studio canvas.
 
 The event caption describes only what the supplied image establishes. It does not claim France spoke at, represented, or organised the event. Event title, date, photographer credit, and any additional context can be added when supplied.
 

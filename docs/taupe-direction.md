@@ -1,5 +1,7 @@
 # The framed editorial portrait
 
+Historical direction, superseded by [An open editorial portrait](elanora-direction.md) on 22 November 2026.
+
 ## User decision
 
 The user supplied the Hameed eyewear reference, then explicitly accepted it: “lets build that instead bro.” The preceding proposal named the rounded frame, warm taupe palette, layered portrait and floating featured-insight panel. This replaces the forest/citron hero and its story strip. The separate About, Speaking, Projects, Contact and Insights pages, actual profile/experience information and reading functionality remain requirements.

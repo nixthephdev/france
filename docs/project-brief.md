@@ -16,8 +16,8 @@ The website will showcase her professional background and provide a space for in
 
 ## Visual direction
 
-- The current user-selected reference is the supplied Hameed eyewear layout: rounded framing, warm taupe, a layered portrait, outline lettering and a floating featured-insight panel.
-- Porcelain reading surfaces, espresso text, walnut actions and limestone supporting sections accompany the actual photograph. Self-hosted Hanken Grotesk carries upright typography.
+- The current user-selected inspiration is the supplied ÉLANORA fashion layout: an open portrait hero, warm neutrals, upright serif display type and generous editorial spacing.
+- Ivory reading surfaces, dark ink, warm studio fields and clear rectangular reading actions accompany the actual photographs. Self-hosted Baskervville carries headlines; Hanken Grotesk carries body text and navigation.
 - Generous spacing and layouts that work comfortably on small screens.
 - Authentic, approved photography when it is available.
 - Gentle motion that respects reduced-motion preferences.

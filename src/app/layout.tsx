@@ -10,6 +10,13 @@ const hanken = localFont({
   display: "swap",
 });
 
+const baskervville = localFont({
+  src: "../../node_modules/@fontsource/baskervville/files/baskervville-latin-400-normal.woff2",
+  variable: "--font-baskervville",
+  weight: "400",
+  display: "swap",
+});
+
 export const metadata: Metadata = {
   title: {
     default: "France | Insights on Business, People and Purpose",
@@ -18,13 +25,13 @@ export const metadata: Metadata = {
   description:
     "Explore perspectives on entrepreneurship, business strategy, sustainability, and mentorship from Olga France Blas-Obias.",
 };
-export const viewport: Viewport = { themeColor: "#f3efe9" };
+export const viewport: Viewport = { themeColor: "#fbf9f5" };
 
 export default function RootLayout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="en" className={hanken.variable}>
+    <html lang="en" className={`${hanken.variable} ${baskervville.variable}`}>
       <body>
         <SiteHeader />
         {children}
